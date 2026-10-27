@@ -1,0 +1,12 @@
+node_modules/
+functions/lib/
+seed/dist/
+seed/service-account*.json
+*.log
+.firebase/
+.DS_Store
+functions/.secret.local
+
+# Históricos reais (dados pessoais) — nunca versionar
+*Historico_Escolar*.pdf
+seed/assets/historico_exemplo.pdf
