@@ -1,0 +1,220 @@
+rules_version = '2';
+
+// HUB-UFJF — camada de aplicação: controle de acesso por perfil (RNF07).
+// O perfil vem da custom claim `role`, definida apenas pela Cloud Function `completarCadastro`
+// (ou pelo seed, para administradores). As permissões por área vêm de `config/permissoes` (RF13).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- helpers ----------
+    function signedIn() { return request.auth != null; }
+    function uid() { return request.auth.uid; }
+    function role() { return request.auth.token.get('role', 'pendente'); }
+    function isAdmin() { return signedIn() && role() == 'admin'; }
+
+    function perms() {
+      return get(/databases/$(database)/documents/config/permissoes).data.perfis;
+    }
+    // Admin sempre tem acesso total; os demais perfis seguem a matriz do RF13.
+    function pode(area, acao) {
+      return isAdmin()
+        || (signedIn() && perms().get(role(), {}).get(area, {}).get(acao, false) == true);
+    }
+
+    function areaDoTipo(tipo) {
+      return {'topico': 'foruns', 'anuncio': 'anuncios', 'evento': 'eventos', 'orientacao': 'orientacoes'}[tipo];
+    }
+
+    function apenasCampos(campos) {
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly(campos);
+    }
+    // Contadores (visualizações, curtidas, downloads) só andam de 1 em 1.
+    function incrementoUnitario(campo) {
+      return !request.resource.data.diff(resource.data).affectedKeys().hasAny([campo])
+        || (request.resource.data[campo] - resource.data.get(campo, 0)) in [-1, 1];
+    }
+
+    function textoValido(campo, min, max) {
+      return request.resource.data[campo] is string
+        && request.resource.data[campo].size() >= min
+        && request.resource.data[campo].size() <= max;
+    }
+
+    // ---------- identidade (RF01, RF13) ----------
+    match /users/{userId} {
+      allow read: if signedIn() && (uid() == userId || isAdmin());
+      // Criado pela function; o usuário só pode alterar nome e curso.
+      allow update: if signedIn() && uid() == userId && apenasCampos(['nome', 'cursoId']);
+
+      match /historico/{doc} {
+        allow read: if signedIn() && uid() == userId;
+      }
+      match /interacoes/{area} {
+        allow read, write: if signedIn() && uid() == userId;
+      }
+      match /notificacoes/{id} {
+        allow read, delete: if signedIn() && uid() == userId;
+        allow update: if signedIn() && uid() == userId && apenasCampos(['lida']);
+      }
+    }
+
+    match /config/permissoes {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    // ---------- acadêmico (RF03) e alvos de avaliação (RF05) ----------
+    // Lista de cursos é pública (usada no cadastro e pelos futuros alunos).
+    match /cursos/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    match /disciplinas/{id} {
+      allow read: if pode('grade', 'ler') || pode('materiais', 'ler') || pode('avaliacoes', 'ler');
+      allow write: if isAdmin();
+    }
+    match /professores/{id} {
+      allow read: if pode('avaliacoes', 'ler');
+      allow write: if isAdmin();
+    }
+    match /projetos/{id} {
+      allow read: if pode('avaliacoes', 'ler') || pode('eventos', 'ler');
+      allow write: if isAdmin();
+    }
+
+    // RNF04: avaliações não têm autor e só são gravadas pela function `enviarAvaliacao`.
+    match /avaliacoes/{id} {
+      allow read: if pode('avaliacoes', 'ler');
+      allow write: if false;
+    }
+    match /avaliacaoGuards/{id} {
+      allow read, write: if false;
+    }
+
+    // ---------- comunidade e divulgação (RF04, RF06, RF07, RF09, RF14) ----------
+    match /foruns/{id} {
+      allow read: if pode('foruns', 'ler');
+      allow write: if isAdmin();
+    }
+
+    match /publicacoes/{id} {
+      allow read: if isAdmin()
+        || (signedIn() && resource.data.autorId == uid())
+        || (resource.data.status in ['aprovado', 'arquivado'] && pode(areaDoTipo(resource.data.tipo), 'ler'));
+
+      allow create: if signedIn()
+        && request.resource.data.tipo in ['topico', 'anuncio', 'evento', 'orientacao']
+        && pode(areaDoTipo(request.resource.data.tipo), 'publicar')
+        && request.resource.data.autorId == uid()
+        && request.resource.data.autorPerfil == role()
+        // RF07: conteúdo de usuário externo nasce pendente de aprovação.
+        && request.resource.data.status == (role() == 'externo' ? 'pendente' : 'aprovado')
+        && textoValido('titulo', 3, 200)
+        && textoValido('conteudo', 1, 5000)
+        && request.resource.data.views == 0
+        && request.resource.data.interacoes == 0
+        && request.resource.data.respostasCount == 0
+        && request.resource.data.denunciasCount == 0
+        // RF06: anúncio precisa de forma de contato.
+        && (request.resource.data.tipo != 'anuncio' || textoValido('contato', 3, 200))
+        // RF09: evento não pode ter data anterior a hoje.
+        && (request.resource.data.tipo != 'evento'
+            || (request.resource.data.dataEvento is timestamp
+                && request.resource.data.dataEvento > request.time - duration.value(1, 'd')));
+
+      allow update: if isAdmin()
+        // Autor edita o próprio conteúdo (sem mudar status/contadores) ou o remove.
+        || (signedIn() && resource.data.autorId == uid()
+            && (apenasCampos(['titulo', 'conteudo', 'categoria', 'contato', 'preco', 'local', 'dataEvento', 'anexos', 'editadoEm'])
+                || (apenasCampos(['status']) && request.resource.data.status == 'removido')))
+        // Qualquer leitor pode registrar visualização/curtida (RF10).
+        || (resource.data.status == 'aprovado'
+            && pode(areaDoTipo(resource.data.tipo), 'ler')
+            && apenasCampos(['views', 'interacoes'])
+            && incrementoUnitario('views') && incrementoUnitario('interacoes'));
+
+      allow delete: if isAdmin();
+
+      match /respostas/{respostaId} {
+        function pub() { return get(/databases/$(database)/documents/publicacoes/$(id)).data; }
+
+        allow read: if isAdmin()
+          || (resource.data.status == 'aprovado' && pode(areaDoTipo(pub().tipo), 'ler'))
+          || (signedIn() && pub().autorId == uid());
+
+        allow create: if signedIn()
+          && pub().status == 'aprovado'
+          && request.resource.data.autorId == uid()
+          && request.resource.data.status == 'aprovado'
+          && textoValido('conteudo', 1, 5000)
+          // RF14: em orientações, quem responde são os estudantes; nos fóruns, quem pode publicar.
+          && (pub().tipo == 'orientacao'
+                ? (role() == 'estudante' || isAdmin())
+                : pode(areaDoTipo(pub().tipo), 'publicar'));
+
+        allow update: if isAdmin()
+          || (signedIn() && resource.data.autorId == uid()
+              && (apenasCampos(['conteudo', 'editadoEm'])
+                  || (apenasCampos(['status']) && request.resource.data.status == 'removido')));
+      }
+
+      match /curtidas/{userId} {
+        allow read: if signedIn() && userId == uid();
+        allow create, delete: if signedIn() && userId == uid();
+      }
+    }
+
+    // ---------- conteúdos (RF08, RF11) ----------
+    match /materiais/{id} {
+      allow read: if isAdmin()
+        || (signedIn() && resource.data.autorId == uid())
+        || (resource.data.status == 'aprovado' && pode('materiais', 'ler'));
+
+      allow create: if pode('materiais', 'publicar')
+        && request.resource.data.autorId == uid()
+        && request.resource.data.status == (role() == 'externo' ? 'pendente' : 'aprovado')
+        && request.resource.data.tipo in ['pdf', 'video', 'prova', 'link']
+        && textoValido('titulo', 3, 200)
+        && request.resource.data.views == 0
+        && request.resource.data.downloads == 0
+        && request.resource.data.denunciasCount == 0;
+
+      allow update: if isAdmin()
+        || (signedIn() && resource.data.autorId == uid()
+            && (apenasCampos(['titulo', 'descricao'])
+                || (apenasCampos(['status']) && request.resource.data.status == 'removido')))
+        || (resource.data.status == 'aprovado' && pode('materiais', 'ler')
+            && apenasCampos(['views', 'downloads'])
+            && incrementoUnitario('views') && incrementoUnitario('downloads'));
+    }
+
+    // ---------- moderação (RF12) ----------
+    // Id determinístico `{uid}__{alvo}` impede que o mesmo usuário denuncie o mesmo conteúdo duas vezes.
+    match /denuncias/{id} {
+      allow get: if isAdmin() || (signedIn() && id.matches(uid() + '__.*'));
+      allow list: if isAdmin() || (signedIn() && resource.data.denuncianteId == uid());
+      allow create: if signedIn()
+        && id.matches(uid() + '__.*')
+        && request.resource.data.denuncianteId == uid()
+        && request.resource.data.status == 'aberta'
+        && request.resource.data.motivo in ['spam', 'ofensivo', 'assedio', 'falso', 'direitos_autorais', 'outro']
+        && request.resource.data.alvoPath is string
+        && exists(path('/databases/' + database + '/documents/' + request.resource.data.alvoPath));
+      allow update, delete: if false;
+    }
+
+    // ---------- índices (RF10, RF15) e logs (RNF15) ----------
+    match /indices/{id} {
+      allow read: if signedIn();
+      allow write: if false;
+    }
+
+    match /logs/{id} {
+      allow create: if request.resource.data.keys().hasOnly(['nivel', 'mensagem', 'stack', 'uid', 'rota', 'plataforma', 'createdAt'])
+        && request.resource.data.mensagem is string
+        && request.resource.data.mensagem.size() <= 4000
+        && (!('stack' in request.resource.data) || request.resource.data.stack.size() <= 8000);
+      allow read: if isAdmin();
+    }
+  }
+}
