@@ -1,0 +1,3111 @@
+{
+ "agente": "grade_cc",
+ "geradoEm": "2026-11-24",
+ "fontes": [
+  "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=grade-curricular&codCurso=65C&codCurriculo=12023",
+  "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-noturno/?page=grade-curricular&codCurso=35A&codCurriculo=22023",
+  "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=<CODIGO>",
+  "http://www2.ufjf.br/cursocomputacao/wp-content/uploads/sites/549/2023/10/PPC2023-cc-integral-Aprimoramento.pdf",
+  "http://www2.ufjf.br/cursocomputacao/wp-content/uploads/sites/549/2023/12/PPC-2023.1223.pdf",
+  "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/nova-grade/",
+  "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curso/",
+  "https://www2.ufjf.br/cursocomputacao/organizacao/administracao/",
+  "https://www2.ufjf.br/cursocomputacao/65ac/",
+  "https://www2.ufjf.br/cursocomputacao/ciencia-da-computacao-integral/",
+  "https://www2.ufjf.br/cursocomputacao/ciencia-da-computacao-noturno/"
+ ],
+ "acessadoEm": "2026-11-24",
+ "dados": {
+  "cursos": [
+   {
+    "codigoSiga": "65C",
+    "codigosRelacionados": [
+     "65AC"
+    ],
+    "nome": "Ciência da Computação (Bacharelado) – Integral",
+    "turno": "integral",
+    "totalPeriodos": 8,
+    "periodosMinimo": 5,
+    "periodosMaximo": 15,
+    "cargaHorariaTotal": 3270,
+    "vagasAnuais": 40,
+    "curriculoVigente": "12023 (PPC reforma 2023)",
+    "curriculosAtivos": [
+     "12023",
+     "12018.1",
+     "12018"
+    ],
+    "coordenacao": "Coordenação do Curso de Ciência da Computação (Integral) – ICE/DCC",
+    "contatoSetor": "coord.computacao@ufjf.br",
+    "site": "https://www2.ufjf.br/cursocomputacao/",
+    "descricao": "O Bacharelado em Ciência da Computação da UFJF tem a computação como atividade-fim e objetiva formar profissionais com profunda fundamentação técnica e científica, aptos à atuação profissional, acadêmica e científica. Oferecido em período integral (aulas de segunda a sexta, manhã/tarde/noite), com 40 vagas anuais e entrada no 1º semestre.",
+    "nota": "Não existe código 65A. 65C = ingresso por vaga declarada; 65AC = 'Opção 2º ciclo Ciências Exatas – Ciência da Computação' (20 das 40 vagas, via BI em Ciências Exatas), que segue a mesma grade integral.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/ciencia-da-computacao-integral/"
+   },
+   {
+    "codigoSiga": "35A",
+    "nome": "Ciência da Computação (Bacharelado) – Noturno",
+    "turno": "noturno",
+    "totalPeriodos": 9,
+    "periodosMinimo": 8,
+    "periodosMaximo": 16,
+    "cargaHorariaTotal": 3270,
+    "vagasAnuais": 40,
+    "curriculoVigente": "22023 (PPC reforma 2023)",
+    "curriculosAtivos": [
+     "22023",
+     "12018"
+    ],
+    "coordenacao": "Coordenação do Curso de Ciência da Computação (Noturno) – ICE/DCC",
+    "contatoSetor": "coord.computacaonoturno@ufjf.br",
+    "site": "https://www2.ufjf.br/cursocomputacao/",
+    "descricao": "Versão noturna do Bacharelado em Ciência da Computação da UFJF, oferecida desde o 2º semestre de 2003, com aulas de segunda a sexta das 19h às 23h. Oferece 40 vagas anuais com entrada no 2º semestre.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/ciencia-da-computacao-noturno/"
+   }
+  ],
+  "disciplinas": [
+   {
+    "codigo": "DC5199",
+    "nome": "ALGORITMOS - PRÁTICA",
+    "cargaHoraria": 0,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 1,
+     "35A": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1. Introdução 2. Noções de uma linguagem de programação 3. Funções 4. Estruturas básicas para construção de algoritmos 5. Estruturas de dados homogêneas 6. Estruturas de dados heterogêneas",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DC5199",
+    "observacao": "Componente prático (0h) associado a DCC199; matrícula conjunta com DCC199 (inferido pelo nome/CH; não listado como correquisito formal na grade)."
+   },
+   {
+    "codigo": "DCC160",
+    "nome": "LÓGICA E FUNDAMENTOS PARA A COMPUTAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 3,
+     "35A": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Proposições. Operações Lógicas sobre Proposições. Construção de Tabelas-Verdade. Tautologia, Contradições e Contingências. Implicação e equivalência Lógica. Álgebra das Proposições. Método Dedutivo. Argumentos. Regras de Inferência. Validade mediante Regras de Inferência. Cálculo de Predicados....",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC160"
+   },
+   {
+    "codigo": "DCC175",
+    "nome": "INTRODUÇÃO A CIÊNCIA DA COMPUTAÇÃO",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "35A": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1- Apresentação do Curso de Ciência da Computação 2- História da Computação 3- Apresentação de Profissionais e Pesquisadores das Áreas do Curso de Ciência da Computação",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC175"
+   },
+   {
+    "codigo": "DCC199",
+    "nome": "ALGORITMOS",
+    "cargaHoraria": 90,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 1,
+     "35A": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1. Introdução 2. Noções de uma linguagem de programação 3. Funções 4. Estruturas básicas para construção de algoritmos 5. Estruturas de dados homogêneas 6. Estruturas de dados heterogêneas",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC199"
+   },
+   {
+    "codigo": "DCC202",
+    "nome": "DESENVOLVIMENTO WEB",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 3,
+     "35A": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Conceitos básicos de Internet e WEB. Projeto de aplicações WEB. Criação de páginas HTML. Utilização de linguagens de Scripts. Folhas de Estilo. Troca de documentos na WEB.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC202"
+   },
+   {
+    "codigo": "FIS122",
+    "nome": "LABORATÓRIO DE INTRODUÇÃO ÀS CIÊNCIAS FÍSICAS",
+    "cargaHoraria": 30,
+    "departamento": "FIS",
+    "departamentoNome": "DEPTO DE FISICA /ICE",
+    "periodo": {
+     "65C": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1. Medidas Físicas 2. Representações de dados experimentais 3. Laboratório e Instrumentos laboratoriais 4. Experimentos e problemas experimentais e teóricos",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=FIS122"
+   },
+   {
+    "codigo": "ICE001",
+    "nome": "INTRODUÇÃO ÀS CIÊNCIAS EXATAS",
+    "cargaHoraria": 30,
+    "departamento": "ICE",
+    "departamentoNome": "COORDENAÇÃO DO CURSO CIENCIAS EXATAS",
+    "periodo": {
+     "65C": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1- Apresentação do Curso de Ciências Exatas. 2- Palestras de Profissionais e Pesquisadores das Áreas do Curso de Ciências Exatas (Ciência da Computação, Engenharias, Estatística, Física, Matemática e Química). 3- História e cultura Afro-Brasileira e Indígena.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=ICE001"
+   },
+   {
+    "codigo": "MAT154",
+    "nome": "CÁLCULO I",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "65C": 1,
+     "35A": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1. Números Reais; 2. Funções; 3. Limite de uma Função e Continuidade; 4. Derivada; 5. Aplicações da Derivada.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT154"
+   },
+   {
+    "codigo": "MAT155",
+    "nome": "GEOMETRIA ANALÍTICA E SISTEMAS LINEARES",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "65C": 1,
+     "35A": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1. Matrizes e Sistemas Lineares; 2. Inversão de Matrizes e Determinantes; 3. Vetores no Plano e no Espaço; 4. Retas e Planos; 5. Seções Cônicas; 6. Mudança de Coordenadas no Plano.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT155"
+   },
+   {
+    "codigo": "QUI125",
+    "nome": "QUÍMICA FUNDAMENTAL",
+    "cargaHoraria": 60,
+    "departamento": "QUI",
+    "departamentoNome": "DEPTO DE QUIMICA /ICE",
+    "periodo": {
+     "65C": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Estequiometria. Estrutura atômica. Classificação periódica dos elementos. Ligações químicas. Interações intermoleculares. Equilíbrio químico. Ácidos e bases.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=QUI125"
+   },
+   {
+    "codigo": "QUI126",
+    "nome": "LABORATÓRIO DE QUÍMICA",
+    "cargaHoraria": 30,
+    "departamento": "QUI",
+    "departamentoNome": "DEPTO DE QUIMICA /ICE",
+    "periodo": {
+     "65C": 1
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Segurança química; vidrarias, equipamentos e técnicas básicas; representação e interpretação de resultados experimentais; estequiometria; soluções: preparo e diluição; estrutura eletrônica de átomos e moléculas; propriedades físicas das substâncias; equilíbrio químico; ácidos e bases: pH e...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=QUI126"
+   },
+   {
+    "codigo": "DC5200",
+    "nome": "ALGORITMOS II - PRÁTICA",
+    "cargaHoraria": 0,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 2,
+     "35A": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DC5200",
+    "observacao": "Componente prático (0h) associado a DCC200; matrícula conjunta com DCC200 (inferido pelo nome/CH; não listado como correquisito formal na grade)."
+   },
+   {
+    "codigo": "DCC200",
+    "nome": "ALGORITMOS II",
+    "cargaHoraria": 90,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 2,
+     "35A": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC199"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Arquivos 2. Ponteiros 3. Recursividade 4. Introdução à complexidade assintótica 5. Ordenação 6. Tipos abstratos de dados 7. Matrizes",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC200"
+   },
+   {
+    "codigo": "EST028",
+    "nome": "INTRODUÇÃO À ESTATÍSTICA",
+    "cargaHoraria": 60,
+    "departamento": "EST",
+    "departamentoNome": "DEPTO DE ESTATISTICA /ICE",
+    "periodo": {
+     "65C": 2,
+     "35A": 4
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT154"
+    ],
+    "coRequisitos": [],
+    "ementa": "Definições de Estatística. Origens, desenvolvimento e situação atual da Estatística. Papel da Estatística na pesquisa científica. Estatística descritiva: níveis de mensuração, gráficos básicos, medidas descritivas, tabelas de distribuição de frequências. Conceitos básicos de probabilidades....",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EST028"
+   },
+   {
+    "codigo": "EXT099",
+    "nome": "INTRODUÇÃO À EXTENSÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 2,
+     "35A": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EXT099"
+   },
+   {
+    "codigo": "FIS073",
+    "nome": "FÍSICA I",
+    "cargaHoraria": 60,
+    "departamento": "FIS",
+    "departamentoNome": "DEPTO DE FISICA /ICE",
+    "periodo": {
+     "65C": 2,
+     "35A": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT154"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Cinemática vetorial. 2. Leis de Newton. 3. Trabalho e energia mecânica. 4. Sistemas de partículas. 5. Colisões. 6. Cinemática e dinâmica dos corpos rígidos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=FIS073"
+   },
+   {
+    "codigo": "FIS077",
+    "nome": "LABORATÓRIO DE FÍSICA I",
+    "cargaHoraria": 30,
+    "departamento": "FIS",
+    "departamentoNome": "DEPTO DE FISICA /ICE",
+    "periodo": {
+     "65C": 2,
+     "35A": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "FIS122"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "FIS122"
+     ],
+     "35A": [
+      "MAT154"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "1. Teoria das Medidas e dos Erros. 2. Gráficos. 3. Experimentos em Mecânica.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=FIS077"
+   },
+   {
+    "codigo": "MAT156",
+    "nome": "CÁLCULO II",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "65C": 2,
+     "35A": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT155",
+     "MAT154"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Integração de Funções de uma Variável; 2. Aplicações da Integral Definida; 3. Superfícies no Espaço; 4. Funções de Várias Variáveis.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT156"
+   },
+   {
+    "codigo": "MAT158",
+    "nome": "ÁLGEBRA LINEAR",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "65C": 4,
+     "35A": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "preRequisitosPorCurso": {
+     "65C": [],
+     "35A": [
+      "MAT155",
+      "MAT154"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "1- Espaços Vetoriais 2- Espaços com Produto Interno 3- Transformações Lineares 4- Diagonalização",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT158"
+   },
+   {
+    "codigo": "QUI168",
+    "nome": "LABORATÓRIO DE TRANSFORMAÇÕES QUÍMICAS",
+    "cargaHoraria": 30,
+    "departamento": "QUI",
+    "departamentoNome": "DEPTO DE QUIMICA /ICE",
+    "periodo": {
+     "65C": 2
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C"
+    ],
+    "preRequisitos": [
+     "QUI126"
+    ],
+    "coRequisitos": [],
+    "ementa": "Reações químicas, cianotipia, eletroquímica, titulações, termoquímica e síntese orgânica.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=QUI168"
+   },
+   {
+    "codigo": "DCC013",
+    "nome": "ESTRUTURA DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 3,
+     "35A": 3
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC200"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Introdução: Introdução ao C++; Recursividade; Introdução à Análise de complexidade. 2. Ponteiros e Alocação Dinâmica de Memória; 3. Tipos Abstratos de Dados 4. Matrizes; 5. Listas; 6. Pilhas e Filas; 7. Árvores; 8. Heap (fila de prioridades); 9. Grafos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC013"
+   },
+   {
+    "codigo": "DCC025",
+    "nome": "ORIENTAÇÃO A OBJETOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 3,
+     "35A": 3
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC200"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "DCC200"
+     ],
+     "35A": [
+      "DCC199"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Conceitos Fundamentais de Orientação a Objetos; Componentes de Classes; Entendimento e aplicação dos conceitos e componentes de classes em linguagens de programação que apoiem o paradigma de Orientação a Objetos; Desenvolvimento de sistemas através do uso de programação orientada a objetos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC025"
+   },
+   {
+    "codigo": "DCC122",
+    "nome": "CIRCUITOS DIGITAIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 3,
+     "35A": 3
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1. Bases Numéricas 2. Álgebra de Boole 3. Circuitos combinacionais 4. Minimização de funções 5. Circuitos sequenciais síncronos e assíncronos 6. Flip-flops, registradores, contadores, memória 7. Linguagem de descrição de hardware",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC122"
+   },
+   {
+    "codigo": "MAT143",
+    "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "65C": 3,
+     "35A": 3
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1- Os Princípios de Indução Matemática e da Boa Ordenação 2- Divisibilidade 3- Números Primos e o Teorema Fundamental da Aritmética 4- Equações Diofantinas Lineares 5- Congruências 6- Sistema de Congruências Lineares 7- Criptografia Básica",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT143"
+   },
+   {
+    "codigo": "MAT157",
+    "nome": "CÁLCULO III",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "65C": 3,
+     "35A": 3
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT156"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Integrais Múltiplas. 2. Funções Vetoriais. 3. Integrais Curvilíneas. 4. Integrais de Superfície.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT157"
+   },
+   {
+    "codigo": "DCC008",
+    "nome": "CÁLCULO NUMÉRICO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 4,
+     "35A": 6
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT156",
+     "DCC199"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução Noções de Erro Polinômio de Taylor e Aproximações Zeros Reais de Funções Reais Resolução de Sistemas Lineares Interpolação Polinomial Ajuste de Curva Por Mínimo Quadrado Integração Numérica",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC008"
+   },
+   {
+    "codigo": "DCC012",
+    "nome": "ESTRUTURA DE DADOS II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 4,
+     "35A": 4
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Ordenação; Filas de prioridade; Estruturas de Dicionário: Acesso Direto; Estruturas balanceadas e Estruturas auto-organizáveis; Estruturas multidimensionais e espaciais; Estruturas de dados para a web; Processamento de Cadeias de Caracteres",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC012"
+   },
+   {
+    "codigo": "DCC070",
+    "nome": "ORGANIZAÇÃO DE COMPUTADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 4,
+     "35A": 4
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC122"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Abstrações e Tecnologias Computacionais; -Instruções: a Linguagem de Máquina; -Aritmética Computacional; -Avaliando e Compreendendo o Desempenho; -O Processador: Caminho de Dados e Controle; -Linha de montagem (Pipelining); -Hierarquia de Memória.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC070"
+   },
+   {
+    "codigo": "DCC117",
+    "nome": "MODELAGEM DE SISTEMAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 4,
+     "35A": 4
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC025"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Introdução e conceitos. -Processo de modelagem. -Modelos para construção de sistemas orientados a objetos. -Projeto arquitetural. -Estudo de casos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC117"
+   },
+   {
+    "codigo": "MAT029",
+    "nome": "EQUAÇÕES DIFERENCIAIS I",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "65C": 4,
+     "35A": 4
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT156"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Sequências e Séries de Números Reais 2. Introdução às Equações Diferenciais 3. Equações Diferenciais Ordinárias de 1ª Ordem 4. Equações Diferenciais Ordinárias Lineares de 2ª Ordem 5. Soluções em Série para Equações Diferenciais Ordinárias Lineares de 2ª Ordem",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT029"
+   },
+   {
+    "codigo": "DCC059",
+    "nome": "TEORIA DOS GRAFOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 5,
+     "35A": 5
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Iniciação a Teoria dos Grafos 2. Grafos sem circuitos, árvores e arborescências 3. Busca em Grafos",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC059"
+   },
+   {
+    "codigo": "DCC060",
+    "nome": "BANCO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 5,
+     "35A": 5
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC012",
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução. Modelo de Entidades e Relacionamentos. Modelo Relacional. Linguagens Relacionais. Projeto de Banco de Dados. Modelos de dados semi-estruturados. Arquitetura de Banco de Dados. Armazenamento e Indexação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC060"
+   },
+   {
+    "codigo": "DCC061",
+    "nome": "ENGENHARIA DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 5,
+     "35A": 5
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução e Conceitos - Processos de Software - Ferramentas CASE - Gerenciamento de Projetos de Software - Requisitos de Software - Projeto de Arquitetura de Software - Projeto de Interface com o usuário - Verificação e validação - Teste de software - Qualidade de software - Gerência de...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC061"
+   },
+   {
+    "codigo": "DCC062",
+    "nome": "SISTEMAS OPERACIONAIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 5,
+     "35A": 5
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC070"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução; - Processos e Linhas de Execução (Threads); - Impasses (Deadlocks); - Gerenciamento de Memória; - Entrada/Saída; - Sistemas de Arquivos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC062"
+   },
+   {
+    "codigo": "DCC065",
+    "nome": "COMPUTAÇÃO GRÁFICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 5,
+     "35A": 7
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC199",
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Definição de objetos gráficos planares - Modelos de Geometria - Estudo da Cor - Modelagem de objetos e construção de cenas 3D - Visualização da cena - Cenário Virtual - Câmera Virtual - Recorte, rasterização, cálculo das superfícies visíveis - Iluminação - Técnicas de Mapeamento de Texturas -...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC065"
+   },
+   {
+    "codigo": "DCC203",
+    "nome": "METODOLOGIA CIENTÍFICA",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 5,
+     "35A": 5
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC200"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC203"
+   },
+   {
+    "codigo": "EADDCC044",
+    "nome": "INFORMÁTICA E SOCIEDADE",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 6,
+     "35A": 5
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "A informatização da sociedade e o desafio da inclusão social; Informática e a conjuntura econômica mundial. Responsabilidade social; Informática e o indivíduo; Informática, cultura, economia e política. Políticas públicas de Informática. Questões legais e crimes sibernéticos; Alterações no...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EADDCC044"
+   },
+   {
+    "codigo": "DCC019",
+    "nome": "LINGUAGEM DE PROGRAMACAO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 6,
+     "35A": 6
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC025",
+     "DCC012"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Introdução -Controle de Dados -Tipos de Dados -Expressões e I nstruções de Atribuição -Controle de Fluxo -Paradigmas de Programação e LPs",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC019"
+   },
+   {
+    "codigo": "DCC042",
+    "nome": "REDES DE COMPUTADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 6,
+     "35A": 6
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC070"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Redes de Computadores e a Internet -Camada de Aplicação -Camada de Transporte -Camada de Rede -Camada de Enlace e Redes Locais -Redes sem Fio",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC042"
+   },
+   {
+    "codigo": "DCC063",
+    "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 6,
+     "35A": 6
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT143",
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Noções preliminares -Linguagens regulares -Gramáticas e linguagens livres de contexto -Formas normais -Autômatos e linguagens -Autômatos com pilha e linguagens livres de contexto -Hierarquia de Chomsky: classes de linguagens",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC063"
+   },
+   {
+    "codigo": "DCC163",
+    "nome": "PESQUISA OPERACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 6,
+     "35A": 6
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "Formulação de problemas de programação linear; solução gráfica de problemas de programação linear; algoritmo Simplex; álgebra e geometria do algoritmo Simplex; algoritmo Simplex revisado; análise de sensibilidade e paramétrica; dualidade.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC163"
+   },
+   {
+    "codigo": "DCC174",
+    "nome": "INTERAÇÃO HUMANO-COMPUTADOR",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 6,
+     "35A": 8
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Princípios de Interação Homem-computador. Fatores Humanos na Comunicação. Estilos Interativos. Modelagem do Usuário. Modelagem da Interação. Design de Diálogos. Usabilidade. Padronização de Interfaces. Metodologia para Projeto de Interfaces. Técnicas de Avaliação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC174"
+   },
+   {
+    "codigo": "DCC001",
+    "nome": "ANALISE E PROJETO DE ALGORITMOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 7,
+     "35A": 7
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT143",
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "Fundamentos Matemáticos para Análise de Algoritmos; Análise Assintótica de Algoritmos; Paradigmas de Projeto de Algoritmos; Algoritmos Eficientes para Ordenação, Comparação de Sequências, Problemas em Grafos; Fundamentos de Complexidade Computacional, Redução entre Problemas, Classes P e NP,...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC001"
+   },
+   {
+    "codigo": "DCC014",
+    "nome": "INTELIGENCIA ARTIFICIAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 7,
+     "35A": 7
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "EST028",
+     "DCC160",
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Conceitos Básicos 2. Métodos não informados de busca 3. Métodos informados de busca 4. Grafos de jogos e hipergrafos 5. Prova Automática de Teoremas 6. Introdução ao PROLOG",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC014"
+   },
+   {
+    "codigo": "DCC055",
+    "nome": "TEORIA DA COMPUTAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 7,
+     "35A": 7
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC063"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Linguagens e Máquinas de Turing -A hierarquia de Chomsky -Decidabilidade e computabilidade -Computação com máquinas de Turing -Equivalência de programas",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC055"
+   },
+   {
+    "codigo": "DCC075",
+    "nome": "SEGURANÇA EM SISTEMAS DE COMPUTAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 7,
+     "35A": 9
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "DCC042"
+     ],
+     "35A": [
+      "MAT143",
+      "DCC042"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Introdução; Cifras simétricas, DES, AES; Cifras assimétricas, RSA; Algoritmos de integridade de dados criptográfcos; Assinaturas Digitais; Confança mútua, Distribuição de Chaves, Autentcação; Segurança de rede e Internet, controle de acesso, segurança em camadas da arquitetura TCP/IP; Sistemas...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC075"
+   },
+   {
+    "codigo": "DCC204",
+    "nome": "TRABALHO DE CONCLUSÃO DE CURSO I",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 7,
+     "35A": 8
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC203"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC204"
+   },
+   {
+    "codigo": "EST029",
+    "nome": "CÁLCULO DE PROBABILIDADES I",
+    "cargaHoraria": 60,
+    "departamento": "EST",
+    "departamentoNome": "DEPTO DE ESTATISTICA /ICE",
+    "periodo": {
+     "65C": 7,
+     "35A": 7
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "MAT156"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "MAT156"
+     ],
+     "35A": [
+      "EST028",
+      "MAT156"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Introdução à teoria dos conjuntos. Técnicas de contagem. Introdução à probabilidade. Variáveis aleatórias. Distribuições discretas unidimensionais. Distribuições contínuas unidimensionais. Valor esperado e variância de variáveis aleatórias. Momentos de variáveis aleatórias. Funções de variáveis...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EST029"
+   },
+   {
+    "codigo": "DCC045",
+    "nome": "TEORIA DOS COMPILADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 8,
+     "35A": 8
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC063"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Introdução -Análise léxica -Análise sintática -Análise semântica -Ambientes de execução -Geração de representação intermediária -Geração de código de máquina para MIPS ou PENTIUM",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC045"
+   },
+   {
+    "codigo": "DCC064",
+    "nome": "SISTEMAS DISTRIBUÍDOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 8,
+     "35A": 8
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC062"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Introdução aos Sistemas Distribuídos -Arquiteturas de Sistemas Distribuídos -Processos em Sistemas Distribuídos -Comunicação em Sistemas Distribuídos -Nomeação em Sistemas Distribuídos -Sincronização em Sistemas Distribuídos -Consistência e Replicação em Sistemas Distribuídos -Tolerância a...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC064"
+   },
+   {
+    "codigo": "DCC205",
+    "nome": "TRABALHO DE CONCLUSÃO DE CURSO II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "65C": 8,
+     "35A": 9
+    },
+    "obrigatoria": true,
+    "obrigatoriaEm": [
+     "65C",
+     "35A"
+    ],
+    "preRequisitos": [
+     "DCC204"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC205"
+   },
+   {
+    "codigo": "CAD014",
+    "nome": "ADMINISTRAÇÃO E ORGANIZAÇÃO DE EMPRESAS",
+    "cargaHoraria": 60,
+    "departamento": "CAD",
+    "departamentoNome": "DEPTO DE CIENCIAS ADMINISTRATIVAS",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Administração: Introdução, Teorias e Departamentalização; Inovação; Empreendedorismo; Administração Pública; Estratégia; Finanças; Gestão de Pessoas; Marketing e Metodologias ágeis; Tópicos Especiais",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=CAD014"
+   },
+   {
+    "codigo": "DC5210",
+    "nome": "EMPREENDEDORISMO TECNOLÓGICO - PRÁTICA",
+    "cargaHoraria": 0,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DC5210"
+   },
+   {
+    "codigo": "DCC033",
+    "nome": "FLUXO EM REDES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Problemas do Caminho Mínimo 2. Problema de Fluxo Máximo 3. Problema de fluxo compatível a custo mínimo 4. Problemas de Atribuição e Problema de Transporte",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC033"
+   },
+   {
+    "codigo": "DCC037",
+    "nome": "LABORATORIO DE ORGANIZACAO DE COMPUTADORES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC070"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução à abstração e linguagens de descrição de hardware. - Desenvolvimento de Projetos",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC037"
+   },
+   {
+    "codigo": "DCC057",
+    "nome": "ARQUITETURA DE COMPUTADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC070"
+    ],
+    "coRequisitos": [],
+    "ementa": "Organização de Processadores: Caminho de Dados e Controle; Métodos para Aumento de Desempenho: Linha de montagem (Pipelining); Projeto de Hierarquias de Memória; Multiprocessadores e Paralelismo em Nível de Múltiplas Linhas de Execução (Threads); Armazenamento, Redes e Outros Periféricos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC057"
+   },
+   {
+    "codigo": "DCC066",
+    "nome": "PROCESSAMENTO DE IMAGENS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC199",
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução - Fundamentos - Filtragem no Domínio Espacial - Filtragem no domínio da frequência - Restauração e reconstrução de imagens - Processamento morfológico de imagens - Segmentação de Imagens - Compressão de Imagens - Avaliação de softwares/bibliotecas comerciais de processamento de...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC066"
+   },
+   {
+    "codigo": "DCC067",
+    "nome": "COMPUTAÇÃO EVOLUCIONISTA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Evolução Natural e Artificial 2. Algoritmos Genéticos 3. Algumas Aplicações 4. Implementação Computacional 5. Introdução à Programação Genética 6. Outros Algoritmos Evolutivos",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC067"
+   },
+   {
+    "codigo": "DCC068",
+    "nome": "REDES NEURAIS ARTIFICIAIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à Computação de Redes Neurais. Fundamentos da Computação de Redes Neurais. Rede Perceptrons. Algoritmo Back-Propagation. Redes Recorrentes. Redes de Organização Própria. Outros Modelos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC068"
+   },
+   {
+    "codigo": "DCC069",
+    "nome": "PROGRAMAÇÃO NÃO LINEAR",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC163"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Introdução 2. Fundamentos de Análise Convexa e Álgebra Linear Computacional 3. Condições de Otimalidade e Dualidade 4. Algoritmos e Convergência 5. Otimização sem Restrições 6. Otimização com Restrições Lineares 7. Otimização com Restrições Não-Lineares",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC069"
+   },
+   {
+    "codigo": "DCC071",
+    "nome": "LABORATÓRIO DE SISTEMAS OPERACIONAIS",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC062"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Estudo do código fonte de um sistema operacional - Desenvolvimento de Projetos de Sistemas Operacionais.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC071"
+   },
+   {
+    "codigo": "DCC072",
+    "nome": "LABORATORIO DE REDES DE COMPUTADORES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Aplicação prática dos conceitos vistos na disciplina de Redes de Computadores, mostrando o funcionamento de protocolos de rede através da utilização de softwares e simuladores de redes.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC072"
+   },
+   {
+    "codigo": "DCC073",
+    "nome": "TEORIA DE FILAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "EST028"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "EST028"
+     ],
+     "35A": [
+      "EST029"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Modelos de Filas. Teorema de Little. Cadeias de Markov. Aplicações a Modelagem de Linhas de Comunicação Multiplexadas.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC073"
+   },
+   {
+    "codigo": "DCC074",
+    "nome": "AVALIAÇÃO DE DESEMPENHO DE SISTEMAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "EST029"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução à avaliação de desempenho de sistemas computacionais - Métodos de avaliação: vantagens e desvantagens, aplicações - Métodos analíticos: abordagem estocástica e operacional - Modelos baseados em redes de filas e em redes de Petri - Simulação discreta: conceitos, algoritmos de...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC074"
+   },
+   {
+    "codigo": "DCC076",
+    "nome": "PROGRAMAÇÃO EM LÓGICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC160"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução - Fundamentos - Programação em Lógica com Prolog - Ambientes Prolog e Integração com Outras LPs",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC076"
+   },
+   {
+    "codigo": "DCC077",
+    "nome": "ASPECTOS AVANÇADOS EM BANCO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC060"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Restrições de integridade avançadas - Processamento de consultas - Gerenciamento de Transações - Segurança - Controle de Concorrência - Banco de Dados não convencionais - Banco de Dados Distribuídos - Novas aplicações",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC077"
+   },
+   {
+    "codigo": "DCC078",
+    "nome": "ASPECTOS AVANÇADOS EM ENGENHARIA DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Engenharia da Web - Padrões de Desenvolvimento - Qualidade e Segurança de software - Tecnologias emergentes para o desenvolvimento de software - Tópicos Especiais de Engenharia de Software-",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC078"
+   },
+   {
+    "codigo": "DCC080",
+    "nome": "LAB.INTEGRADO DE DESENVOLVIMENTO DE SOFTWARE",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC060",
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Desenvolvimento de uma aplicação envolvendo conceitos vistos nas disciplinas de Engenharia de Software e Banco de Dados",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC080"
+   },
+   {
+    "codigo": "DCC082",
+    "nome": "SISTEMAS MULTIMIDIA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC062",
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Fundamentos de tecnologia multimídia, hardware e software. - Representação e Processamento de Áudio - Música e Voz, Imagem e Vídeo. - Ambientes multimídia. - Dados e objetos multimídia. - Sistemas operacionais multimídia. - Aplicações de multimídia avançadas.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC082"
+   },
+   {
+    "codigo": "DCC083",
+    "nome": "QUALIDADE DE SOFTWARE",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução - Qualidade de software: produto e processo. - Métricas e indicadores de qualidade. - Normas de qualidade para produtos de software. - Normas e modelos de maturidade de processos de software. - Garantia e plano da qualidade. - Avaliação de processos: modelos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC083"
+   },
+   {
+    "codigo": "DCC086",
+    "nome": "INFORMÁTICA NA EDUCAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "- Histórico e Evolução da Informática na Educação - Ambientes e Paradigmas de Ensino e Aprendizagem - Aprendizagem Cooperativa - Educação à Distância - Software Educacional - Tecnologias de Informação e Comunicação - Uso da Informática na Escola",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC086"
+   },
+   {
+    "codigo": "DCC088",
+    "nome": "GESTÃO DA TECNOLOGIA E INOVAÇÃO TECNOLÓGICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [
+     "DCC210"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "DCC210"
+     ],
+     "35A": [
+      "DCC049"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "- Gestão da Tecnologia - Inovação Tecnológica",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC088"
+   },
+   {
+    "codigo": "DCC089",
+    "nome": "TÓPICOS EM COMPUTAÇÃO CIENTÍFICA I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade em Computação Científica.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC089"
+   },
+   {
+    "codigo": "DCC090",
+    "nome": "TOPICOS EM COMPUTACAO CIENTIFICA II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade em Computação Científica.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC090"
+   },
+   {
+    "codigo": "DCC091",
+    "nome": "TOPICOS EM REDES E PROCESSAMENTO DISTRIBUIDO I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC091"
+   },
+   {
+    "codigo": "DCC092",
+    "nome": "TOPICOS EM REDES E PROCESSAMENTO DISTRIBUIDO II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC092"
+   },
+   {
+    "codigo": "DCC093",
+    "nome": "TOPICOS EM DESENVOLVIMENTO DE SOFTWARE I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplina de ementa variável dentro de tópicos da atualidade em Desenvolvimento de Software.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC093"
+   },
+   {
+    "codigo": "DCC094",
+    "nome": "TOPICOS EM DESENVOLVIMENTO DE SOFTWARE II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplina de ementa variável dentro de tópicos da atualidade em Desenvolvimento de Software.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC094"
+   },
+   {
+    "codigo": "DCC095",
+    "nome": "TOPICOS EM CIENCIA, TECNOLOGIA E SOCIEDADE I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade em Computação Científica.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC095"
+   },
+   {
+    "codigo": "DCC096",
+    "nome": "TOPICOS EM CIENCIA, TECNOLOGIA E SOCIEDADE II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade em Computação Científica.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC096"
+   },
+   {
+    "codigo": "DCC097",
+    "nome": "SEMINARIO EM COMPUTACAO I",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividade de estudos e conteúdos teóricos ou práticos, predominantemente desenvolvido pelos alunos, de ementa variável, enfocando um dos temas da Ciência da Computação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC097"
+   },
+   {
+    "codigo": "DCC098",
+    "nome": "SEMINARIO EM COMPUTACAO II",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC098"
+   },
+   {
+    "codigo": "DCC099",
+    "nome": "SEMINARIO EM COMPUTACAO III",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Tópicos em Computação Evolucionista Descrição: Constara de apresentação dos principais algoritmos baseados em população, aplicações em problemas de otimização escalar e multiobjetivo. Pretende-se ter um enfoque bastante grande na pratica dos alunos no uso destas técnicas.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC099"
+   },
+   {
+    "codigo": "DCC100",
+    "nome": "SEMINÁRIO EM COMPUTAÇÃO IV",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC100"
+   },
+   {
+    "codigo": "DCC101",
+    "nome": "SEMINARIO EM COMPUTACAO V",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação. Revisão de Sistemas Operacionais; Virtualização, hypervisors, máquinas virtuais (VMs), recursos virtuais; Conteinerização, imagens, implantação,...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC101"
+   },
+   {
+    "codigo": "DCC102",
+    "nome": "SEMINARIO EM COMPUTACAO VI",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1- Apresentação dos conceitos básicos (multimídia, hipermídia, computação ubíqua e pervasiva);2 – Conceitos sobre construção colaborativa, contextualização, facilitadores, participatory sensing e crowdworking; 3 - Análise e apresentação de trabalhos relacionados (principais tópicos de interesse:...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC102"
+   },
+   {
+    "codigo": "DCC103",
+    "nome": "SEMINARIO EM COMPUTACAO VII",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação. O foco nesse caso será Mineração de Dados",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC103"
+   },
+   {
+    "codigo": "DCC104",
+    "nome": "SEMINÁRIO EM COMPUTAÇÃO VIII",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Redes Cognitivas Descrição: A dinâmica da disciplina é formada, entre outras atividades, por leitura e escrita de artigos/resumos, apresentação de seminários de temas relacionados ao assunto (Redes Cognitivas, Rádios cognitivos, problemas relacionados à implementação de rádios cognitivos,...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC104"
+   },
+   {
+    "codigo": "DCC105",
+    "nome": "SEMINARIO EM COMPUTACAO IX",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividade de estudos e conteúdos teóricos ou práticos, predominantemente desenvolvido pelos alunos, de ementa variável, enfocando um dos temas da Ciência da Computação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC105"
+   },
+   {
+    "codigo": "DCC124",
+    "nome": "AMBIENTES VIRTUAIS DE APRENDIZAGEM",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "- Educação on-line - Comunidades virtuais de aprendizagem - Evolução dos ambientes virtuais e colaborativos. - Modalidades de educação mediada pela tecnologia. - Colaboração e cooperação - Interação e interatividade - Características das plataformas de EAD Universidade Federal de Juiz de Fora...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC124"
+   },
+   {
+    "codigo": "DCC125",
+    "nome": "PROGRAMAÇÃO PARALELA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC062"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à computação paralela Modelos de processamento paralelo Programando com Troca de Mensagens Programando com Memória Compartilhada",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC125"
+   },
+   {
+    "codigo": "DCC126",
+    "nome": "TV DIGITAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Televisão Analógica e Televisão Digital. - Padrões e Sistemas de Televisão Digital. - Representação da Informação Audiovisual. - Video e Audio Digital. - Sistema Brasileiro de Televisão Digital Terrestre. - TV Digital no Brasil. - Interatividade. - Aplicações.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC126"
+   },
+   {
+    "codigo": "DCC127",
+    "nome": "MINERAÇÃO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC107",
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução - Preparação dos Dados para Mineração - Classificação e Predição - Análise de Agrupamentos - Regras de Associação",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC127"
+   },
+   {
+    "codigo": "DCC128",
+    "nome": "GERÊNCIA DE REDES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à gerência de redes de computadores; Tecnologias e suporte à gerência de redes; Arquitetura NMS. Modelo de especificação e implementação de um sistema de gerência de redes. Tendências em gerência de redes",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC128"
+   },
+   {
+    "codigo": "DCC129",
+    "nome": "REALIDADE VIRTUAL E AUMENTADA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC199",
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução à Realidade Virtual - Dispositivos de Realidade Virtual - Softwares de Realidade Virtual - Aplicações de Realidade Virtual - Modelagem Geométrica, Avatares e Animação em Realidade Virtual - Sistemas distribuídos de Realidade Virtual - Sistemas de Realidade Virtual na internet -...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC129"
+   },
+   {
+    "codigo": "DCC130",
+    "nome": "COMPUTAÇÃO MÓVEL, ÚBIQUA E PERVASIVA",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução e caracterização dos ambientes de computação móvel e ubíqua. - Dispositivos - Redes de comunicação sem fios - Modelos e software de suporte ao desenvolvimento de sistemas móveis - Aspectos específicos - Gestão de dados - Segurança - Introdução às redes de sensores",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC130"
+   },
+   {
+    "codigo": "DCC131",
+    "nome": "PROJETO DE REDES DE COMPUTADORES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conhecer uma metodologia de Projeto de Redes de Computadores, permitindo que o aluno planeje e projete redes de computadores. Desenvolver Projetos Lógicos e Físicos de Redes. Saber documentar corretamente um projeto de redes. Elaborar Projetos de Redes de Computadores com base em estudos de...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC131"
+   },
+   {
+    "codigo": "DCC132",
+    "nome": "ENGENHARIA DE SOFTWARE EXPERIMENTAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Introdução - Estratégias de experimentação - Medição - O processo de experimentação - Métodos estatísticos em ESE - Revisões sistemáticas",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC132"
+   },
+   {
+    "codigo": "DCC133",
+    "nome": "INTRODUÇÃO A SISTEMAS DE INFORMAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Conceitos. Histórico. Importância dos sistemas de informação nas empresas. Casos de sucesso em Sistemas de Informação. Desafios e tecnologias.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC133"
+   },
+   {
+    "codigo": "DCC136",
+    "nome": "INTELIGÊNCIA COMPUTACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conceitos básicos em Inteligência Computacional Heurísticas construtivas para problemas específicos Heurísticas clássicas de refinamento Metaheurísticas",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC136"
+   },
+   {
+    "codigo": "DCC137",
+    "nome": "SISTEMAS NEBULOSOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC199"
+    ],
+    "coRequisitos": [],
+    "ementa": "- Fundamentos de Lógica Nebulosa: Conjuntos: Conjuntos Clássicos - Conjuntos Nebulosos: Operações min-max com Conjuntos Nebulosos. Operações Compensatórias. - Sistemas Nebulosos: Regras Nebulosas - Inferência Nebulosa. Aplicações.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC137"
+   },
+   {
+    "codigo": "DCC138",
+    "nome": "TÓPICOS DE LINGUAGEM PROGRAMAÇÃO I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em programacao ou no limite do estado da arte na area de linguagens de programacao.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC138"
+   },
+   {
+    "codigo": "DCC139",
+    "nome": "TÓPICOS DE LINGUAGEM PROGRAMAÇÃO II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em programacao ou no limite do estado da arte na area de linguagens de programacao.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC139"
+   },
+   {
+    "codigo": "DCC140",
+    "nome": "TÓPICOS EM INTELIGÊNCIA COMPUTACIONAL I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em Inteligência Computacional.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC140"
+   },
+   {
+    "codigo": "DCC141",
+    "nome": "TÓPICOS EM INTELIGÊNCIA COMPUTACIONAL II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em Inteligência Computacional.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC141"
+   },
+   {
+    "codigo": "DCC142",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS II",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC001"
+    ],
+    "coRequisitos": [],
+    "ementa": "-Revisão -Algoritmos para tratar problemas com alta complexidade de tempo -Análise de algoritmos paralelos",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC142"
+   },
+   {
+    "codigo": "DCC143",
+    "nome": "ADMINISTRAÇÃO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC060"
+    ],
+    "coRequisitos": [],
+    "ementa": "Planejamento Central, Documentação e Gerenciamento dos Dados. Gerenciamento dos Dados como Recursos de Uso Comum da Empresa. Relacionamento com Administração de Banco de Dados. Integração dos Recursos de Informação Corporativos. Processos Associados à Informação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC143"
+   },
+   {
+    "codigo": "DCC144",
+    "nome": "ADMINISTRAÇÃO DE REDES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO SISTEMAS DE INFORMAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à Administração de Redes. Tecnologias e Suporte à Administração de Redes. Dispositivos de Rede. Administração de Serviços de Redes. Virtualização de Redes",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC144"
+   },
+   {
+    "codigo": "DCC145",
+    "nome": "ASPECTOS ORGANIZACIONAIS DE SISTEMAS DE INFORMAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [
+     "DCC133"
+    ],
+    "coRequisitos": [],
+    "ementa": "Comportamento organizacional. Aprendizagem organizacional. Modelagem da organização e de seus processos. Alinhamento de SIs aos objetivos da organização. Gestão da informação e do conhecimento organizacionais.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC145"
+   },
+   {
+    "codigo": "DCC147",
+    "nome": "DATA WAREHOUSE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC060"
+    ],
+    "coRequisitos": [],
+    "ementa": "Os Sistemas de Data Warehouse. Componentes do Data Warehouse. O Modelo Dimensional. As Tabelas de Fatos. As Tabelas de Dimensão. O Esquema em Estrela. A Arquitetura do Data Warehouse. Os Agregados no Data Warehouse.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC147"
+   },
+   {
+    "codigo": "DCC148",
+    "nome": "DESENVOLVIMENTO DE JOGOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC025",
+     "MAT155"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Introdução 2. Fundamentos 3. Gráficos 4. Inteligência Artificial Aplicada a Jogos 5. Animação Física 6. Ferramentas Observação: Está disciplina deve fazer uso de laboratório para prática.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC148"
+   },
+   {
+    "codigo": "DCC149",
+    "nome": "ENGENHARIA DE REQUISITOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conceitos gerais sobre Requisitos; Engenharia de Requisitos; Processo para especificação de Requisitos; Requisitos de software; Análise e elicitação de requisitos; Tipos de Requisitos; Especificação e verificação de Requisitos; Modelos; Técnicas para gerência de requisitos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC149"
+   },
+   {
+    "codigo": "DCC153",
+    "nome": "GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução a Gerência de Configuração de Software Normas Terminologia Ramificação e Integração Funções da GCS Perspectivas",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC153"
+   },
+   {
+    "codigo": "DCC154",
+    "nome": "GERÊNCIA DE PROJETOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução ao Gerenciamento de Projetos. Gerenciamento do escopo. Gerenciamento do tempo. Gerenciamento de custo. Gerenciamento dos recursos humanos. Gerenciamento da comunicação. Gerenciamento do risco. Gerenciamento da qualidade. Gerenciamento de aquisições. Gerenciamento de integração....",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC154"
+   },
+   {
+    "codigo": "DCC155",
+    "nome": "GESTÃO DO CONHECIMENTO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [
+     "CAD076",
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução. Organização do Conhecimento. Ferramentas e Ambientes para a Gestão do Conhecimento. Auditoria (mapeamento) de Conhecimento. Memória Organizacional.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC155"
+   },
+   {
+    "codigo": "DCC161",
+    "nome": "MODELAGEM DE NEGÓCIO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Modelagem de Processos de Negócio. Modelagem para Execução. Workflow. Modelagem da Organização. Modelagem da Motivação. Prática de Modelagem de Negócio.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC161"
+   },
+   {
+    "codigo": "DCC164",
+    "nome": "RECUPERAÇÃO DA INFORMAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC060"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "DCC060"
+     ],
+     "35A": [
+      "DCC012"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Recuperação Inteligente da Informação (RII). Modelos de Recuperação da Informação. Operações com Texto. Indexação e Recuperação. Recuperação Inteligente de Informação na Web e Bibliotecas Digitais.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC164"
+   },
+   {
+    "codigo": "DCC165",
+    "nome": "SEGURANÇA E AUDITORIA DE SISTEMAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [
+     "DCC133"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "DCC133"
+     ],
+     "35A": [
+      "DCC061"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Introdução e Conceitos Básicos de Segurança da Informação. Segurança Empresarial e Política de Segurança. Riscos Envolvendo Informações. Segurança em Redes de Computadores. Segurança Lógica e Classificação das Informações. Segurança Física e Ambiental em Informática. Introdução e Conceitos...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC165"
+   },
+   {
+    "codigo": "DCC166",
+    "nome": "SISTEMAS DE APOIO À DECISÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC014"
+    ],
+    "coRequisitos": [],
+    "ementa": "Tomada de decisão e sistemas de informação. Sistemas de apoio à decisão. Data Warehouse. Sistemas inteligentes de apoio à decisão.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC166"
+   },
+   {
+    "codigo": "DCC167",
+    "nome": "SISTEMAS INTELIGENTES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC014"
+    ],
+    "coRequisitos": [],
+    "ementa": "Aquisição e representação do conhecimento. Raciocínio artificial. Processamento de Linguagem Natural. Aplicações: sistemas especialistas, reconhecimento de padrões, banco de dados inteligente, processamento de linguagens, jogos etc.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC167"
+   },
+   {
+    "codigo": "DCC168",
+    "nome": "TESTE DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução ao Teste de Software. Técnicas de Teste de Software. Teste de Aplicações Web. Teste Manual x Teste Automatizado. Elaboração de Testes.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC168"
+   },
+   {
+    "codigo": "DCC172",
+    "nome": "PROGRAMAÇÃO COMPETITIVA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "Estudo de técnicas de projeto de algoritmos e programação visando problemas típicos de competições de programação: Programação Dinâmica, Algoritmos em Grafos, Backtracking e Heurísticas, Algoritmos Geométricos, Tópicos variáveis e atuais em competições de programação.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC172"
+   },
+   {
+    "codigo": "DCC173",
+    "nome": "ANÁLISE NUMÉRICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC008"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Introdução 2. Solução de Sistemas de Equações Lineares 3. Solução de Sistemas de Equações Não-Lineares 4. Interpolação e Integração Numérica 5. Equações Diferenciais Ordinárias",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC173"
+   },
+   {
+    "codigo": "DCC176",
+    "nome": "SISTEMAS COLABORATIVOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Sistemas Colaborativos. Teorias e modelos de colaboração. Redes Sociais. Sistemas de Comunicação. Ambientes Virtuais de Colaborativos. Desenvolvimento Colaborativo de Software. Aprendizagem Colaborativa com Suporte Computacional. Colaboração em processos de negócio. Gestão do conhecimento e...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC176"
+   },
+   {
+    "codigo": "DCC177",
+    "nome": "PESQUISA OPERACIONAL II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC163"
+    ],
+    "coRequisitos": [],
+    "ementa": "Visão geral de problemas de programação linear e não linear; Modelos de Programação Linear Inteira - PLI; Métodos de planos de corte; método de enumeração implícita; Métodos de separação e avaliação progressiva (branch and bound); Problemas e algoritmos clássicos de otimização combinatória;...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC177"
+   },
+   {
+    "codigo": "DCC178",
+    "nome": "PESQUISA OPERACIONAL III",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC173"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "DCC173"
+     ],
+     "35A": [
+      "DCC177"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Revisão de modelagem matemática de problemas de Programação Linear Inteira - PLI; Problemas clássicos de PLI; Métodos exatos e heurísticos para solução de problemas de PLI.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC178"
+   },
+   {
+    "codigo": "DCC190",
+    "nome": "SOLUÇÃO NUMÉRICA DE EQUAÇÕES DIFERENCIAIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO PROGRAMAÇÃO MATEMÁTICA",
+    "preRequisitos": [
+     "DCC008"
+    ],
+    "coRequisitos": [],
+    "ementa": "1 - Diferenciação Numérica 2 - Problemas de Valor de Contorno 3 - Solução Numérica de Equações Diferenciais Parciais 4 - Tópicos avançados na solução numérica de Equações Diferenciais Parciais",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC190"
+   },
+   {
+    "codigo": "DCC191",
+    "nome": "VISUALIZACAO CIENTIFICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "MAT156",
+     "DCC199"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Introdução: visualização científica, visualização de informações e visualização de software. 2. A visualização como ferramenta no contexto do método científico. 3. Classificação das técnicas de visualização e seus dados. 4. Organização e tipos de dados. 5. Introdução a uma ferramenta...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC191"
+   },
+   {
+    "codigo": "DCC197",
+    "nome": "VISÃO COMPUTACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC197"
+   },
+   {
+    "codigo": "DCC206",
+    "nome": "DESENVOLVIMENTO WEB II",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC202"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC206"
+   },
+   {
+    "codigo": "DCC207",
+    "nome": "DESENVOLVIMENTO WEB FRONT-END",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC206"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC207"
+   },
+   {
+    "codigo": "DCC208",
+    "nome": "DESENVOLVIMENTO WEB BACK-END",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC206",
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC208"
+   },
+   {
+    "codigo": "DCC209",
+    "nome": "DESENVOLVIMENTO PARA DISPOSITIVOS MÓVEIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO DESENVOLVIMENTO DE SISTEMAS",
+    "preRequisitos": [
+     "DCC207"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC209"
+   },
+   {
+    "codigo": "DCC210",
+    "nome": "EMPREENDEDORISMO TECNOLÓGICO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO GESTÃO EM T.I.",
+    "preRequisitos": [
+     "CAD014",
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=DCC210"
+   },
+   {
+    "codigo": "EADDCC037",
+    "nome": "PROJETO DE SOFTWARE EDUCACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO EDUCAÇÃO",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Concepções pedagógicas no desenvolvimento de aplicações educacionais. Ambientes e paradigmas de ensino/aprendizagem. Características dos ambientes tradicionais e participativos. Design instrucional. Software Educacional. Modelos de desenvolvimento de software educacional. Ambientes cooperativos...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EADDCC037"
+   },
+   {
+    "codigo": "EADDCC043",
+    "nome": "AVALIAÇÃO DE SOFTWARE EDUCACIONAL",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Introdução. Qualidade de software: produto e processo. Métricas e indicadores de qualidade. Normas de qualidade para produtos de software. Normas e modelos de maturidade de processos de software. Avaliação de software educacional: modelos.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EADDCC043"
+   },
+   {
+    "codigo": "EADDCC048",
+    "nome": "OBJETOS DE APRENDIZAGEM",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO CIENTÍFICO/TECNOLÓGICA - GRUPO EDUCAÇÃO",
+    "preRequisitos": [
+     "EADDCC037"
+    ],
+    "coRequisitos": [],
+    "ementa": "Classificação dos softwares educacionais. Software livre. Objetos de aprendizagem e suas aplicações. Equipes multidisciplinares e o papel do professor.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EADDCC048"
+   },
+   {
+    "codigo": "EADDCC049",
+    "nome": "ASPECTOS LEGAIS DA INFORMÁTICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Proporciona uma visão global dos princípios básicos do Direito aplicáveis à Informática, analisa a ética aplicada aos produtos e serviços na Informática, direitos autorais e de propriedade, registros, marcas e patentes, pirataria digital, O crime de invasão de sistemas e sites, O Direito e o...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EADDCC049"
+   },
+   {
+    "codigo": "ECO034",
+    "nome": "ECONOMIA",
+    "cargaHoraria": 60,
+    "departamento": "ECO",
+    "departamentoNome": "DEPTO DE ECONOMIA /ECO",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Ementa de curso estruturada em 15 semanas, combinando os fundamentos da micro e da macroeconomia a partir de referências clássicas e debates contemporâneos sobre inovação, desenvolvimento, desigualdade e o papel do Estado.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=ECO034"
+   },
+   {
+    "codigo": "EST030",
+    "nome": "ANÁLISE EXPLORATÓRIA DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "EST",
+    "departamentoNome": "DEPTO DE ESTATISTICA /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [
+     "EST029"
+    ],
+    "preRequisitosPorCurso": {
+     "65C": [
+      "EST029"
+     ],
+     "35A": [
+      "EST028"
+     ]
+    },
+    "coRequisitos": [],
+    "ementa": "Introdução. Apresentando dados em tabelas e gráficos. Medidas resumo. Análise bivariada. Análise de séries temporais.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=EST030"
+   },
+   {
+    "codigo": "FIN001",
+    "nome": "CONTABILIDADE GERAL E INTRODUTORIA",
+    "cargaHoraria": 60,
+    "departamento": "FIN",
+    "departamentoNome": "DEPTO DE FINANCAS E CONTROLADORIA",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1 Introdução ao Estudo da Contabilidade e Contabilidade como Sistema de Informações 2. As Demonstrações Contábeis 3. Balanço Patrimonial (ATIVO, PASSIVO e PATRIMÔNIO LÍQUIDO) 4. Demonstração do Resultado do Exercício (DRE) 5. Demonstração dos Fluxos de Caixa (DFC) 6. Demonstração do Valor...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=FIN001"
+   },
+   {
+    "codigo": "FIS074",
+    "nome": "FÍSICA II",
+    "cargaHoraria": 60,
+    "departamento": "FIS",
+    "departamentoNome": "DEPTO DE FISICA /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [
+     "MAT156",
+     "FIS073"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Oscilações; 2. Gravitação; 3. Mecânica dos fluidos; 4. Movimento ondulatório; 5. Temperatura; 6. Calor e 1ª lei da termodinâmica; 7. Teoria cinética dos gases; 8. 2ª lei da termodinâmica.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=FIS074"
+   },
+   {
+    "codigo": "FIS075",
+    "nome": "FISICA III",
+    "cargaHoraria": 60,
+    "departamento": "FIS",
+    "departamentoNome": "DEPTO DE FISICA /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [
+     "FIS074",
+     "MAT157"
+    ],
+    "coRequisitos": [],
+    "ementa": "1. Eletrostática; 2. Capacitância. Dielétricos; 3. Corrente elétrica e resistência elétrica. Circuitos; 4. Campo magnético; 5. Lei de Faraday. Indutância; 6. Propriedades magnéticas da matéria; 7. Oscilações eletromagnéticas; 8. Equações de Maxwell.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=FIS075"
+   },
+   {
+    "codigo": "MAC011",
+    "nome": "INTRODUÇÃO À ENGENHARIA COMPUTACIONAL",
+    "cargaHoraria": 30,
+    "departamento": "MAC",
+    "departamentoNome": "DEPTO DE MECANICA APLICADA E COMPUTACIONAL",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "A disciplina visa a apresentar a definição de Engenharia Computacional, a organização do curso e os principais campos de atuação do egresso, através de palestras ministradas por professores e profissionais de áreas as mais diversas, relacionadas ao emprego de métodos computacionais para a...",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAC011"
+   },
+   {
+    "codigo": "MAC036",
+    "nome": "REPRESENTAÇÃO GRÁFICA E MODELAGEM GEOMÉTRICA",
+    "cargaHoraria": 30,
+    "departamento": "MAC",
+    "departamentoNome": "DEPTO DE MECANICA APLICADA E COMPUTACIONAL",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Noções Básicas de Modelagem Geométrica; Conceitos básicos do Desenho Técnico e Modelagem Geométrica Intermediária; Modelagem Geométrica Intermediária e Desenho Universal.",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAC036"
+   },
+   {
+    "codigo": "MAT013",
+    "nome": "MATEMÁTICA FINANCEIRA",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": null,
+    "obrigatoria": false,
+    "eletivaEm": [
+     "65C",
+     "35A"
+    ],
+    "grupoEletiva": "DISCIPLINAS ELETIVAS - NÚCLEO DE FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "1- Juros Simples 2- Juros Compostos 3- Taxas de Juros 4- Série Uniforme 5- Equivalência e Desconto de Fluxos de Caixa 6- Correção Monetária 7- Utilização de Calculadoras Financeiras",
+    "fonte": "https://www2.ufjf.br/cursocomputacao/sobre-o-curso/curriculos-ativos/curriculos-ativos-integral/?page=plano-de-ensino&codDisciplina=MAT013"
+   }
+  ],
+  "observacoes": {
+   "versaoMatriz": "Currículo 12023 (65C, integral) e 22023 (35A, noturno), conforme 'Currículos Ativos' do site do curso (dados espelhados do SIGA), PPCs da reforma curricular de junho/2023. Pré-requisitos e períodos vêm da grade do site; quando o mesmo código tem pré-requisitos diferentes entre os cursos, 'preRequisitos' traz os do 65C e 'preRequisitosPorCurso' traz ambos. Disciplinas eletivas têm periodo=null.",
+   "integralizacao65C": "3.270 h totais: 2.670 h obrigatórias, 240 h eletivas, 360 h atividades acadêmicas optativas (disciplinas optativas, flexibilização curricular ou ACE). Recomendado 8 períodos; mín. 5, máx. 15.",
+   "integralizacao35A": "3.270 h totais: 2.520 h obrigatórias, 300 h eletivas (no máx. 120 h do Núcleo de Formação Complementar), 450 h atividades acadêmicas optativas. Recomendado 9 períodos; mín. 8, máx. 16.",
+   "extensao": "Mínimo de 10% da CH total = 327 h de Atividades Curriculares de Extensão (Res. CNE/CES 7/2018 e Res. CONGRAD/UFJF 75/2022). Inclui a obrigatória EXT099 Introdução à Extensão (60 h). ACE fora de disciplinas extensionistas contam como optativas até 270 h (PPC integral). Acompanhamento pela CAEX. Existem disciplinas optativas 'Prática Extensionista I a VIII' (DCC).",
+   "tcc": "Obrigatório: DCC203 Metodologia Científica (30 h) -> DCC204 TCC I (30 h; PPC exige também 1.560 h cursadas) -> DCC205 TCC II (60 h). Normas no Anexo II do PPC.",
+   "estagio": "Não obrigatório. Conta como atividade (60 h por semestre letivo, máx. 240 h na flexibilização curricular). Normas no Anexo III do PPC / COE Computação (www2.ufjf.br/coecomputacao).",
+   "flexibilizacao": "IC, monitoria, extensão e treinamento profissional: 60 h por projeto por período (máx. 120 h por projeto); PET/GET máx. 240 h; empresa júnior máx. 180 h; representação estudantil máx. 120 h; certificação em língua estrangeira 15 h.",
+   "eletivas": "Núcleo Científico/Tecnológico em 6 grupos (Computação Gráfica; Educação; Desenvolvimento de Sistemas; Gestão em TI; Programação Matemática; Sistemas de Informação [65C] / Sistemas de Computação [35A]) mais o Núcleo de Formação Complementar. Optativas sugeridas no PPC incluem UNI003, UNI015, UNI016, LEC090, FIL012 (não incluídas na lista, porque não aparecem na grade com pré-requisitos).",
+   "correquisitos": "A grade não lista correquisitos formais. DC5199/DC5200 são componentes práticos de 0 h associados a DCC199/DCC200 (no currículo de 2018, DCC119 Algoritmos tinha correquisito com DCC120 Laboratório de Programação, substituídos por DCC199).",
+   "divergenciasPPCxSite": "O texto do PPC 2023 diverge da grade publicada (SIGA) em alguns pré-requisitos, por exemplo: DCC001 (PPC: DCC059 e MAT143; grade: MAT143 e DCC013); DCC063 (PPC inclui DCC160; grade: MAT143 e DCC013); DCC075 no 65C (PPC: MAT143 e DCC042; grade: DCC042); EST029 no 65C (PPC: EST028 e MAT156; grade: MAT156); MAT158 no 65C (PPC: MAT155; grade: nenhum). Usamos a grade do site/SIGA."
+  }
+ },
+ "lacunas": [
+  "Ementa não informada no plano de ensino de 12 disciplinas (DC5200, DC5210, DCC197, DCC203, DCC204, DCC205, DCC206 a DCC210, EXT099); ementa=null.",
+  "Correquisitos formais não publicados na grade; coRequisitos ficou vazio.",
+  "Não existe grade separada publicada para o 65AC; supomos que segue a 65C (o PPC integral diz que uma única grade vale para vagas declaradas e 2º ciclo).",
+  "O requisito de 1.560 h para o TCC I vem do PPC; não aparece na grade do SIGA.",
+  "O SIGA (siga.ufjf.br) exige login e não foi consultado diretamente; usamos o espelho público do site do curso."
+ ],
+ "confianca": "alta: grade, CH e pré-requisitos vêm do espelho público do SIGA no site oficial do curso, e as regras vêm dos PPCs 2023 oficiais. Média para as poucas divergências PPC x grade."
+}

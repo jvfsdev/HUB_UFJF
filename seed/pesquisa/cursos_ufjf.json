@@ -1,0 +1,2995 @@
+{
+  "agente": "cursos_ufjf",
+  "geradoEm": "2026-11-24",
+  "fontes": [
+    "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+    "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/",
+    "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+    "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+    "https://www2.ufjf.br/copese/vestibular-pism-2/pism-2027/",
+    "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/15_Edital-15-2026_Retifica-edital-10-2026_PISM-2027-1.pdf",
+    "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/11/CandVagasJF.pdf",
+    "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/11/CandVagasGV.pdf",
+    "https://www2.ufjf.br/cdara/wp-content/uploads/sites/82/2026/11/MudancaDeCurso-12027.pdf",
+    "https://www2.ufjf.br/icsagv/",
+    "https://www2.ufjf.br/icvgv/",
+    "https://www2.ufjf.br/gv/"
+  ],
+  "acessadoEm": "2026-11-24",
+  "dados": {
+    "notas": [
+      "Cada item de 'cursos' é uma oferta (curso + grau + turno + campus). Cursos com ingresso por ABI aparecem uma vez por grau (bacharelado e licenciatura), compartilhando as vagas da ABI (campo areaBasicaIngresso).",
+      "codigoEmec = código do curso no e-MEC/Sisu (termo de adesão Sisu 2026). codigoSiga (código interno do SIGA, ex. '65A') não foi encontrado em fonte pública.",
+      "duracaoPeriodos = 'Integralização' informada no termo Sisu 2026 (semestres), salvo indicação em obs.",
+      "vagasPism2027 = vagas do Módulo III do PISM 2027 (Edital 10/2026 retificado pelos Editais 12 e 15/2026); vagasSisu2026 = vagas ofertadas no Sisu 1ª edição 2026.",
+      "Turno 'integral' corresponde a 'Integral (Matutino/Vespertino)' no Sisu."
+    ],
+    "cursos": [
+      {
+        "nome": "Administração",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACC",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "22451",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/facc/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/administracao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/administracao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-01"
+      },
+      {
+        "nome": "Administração",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACC",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "22451",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/facc/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/administracao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/administracao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-02"
+      },
+      {
+        "nome": "Arquitetura e Urbanismo",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAU",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13114",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU"
+        ],
+        "vagasPism2027": 40,
+        "vagasSisu2026": 40,
+        "site": "https://www.ufjf.br/arquitetura/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/arquitetura-e-urbanismo/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/arquitetura-e-urbanismo/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-03"
+      },
+      {
+        "nome": "Artes Visuais",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "IAD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1153948",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/artesvisuais/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/artes-visuais/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/artes-visuais/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-04"
+      },
+      {
+        "nome": "Artes Visuais",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "IAD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1153951",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/iad/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/artes-visuais-licenciatura/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/artes-visuais-licenciatura/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-05"
+      },
+      {
+        "nome": "Humanidades – Cultura e Estudos Globais",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": null,
+        "formaIngresso": [
+          "PISM"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": null,
+        "site": null,
+        "paginaUfjf": null,
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Curso novo no PISM 2027 (Edital 15/2026), substitui na oferta o Bacharelado Interdisciplinar em Ciências Humanas. No Sisu 2026 constava 'INTERDISCIPLINAR EM CIÊNCIAS HUMANAS - BI/LI' (e-MEC 1120242, 15 vagas, turno integral vespertino/noturno). Unidade ICH presumida (unidade do BI em Ciências Humanas); duração não informada.",
+        "modalidade": "presencial",
+        "id": "jf-06"
+      },
+      {
+        "nome": "Ciência da Computação",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "65361",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 10,
+        "vagasSisu2026": 10,
+        "site": "https://www.ufjf.br/cursocomputacao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-computacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-computacao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+20 vagas (integral) para concluintes do BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-07"
+      },
+      {
+        "nome": "Ciência da Computação",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "18518",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/cursocomputacao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-computacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-computacao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-08"
+      },
+      {
+        "nome": "Ciência da Religião",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1165686",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 15,
+        "site": "https://www.ufjf.br/graduacaocre/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-religiao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-religiao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-09"
+      },
+      {
+        "nome": "Ciência da Religião",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1165350",
+        "duracaoPeriodos": null,
+        "formaIngresso": [
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Humanas"
+        ],
+        "vagasPism2027": null,
+        "vagasSisu2026": null,
+        "site": "https://www.ufjf.br/graduacaocre/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-religiao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-religiao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Não participa do Sisu 2026 (termo de adesão, seção 'Cursos não participantes'); não ofertado no PISM 2027.",
+        "modalidade": "presencial",
+        "id": "jf-10"
+      },
+      {
+        "nome": "Ciências Biológicas",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICB",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 30,
+        "vagasSisu2026": 30,
+        "site": "http://www.ufjf.br/biologia",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-biologicas/",
+        "areaBasicaIngresso": "ABI - Ciências Biológicas",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-biologicas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-11"
+      },
+      {
+        "nome": "Ciências Biológicas",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICB",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 30,
+        "vagasSisu2026": 30,
+        "site": "http://www.ufjf.br/biologia",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-biologicas/",
+        "areaBasicaIngresso": "ABI - Ciências Biológicas",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-biologicas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-12"
+      },
+      {
+        "nome": "Ciências Contábeis",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACC",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1132074",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/cienciascontabeis/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-contabeis/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-contabeis/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-13"
+      },
+      {
+        "nome": "Ciências Contábeis",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACC",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1132074",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/cienciascontabeis/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-contabeis/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-contabeis/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-14"
+      },
+      {
+        "nome": "Ciências Econômicas",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FE-Economia",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13090",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 27,
+        "vagasSisu2026": 26,
+        "site": "https://www.ufjf.br/economia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-economicas/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-economicas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Página de graduação atribui o curso à FACC; a lista oficial de unidades acadêmicas tem a Faculdade de Economia (site www2.ufjf.br/economia).",
+        "modalidade": "presencial",
+        "id": "jf-15"
+      },
+      {
+        "nome": "Ciências Econômicas",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FE-Economia",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "13090",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 26,
+        "vagasSisu2026": 26,
+        "site": "https://www.ufjf.br/economia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-economicas/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-economicas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Página de graduação atribui o curso à FACC; a lista oficial de unidades acadêmicas tem a Faculdade de Economia (site www2.ufjf.br/economia).",
+        "modalidade": "presencial",
+        "id": "jf-16"
+      },
+      {
+        "nome": "Ciências Exatas (Bacharelado Interdisciplinar)",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "116502",
+        "duracaoPeriodos": 6,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 123,
+        "vagasSisu2026": 122,
+        "site": "https://www.ufjf.br/cienciasexatas/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-exatas/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-exatas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "1º ciclo; dá acesso por seleção interna aos cursos de 2º ciclo (Quadro II do edital PISM 2027). No Sisu aparece como 'CIÊNCIAS EXATAS - BI/LI'.",
+        "modalidade": "presencial",
+        "id": "jf-17"
+      },
+      {
+        "nome": "Ciências Sociais",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "vespertino",
+        "codigoSiga": null,
+        "codigoEmec": "313087",
+        "duracaoPeriodos": 5,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 12,
+        "site": "https://www.ufjf.br/graduacaocienciassociais/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-sociais/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-sociais/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Integralização '5' conforme termo Sisu 2026 (valor parece inconsistente; conferir PPC). Página antiga da graduação descrevia ingresso via BI em Ciências Humanas; PISM 2027 já oferta entrada direta.",
+        "modalidade": "presencial",
+        "id": "jf-18"
+      },
+      {
+        "nome": "Ciências Sociais",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "13087",
+        "duracaoPeriodos": 12,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 13,
+        "site": "https://www.ufjf.br/graduacaocienciassociais/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-sociais/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-sociais/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-19"
+      },
+      {
+        "nome": "Cinema e Audiovisual",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "IAD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1153947",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/cinema",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/cinema-e-audiovisual/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/cinema-e-audiovisual/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-20"
+      },
+      {
+        "nome": "Design",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "IAD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1153949",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/design/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/design/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/design/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-21"
+      },
+      {
+        "nome": "Direito",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13089",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www.ufjf.br/direito/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/direito/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/direito/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-22"
+      },
+      {
+        "nome": "Direito",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FD",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "21860",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www.ufjf.br/direito/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/direito/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/direito/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-23"
+      },
+      {
+        "nome": "Educação Física",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAEFID",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 45,
+        "vagasSisu2026": 45,
+        "site": "https://www.ufjf.br/faefid/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/educacao-fisica/",
+        "areaBasicaIngresso": "ABI - Educação Física",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/educacao-fisica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-24"
+      },
+      {
+        "nome": "Educação Física",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "FAEFID",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 45,
+        "vagasSisu2026": 45,
+        "site": "https://www.ufjf.br/faefid/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/educacao-fisica/",
+        "areaBasicaIngresso": "ABI - Educação Física",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/educacao-fisica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-25"
+      },
+      {
+        "nome": "Enfermagem",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACENF",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "38994",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 40,
+        "vagasSisu2026": 40,
+        "site": "https://www.ufjf.br/enfermagem/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/enfermagem/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/enfermagem/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Página da graduação cita bacharelado e licenciatura; Sisu 2026 registra grau Bacharelado.",
+        "modalidade": "presencial",
+        "id": "jf-26"
+      },
+      {
+        "nome": "Engenharia Ambiental e Sanitária",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "116496",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/engsanitariaeambiental/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-ambiental-e-sanitaria/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-ambiental-e-sanitaria/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-27"
+      },
+      {
+        "nome": "Engenharia Civil",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13094",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www.ufjf.br/engenhariacivil/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-civil/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-civil/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-28"
+      },
+      {
+        "nome": "Engenharia Computacional",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1120244",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 10,
+        "vagasSisu2026": 10,
+        "site": "https://www.ufjf.br/engcomputacional/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-computacional/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-computacional/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+20 vagas para concluintes do BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-29"
+      },
+      {
+        "nome": "Engenharia de Produção",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "38594",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 30,
+        "vagasSisu2026": 30,
+        "site": "https://www.ufjf.br/engenhariadeproducao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-de-producao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-de-producao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-30"
+      },
+      {
+        "nome": "Engenharia Elétrica – Energia",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1109475",
+        "duracaoPeriodos": 12,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 21,
+        "vagasSisu2026": 21,
+        "site": "https://www.ufjf.br/eletrica_energia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-energia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-energia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+12 vagas para concluintes do BI em Ciências Exatas (integral no BI, noturno na habilitação).",
+        "modalidade": "presencial",
+        "id": "jf-31"
+      },
+      {
+        "nome": "Engenharia Elétrica – Robótica e Automação Industrial",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1109485",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 21,
+        "vagasSisu2026": 21,
+        "site": "https://www.ufjf.br/eletrica_automacao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-robotica-e-automacao-industrial/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-robotica-e-automacao-industrial/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+12 vagas via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-32"
+      },
+      {
+        "nome": "Engenharia Elétrica – Sistemas de Potência",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1109486",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 21,
+        "vagasSisu2026": 21,
+        "site": "https://www.ufjf.br/eletrica_potencia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-sistemas-de-potencia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-sistemas-de-potencia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+12 vagas via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-33"
+      },
+      {
+        "nome": "Engenharia Elétrica – Sistemas Eletrônicos",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1109487",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 21,
+        "vagasSisu2026": 21,
+        "site": "https://www.ufjf.br/eletrica_eletronica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-sistemas-eletronicos/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-sistemas-eletronicos/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+12 vagas via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-34"
+      },
+      {
+        "nome": "Engenharia Elétrica – Telecomunicações",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1109488",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 21,
+        "vagasSisu2026": 21,
+        "site": "https://www.ufjf.br/engenharia_telecom/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-telecomunicacoes/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-eletrica-telecomunicacoes/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+12 vagas via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-35"
+      },
+      {
+        "nome": "Engenharia Mecânica",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAENG",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1109489",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/mecanica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-mecanica/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/engenharia-mecanica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+20 vagas via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-36"
+      },
+      {
+        "nome": "Estatística",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "113531",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 10,
+        "site": "https://www.ufjf.br/estatistica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/estatistica/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/estatistica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+10 vagas via BI em Ciências Exatas (Edital 15/2026).",
+        "modalidade": "presencial",
+        "id": "jf-37"
+      },
+      {
+        "nome": "Farmácia",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FF",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "38509",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www.ufjf.br/farmacia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/farmacia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/farmacia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-38"
+      },
+      {
+        "nome": "Filosofia",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 35,
+        "vagasSisu2026": 35,
+        "site": "https://www.ufjf.br/filosofia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/filosofia/",
+        "areaBasicaIngresso": "ABI - Filosofia",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/filosofia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-39"
+      },
+      {
+        "nome": "Filosofia",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 35,
+        "vagasSisu2026": 35,
+        "site": "https://www.ufjf.br/filosofia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/filosofia/",
+        "areaBasicaIngresso": "ABI - Filosofia",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/filosofia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-40"
+      },
+      {
+        "nome": "Física",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 13,
+        "vagasSisu2026": 12,
+        "site": "https://www.ufjf.br/fisica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/fisica/",
+        "areaBasicaIngresso": "ABI - Física",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/fisica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+30 vagas (integral) via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-41"
+      },
+      {
+        "nome": "Física",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 13,
+        "vagasSisu2026": 12,
+        "site": "https://www.ufjf.br/fisica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/fisica/",
+        "areaBasicaIngresso": "ABI - Física",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/fisica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+30 vagas (integral) via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-42"
+      },
+      {
+        "nome": "Física",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1166037",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 15,
+        "site": "https://www.ufjf.br/fisica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/fisica/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/fisica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-43"
+      },
+      {
+        "nome": "Fisioterapia",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACFISIO",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13118",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 21,
+        "vagasSisu2026": 21,
+        "site": "https://www.ufjf.br/facfisio/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/fisioterapia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/fisioterapia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-44"
+      },
+      {
+        "nome": "Geografia",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/geografia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/geografia/",
+        "areaBasicaIngresso": "ABI - Geografia",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/geografia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-45"
+      },
+      {
+        "nome": "Geografia",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/geografia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/geografia/",
+        "areaBasicaIngresso": "ABI - Geografia",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/geografia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-46"
+      },
+      {
+        "nome": "Geografia",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/geografia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/geografia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/geografia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "No termo Sisu 2026 aparece sob o código da ABI (5000615) com ERRATA: 'este curso não é ABI, sendo oferecido somente na modalidade LICENCIATURA'.",
+        "modalidade": "presencial",
+        "id": "jf-47"
+      },
+      {
+        "nome": "História",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/historia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+        "areaBasicaIngresso": "ABI - História",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-48"
+      },
+      {
+        "nome": "História",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/historia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+        "areaBasicaIngresso": "ABI - História",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-49"
+      },
+      {
+        "nome": "História",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/historia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+        "areaBasicaIngresso": "ABI - História",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-50"
+      },
+      {
+        "nome": "História",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/historia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+        "areaBasicaIngresso": "ABI - História",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/historia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-51"
+      },
+      {
+        "nome": "Jornalismo",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACOM",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "27657",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 18,
+        "vagasSisu2026": 17,
+        "site": "https://www.ufjf.br/facom/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/jornalismo/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/jornalismo/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-52"
+      },
+      {
+        "nome": "Jornalismo",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACOM",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "36356",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 18,
+        "vagasSisu2026": 17,
+        "site": "https://www.ufjf.br/facom/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/jornalismo/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/jornalismo/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-53"
+      },
+      {
+        "nome": "Letras – Tradução",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FALE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 23,
+        "vagasSisu2026": 22,
+        "site": "https://www2.ufjf.br/fale/graduacao/bacharelado-em-traducao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/letras/",
+        "areaBasicaIngresso": "ABI - Letras",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/letras/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "habilitacoes": [
+          "Inglês",
+          "Línguas Clássicas",
+          "Francês",
+          "Espanhol"
+        ],
+        "obs": "Vagas PISM/Sisu são da ABI Letras integral (compartilhadas com as licenciaturas integrais).",
+        "modalidade": "presencial",
+        "id": "jf-54"
+      },
+      {
+        "nome": "Letras",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "FALE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 23,
+        "vagasSisu2026": 22,
+        "site": "https://www2.ufjf.br/fale/graduacao/licenciatura-em-letras-integral/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/letras-licenciaturas/",
+        "areaBasicaIngresso": "ABI - Letras",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/letras-licenciaturas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "habilitacoes": [
+          "Inglês e respectivas literaturas",
+          "Português – Espanhol",
+          "Português – Francês",
+          "Português – Italiano",
+          "Português – Línguas Clássicas"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-55"
+      },
+      {
+        "nome": "Letras – Português e respectivas literaturas",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "FALE",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 23,
+        "vagasSisu2026": 22,
+        "site": "https://www2.ufjf.br/fale/graduacao/licenciatura-em-letras-noturno/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/letras-licenciaturas/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/letras-licenciaturas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Sisu 2026 lista sob 'ABI - LETRAS' (código 5000617) turno noturno; PISM 2027 lista como 'LETRAS - LICENCIATURA (noturno)'. Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-56"
+      },
+      {
+        "nome": "Letras – Libras",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "FALE",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1268983",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 17,
+        "vagasSisu2026": 15,
+        "site": "https://www.ufjf.br/letraslibras/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/letras-libras/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/letras-libras/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "PISM: 15+2 vagas (2 do grupo F). Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-57"
+      },
+      {
+        "nome": "Matemática",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 13,
+        "vagasSisu2026": 12,
+        "site": "https://www.ufjf.br/mat/graduacao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/matematica/",
+        "areaBasicaIngresso": "ABI - Matemática",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/matematica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+25 vagas (integral) via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-58"
+      },
+      {
+        "nome": "Matemática",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 13,
+        "vagasSisu2026": 12,
+        "site": "https://www.ufjf.br/mat/graduacao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/matematica/",
+        "areaBasicaIngresso": "ABI - Matemática",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/matematica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+25 vagas (integral) via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-59"
+      },
+      {
+        "nome": "Matemática",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1166038",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 15,
+        "site": "https://www.ufjf.br/mat/graduacao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/matematica/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/matematica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-60"
+      },
+      {
+        "nome": "Medicina",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAMED",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13103",
+        "duracaoPeriodos": 12,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 90,
+        "vagasSisu2026": 90,
+        "site": "https://www.ufjf.br/medicina/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/medicina/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/medicina/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-61"
+      },
+      {
+        "nome": "Medicina Veterinária",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FAMED",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1268972",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www.ufjf.br/veterinaria/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/medicina-veterinaria/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/medicina-veterinaria/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Vinculado à Faculdade de Medicina, segundo a página da graduação.",
+        "modalidade": "presencial",
+        "id": "jf-62"
+      },
+      {
+        "nome": "Moda",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "IAD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1153950",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/moda",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/moda/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/moda/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-63"
+      },
+      {
+        "nome": "Música",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "IAD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "116490",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "Vestibular de Música (nota do Enem + Prova de Habilidades Específicas)",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": null,
+        "site": "https://www.ufjf.br/musica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/musica/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/musica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "habilitacoes": [
+          "Canto",
+          "Flauta Transversal",
+          "Piano",
+          "Violão",
+          "Violino",
+          "Violoncelo",
+          "Composição"
+        ],
+        "obs": "Não participa do Sisu. Exige prova de habilidades específicas. duracaoPeriodos derivado de 'quatro anos e meio' (página da graduação).",
+        "modalidade": "presencial",
+        "id": "jf-64"
+      },
+      {
+        "nome": "Música",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "IAD",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1278855",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "Vestibular de Música (nota do Enem + Prova de Habilidades Específicas)",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": null,
+        "site": "https://www.ufjf.br/musica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/musica/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/musica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "habilitacoes": [
+          "Educação Musical Escolar"
+        ],
+        "obs": "Não participa do Sisu. duracaoPeriodos derivado de 'quatro anos e meio'.",
+        "modalidade": "presencial",
+        "id": "jf-65"
+      },
+      {
+        "nome": "Nutrição",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICB",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "116498",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www.ufjf.br/gradnutricao/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/nutricao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/nutricao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-66"
+      },
+      {
+        "nome": "Odontologia",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FO",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13104",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www.ufjf.br/gradodonto/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/odontologia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/odontologia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-67"
+      },
+      {
+        "nome": "Pedagogia",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "FACED",
+        "turno": "matutino",
+        "codigoSiga": null,
+        "codigoEmec": "13105",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/pedagogia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/pedagogia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/pedagogia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-68"
+      },
+      {
+        "nome": "Pedagogia",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "FACED",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "13105",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/pedagogia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/pedagogia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/pedagogia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-69"
+      },
+      {
+        "nome": "Psicologia",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "13113",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/psicologia/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/psicologia/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/psicologia/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-70"
+      },
+      {
+        "nome": "Química",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/quimica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/quimica/",
+        "areaBasicaIngresso": "ABI - Química",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/quimica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+50 vagas (integral) via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-71"
+      },
+      {
+        "nome": "Química",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": null,
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas",
+          "Após conclusão do BI em Ciências Exatas (2º ciclo)"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www.ufjf.br/quimica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/quimica/",
+        "areaBasicaIngresso": "ABI - Química",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/quimica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "+50 vagas (integral) via BI em Ciências Exatas.",
+        "modalidade": "presencial",
+        "id": "jf-72"
+      },
+      {
+        "nome": "Química",
+        "grau": "licenciatura",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1166039",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 15,
+        "site": "https://www.ufjf.br/quimica/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/quimica/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/quimica/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-73"
+      },
+      {
+        "nome": "Rádio, TV e Internet",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FACOM",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1374873",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 15,
+        "site": "https://www.ufjf.br/facom/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/radio-tv-e-internet/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/radio-tv-e-internet/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-74"
+      },
+      {
+        "nome": "Serviço Social",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FSS",
+        "turno": "matutino",
+        "codigoSiga": null,
+        "codigoEmec": "13107",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 18,
+        "vagasSisu2026": 17,
+        "site": "https://www.ufjf.br/facssocial/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/servico-social/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/servico-social/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-75"
+      },
+      {
+        "nome": "Serviço Social",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "FSS",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "13107",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 18,
+        "vagasSisu2026": 17,
+        "site": "https://www.ufjf.br/facssocial/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/servico-social/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/servico-social/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-76"
+      },
+      {
+        "nome": "Sistemas de Informação",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICE",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "1128364",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 20,
+        "vagasSisu2026": 20,
+        "site": "https://www.ufjf.br/si/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/sistemas-de-informacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/sistemas-de-informacao/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-77"
+      },
+      {
+        "nome": "Turismo",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "21589",
+        "duracaoPeriodos": 7,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 34,
+        "vagasSisu2026": 33,
+        "site": "https://www.ufjf.br/turismo/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/turismo/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/turismo/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "jf-78"
+      },
+      {
+        "nome": "Turismo",
+        "grau": "bacharelado",
+        "campus": "Juiz de Fora",
+        "unidade": "ICH",
+        "turno": "noturno",
+        "codigoSiga": null,
+        "codigoEmec": "21589",
+        "duracaoPeriodos": 7,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 34,
+        "vagasSisu2026": 34,
+        "site": "https://www.ufjf.br/turismo/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/turismo/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/turismo/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "obs": "Ingresso no 2º semestre.",
+        "modalidade": "presencial",
+        "id": "jf-79"
+      },
+      {
+        "nome": "Administração",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICSA",
+        "turno": "integral (vespertino/noturno)",
+        "codigoSiga": null,
+        "codigoEmec": "1178684",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www2.ufjf.br/administracaogv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icsagv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-80"
+      },
+      {
+        "nome": "Ciências Contábeis",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICSA",
+        "turno": "integral (vespertino/noturno)",
+        "codigoSiga": null,
+        "codigoEmec": "1183351",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 25,
+        "vagasSisu2026": 25,
+        "site": "https://www2.ufjf.br/contabeisgv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icsagv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-81"
+      },
+      {
+        "nome": "Ciências Econômicas",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICSA",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1178683",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www2.ufjf.br/ecogv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icsagv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-82"
+      },
+      {
+        "nome": "Direito",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICSA",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1178675",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www2.ufjf.br/direitogv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icsagv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-83"
+      },
+      {
+        "nome": "Educação Física",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICV",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1270439",
+        "duracaoPeriodos": 8,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 40,
+        "vagasSisu2026": 40,
+        "site": "https://www2.ufjf.br/educacaofisicagv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icvgv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-84"
+      },
+      {
+        "nome": "Farmácia",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICV",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1185503",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 40,
+        "vagasSisu2026": 40,
+        "site": "https://www2.ufjf.br/farmaciagv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icvgv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-85"
+      },
+      {
+        "nome": "Fisioterapia",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICV",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1178689",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 15,
+        "vagasSisu2026": 15,
+        "site": "https://www2.ufjf.br/fisioterapiagv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icvgv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-86"
+      },
+      {
+        "nome": "Medicina",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICV",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "5001167",
+        "duracaoPeriodos": 12,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 50,
+        "vagasSisu2026": 50,
+        "site": "https://www2.ufjf.br/medicinagv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icvgv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-87"
+      },
+      {
+        "nome": "Nutrição",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICV",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "1178688",
+        "duracaoPeriodos": 9,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 40,
+        "vagasSisu2026": 40,
+        "site": "https://www2.ufjf.br/nutricaogv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icvgv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-88"
+      },
+      {
+        "nome": "Odontologia",
+        "grau": "bacharelado",
+        "campus": "Governador Valadares",
+        "unidade": "ICV",
+        "turno": "integral",
+        "codigoSiga": null,
+        "codigoEmec": "5001168",
+        "duracaoPeriodos": 10,
+        "formaIngresso": [
+          "PISM",
+          "SISU",
+          "Vagas Ociosas"
+        ],
+        "vagasPism2027": 40,
+        "vagasSisu2026": 40,
+        "site": "https://www2.ufjf.br/odontologiagv/",
+        "paginaUfjf": "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+        "areaBasicaIngresso": null,
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/",
+          "https://www2.ufjf.br/icvgv/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ],
+        "modalidade": "presencial",
+        "id": "gv-89"
+      }
+    ],
+    "unidades": [
+      {
+        "sigla": "IAD",
+        "nome": "Instituto de Artes e Design",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/iad/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "ICB",
+        "nome": "Instituto de Ciências Biológicas",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/icb/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "ICE",
+        "nome": "Instituto de Ciências Exatas",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/ice/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "ICH",
+        "nome": "Instituto de Ciências Humanas",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/ich/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FACC",
+        "nome": "Faculdade de Administração e Ciências Contábeis",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/facc/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FAU",
+        "nome": "Faculdade de Arquitetura e Urbanismo",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/arquitetura/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FACOM",
+        "nome": "Faculdade de Comunicação",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/facom/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FD",
+        "nome": "Faculdade de Direito",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/direito/",
+        "siglaConfirmada": false,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FE-Economia",
+        "nome": "Faculdade de Economia",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/economia/",
+        "siglaConfirmada": false,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FACED",
+        "nome": "Faculdade de Educação",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/faced/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FAEFID",
+        "nome": "Faculdade de Educação Física e Desportos",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/faefid/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FACENF",
+        "nome": "Faculdade de Enfermagem",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/enfermagem/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FAENG",
+        "nome": "Faculdade de Engenharia",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/engenharia/",
+        "siglaConfirmada": false,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FF",
+        "nome": "Faculdade de Farmácia",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/farmacia/",
+        "siglaConfirmada": false,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FACFISIO",
+        "nome": "Faculdade de Fisioterapia",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/facfisio/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FALE",
+        "nome": "Faculdade de Letras",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/fale/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FAMED",
+        "nome": "Faculdade de Medicina",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/medicina/",
+        "siglaConfirmada": false,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FO",
+        "nome": "Faculdade de Odontologia",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/odontologia/",
+        "siglaConfirmada": false,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "FSS",
+        "nome": "Faculdade de Serviço Social",
+        "campus": "Juiz de Fora",
+        "site": "https://www2.ufjf.br/facssocial/",
+        "siglaConfirmada": false,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "ICSA",
+        "nome": "Instituto de Ciências Sociais Aplicadas",
+        "campus": "Governador Valadares",
+        "site": "https://www2.ufjf.br/icsagv/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      },
+      {
+        "sigla": "ICV",
+        "nome": "Instituto de Ciências da Vida",
+        "campus": "Governador Valadares",
+        "site": "https://www2.ufjf.br/icvgv/",
+        "siglaConfirmada": true,
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/organizacao/unidadesacademicas/"
+      }
+    ],
+    "areasBasicasIngresso": [
+      {
+        "nome": "ABI - Ciências Biológicas",
+        "codigoEmec": "5000608",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral"
+        ],
+        "integralizacaoPeriodos": 8,
+        "cursos": [
+          "Ciências Biológicas – Bacharelado",
+          "Ciências Biológicas – Licenciatura"
+        ],
+        "vagasSisu2026": 30,
+        "vagasPism2027": 30,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ]
+      },
+      {
+        "nome": "ABI - Educação Física",
+        "codigoEmec": "5000610",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral"
+        ],
+        "integralizacaoPeriodos": 8,
+        "cursos": [
+          "Educação Física – Bacharelado",
+          "Educação Física – Licenciatura"
+        ],
+        "vagasSisu2026": 45,
+        "vagasPism2027": 45,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ]
+      },
+      {
+        "nome": "ABI - Filosofia",
+        "codigoEmec": "5000611",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral"
+        ],
+        "integralizacaoPeriodos": 8,
+        "cursos": [
+          "Filosofia – Bacharelado",
+          "Filosofia – Licenciatura"
+        ],
+        "vagasSisu2026": 35,
+        "vagasPism2027": 35,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ]
+      },
+      {
+        "nome": "ABI - Física",
+        "codigoEmec": "5000613",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral"
+        ],
+        "integralizacaoPeriodos": 8,
+        "cursos": [
+          "Física – Bacharelado",
+          "Física – Licenciatura"
+        ],
+        "vagasSisu2026": 12,
+        "vagasPism2027": 13,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ]
+      },
+      {
+        "nome": "ABI - Geografia",
+        "codigoEmec": "5000615",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral"
+        ],
+        "integralizacaoPeriodos": 10,
+        "cursos": [
+          "Geografia – Bacharelado",
+          "Geografia – Licenciatura"
+        ],
+        "vagasSisu2026": 25,
+        "vagasPism2027": 25,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ],
+        "obs": "A oferta noturna de Geografia não é ABI (somente licenciatura), conforme errata no termo Sisu 2026."
+      },
+      {
+        "nome": "ABI - História",
+        "codigoEmec": "5000616",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral",
+          "noturno"
+        ],
+        "integralizacaoPeriodos": 9,
+        "cursos": [
+          "História – Bacharelado",
+          "História – Licenciatura"
+        ],
+        "vagasSisu2026": 50,
+        "vagasPism2027": 50,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ],
+        "obs": "25 vagas integral (1º sem.) + 25 noturno (2º sem.)."
+      },
+      {
+        "nome": "ABI - Letras",
+        "codigoEmec": "5000617",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral",
+          "noturno"
+        ],
+        "integralizacaoPeriodos": 10,
+        "cursos": [
+          "Letras – Bacharelado em Tradução (Inglês, Línguas Clássicas, Francês, Espanhol)",
+          "Letras – Licenciaturas (Inglês; Português–Espanhol; Português–Francês; Português–Italiano; Português–Línguas Clássicas; Português – noturno)"
+        ],
+        "vagasSisu2026": 44,
+        "vagasPism2027": 46,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ],
+        "obs": "Sisu 2026: 22 vagas integral + 22 noturno sob o código da ABI; PISM 2027 separa 'LETRAS - BACHARELADO/LICENCIATURA (integral)' (23) e 'LETRAS - LICENCIATURA (noturno)' (23)."
+      },
+      {
+        "nome": "ABI - Matemática",
+        "codigoEmec": "5000618",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral"
+        ],
+        "integralizacaoPeriodos": 8,
+        "cursos": [
+          "Matemática – Bacharelado",
+          "Matemática – Licenciatura"
+        ],
+        "vagasSisu2026": 12,
+        "vagasPism2027": 13,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ]
+      },
+      {
+        "nome": "ABI - Química",
+        "codigoEmec": "5000619",
+        "campus": "Juiz de Fora",
+        "turnos": [
+          "integral"
+        ],
+        "integralizacaoPeriodos": 8,
+        "cursos": [
+          "Química – Bacharelado",
+          "Química – Licenciatura"
+        ],
+        "vagasSisu2026": 25,
+        "vagasPism2027": 25,
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf"
+        ]
+      }
+    ],
+    "bachareladosInterdisciplinares": [
+      {
+        "nome": "Bacharelado Interdisciplinar em Ciências Exatas (1º ciclo)",
+        "codigoEmec": "116502",
+        "campus": "Juiz de Fora",
+        "tipo": "Bacharelado Interdisciplinar (não é ABI formal; ciclo básico com seleção interna para 2º ciclo)",
+        "cursosSegundoCiclo": {
+          "Ciência da Computação (integral)": 20,
+          "Estatística (integral)": 10,
+          "Física (integral)": 30,
+          "Matemática (integral)": 25,
+          "Química (integral)": 50,
+          "Engenharia Computacional (integral)": 20,
+          "Engenharia Elétrica – Energia (noturno)": 12,
+          "Engenharia Elétrica – Robótica e Automação Industrial (integral)": 12,
+          "Engenharia Elétrica – Sistemas de Potência (integral)": 12,
+          "Engenharia Elétrica – Sistemas Eletrônicos (integral)": 12,
+          "Engenharia Elétrica – Telecomunicações (integral)": 12,
+          "Engenharia Mecânica (integral)": 20
+        },
+        "fonte": [
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-exatas/"
+        ]
+      },
+      {
+        "nome": "Bacharelado Interdisciplinar em Ciências Humanas",
+        "codigoEmec": "1120242",
+        "campus": "Juiz de Fora",
+        "tipo": "Bacharelado Interdisciplinar (em transição)",
+        "cursosSegundoCicloHistorico": [
+          "Ciência da Religião",
+          "Ciências Sociais",
+          "Filosofia",
+          "Turismo"
+        ],
+        "obs": "Página da graduação (desatualizada) descreve o BI como porta de entrada para Ciência da Religião, Ciências Sociais, Turismo e Filosofia. No PISM 2027 a vaga foi substituída pelo Bacharelado em Humanidades – Cultura e Estudos Globais, e Ciências Sociais, Turismo e Ciência da Religião (lic.) passaram a ter entrada direta.",
+        "fonte": [
+          "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-humanas/",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/09/10_Edital_10_2026_PISM_2027_retificado-por-12-15-2026-2.pdf",
+          "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2025/12/2025_11_26_termo_adesao_Sisu_UFJF.pdf"
+        ]
+      }
+    ],
+    "areasConhecimentoPism2027": [
+      {
+        "area": "Economia e Administração",
+        "cursos": [
+          "Administração",
+          "Ciências Contábeis",
+          "Ciências Econômicas"
+        ]
+      },
+      {
+        "area": "Exatas",
+        "cursos": [
+          "Ciência da Computação",
+          "Ciências Exatas",
+          "Engenharia Civil",
+          "Engenharia Computacional",
+          "Engenharia de Produção",
+          "Engenharia Elétrica",
+          "Engenharia Mecânica",
+          "Engenharia Ambiental e Sanitária",
+          "Estatística",
+          "Física",
+          "Matemática",
+          "Química",
+          "Sistemas de Informação"
+        ]
+      },
+      {
+        "area": "Humanas e Sociais Aplicadas",
+        "cursos": [
+          "Arquitetura e Urbanismo",
+          "Artes Visuais",
+          "Humanidades - Cultura e Estudos Globais",
+          "Ciência da Religião",
+          "Ciências Sociais",
+          "Cinema e Audiovisual",
+          "Design",
+          "Direito",
+          "Filosofia",
+          "Geografia",
+          "História",
+          "Jornalismo",
+          "Letras",
+          "Letras-Libras",
+          "Moda",
+          "Música",
+          "Pedagogia",
+          "Psicologia",
+          "Rádio, TV e Internet",
+          "Serviço Social",
+          "Turismo"
+        ]
+      },
+      {
+        "area": "Saúde",
+        "cursos": [
+          "Ciências Biológicas",
+          "Educação Física",
+          "Enfermagem",
+          "Farmácia",
+          "Fisioterapia",
+          "Medicina",
+          "Medicina Veterinária",
+          "Nutrição",
+          "Odontologia"
+        ]
+      }
+    ],
+    "cursosEadExcluidos": [
+      "Administração Pública (EaD, e-MEC 1105396)",
+      "Licenciatura em Computação (semipresencial, 1703606)",
+      "Licenciatura em Educação Física (semipresencial, 1703604)",
+      "Licenciatura em Física (semipresencial, 1703608)",
+      "Licenciatura em Matemática (semipresencial, 1703605)",
+      "Pedagogia (semipresencial, 1703607)",
+      "Licenciatura em Química (semipresencial, 1703609)"
+    ]
+  },
+  "lacunas": [
+    "codigoSiga (código interno do curso no SIGA) não encontrado em fontes públicas; foi usado codigoEmec.",
+    "Códigos e-MEC individuais dos graus (bacharelado/licenciatura) dos cursos com ingresso por ABI não aparecem no termo Sisu (só o código da ABI).",
+    "Siglas não confirmadas em página oficial: FD (Direito), FE-Economia, FAENG (Engenharia), FF (Farmácia), FAMED (Medicina), FO (Odontologia), FSS (Serviço Social) — marcadas siglaConfirmada=false.",
+    "Bacharelado em Humanidades – Cultura e Estudos Globais: unidade, duração e site não confirmados (curso novo no PISM 2027).",
+    "Integralização de Ciências Sociais – Bacharelado vespertino (5) no termo Sisu parece inconsistente.",
+    "Divergência de unidade de Ciências Econômicas (FACC na página da graduação vs Faculdade de Economia na lista de unidades).",
+    "Páginas individuais em ufjf.br/ufjf/ensino/graduacao estão parcialmente desatualizadas (ex.: Ciências Humanas/Turismo/Ciências Sociais via BI); priorizados PISM 2027 e Sisu 2026.",
+    "Rádio, TV e Internet e Artes Visuais (lic.) sem site próprio de coordenação identificado."
+  ],
+  "confianca": "alta para lista de cursos, turnos, vagas, códigos e-MEC e integralização (editais oficiais PISM 2027 e Sisu 2026); media para siglas de algumas unidades e para o novo curso de Humanidades."
+}

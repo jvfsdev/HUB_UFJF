@@ -1,0 +1,3617 @@
+{
+  "agente": "docentes",
+  "geradoEm": "2026-11-24",
+  "acessadoEm": "2026-11-24",
+  "fontes": [
+    "http://www.gcg.ufjf.br",
+    "https://www2.ufjf.br/circuitos/contato/",
+    "https://www2.ufjf.br/circuitos/docentes/",
+    "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+    "https://www2.ufjf.br/deptocomputacao/apresentacao/",
+    "https://www2.ufjf.br/deptocomputacao/institucional/administrativo/",
+    "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+    "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+    "https://www2.ufjf.br/energia/contato/",
+    "https://www2.ufjf.br/energia/docentes/",
+    "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+    "https://www2.ufjf.br/estatistica/contato/",
+    "https://www2.ufjf.br/estatistica/cursos/docentes/",
+    "https://www2.ufjf.br/fisica/contato/",
+    "https://www2.ufjf.br/fisica/institucional/docentes/",
+    "https://www2.ufjf.br/fisica/institucional/linhas-de-pesquisa/fisica-da-materia-condensada/",
+    "https://www2.ufjf.br/fisica/institucional/linhas-de-pesquisa/teoria-quantica-de-campos/",
+    "https://www2.ufjf.br/fisiocomp/team/",
+    "https://www2.ufjf.br/mac/contato/",
+    "https://www2.ufjf.br/mac/docentes/",
+    "https://www2.ufjf.br/mat/institucional/administrativo/",
+    "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+    "https://www2.ufjf.br/mat/institucional/linhas-de-pesquisa/",
+    "https://www2.ufjf.br/pgcc/linhas-de-pesquisa/",
+    "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+    "https://www2.ufjf.br/pgmc/inicial/linhas-de-pesquisa/",
+    "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/",
+    "https://www2.ufjf.br/quimica/contato/",
+    "https://www2.ufjf.br/quimica/institucional/docentes/",
+    "https://www2.ufjf.br/si/curso/docentes/"
+  ],
+  "dados": {
+    "notas": [
+      "Lista do DCC = página oficial de corpo docente (SIGA), completa: 49 efetivos + 1 temporário.",
+      "Outros departamentos: incluídos apenas docentes que lecionam para CC integral (65C), SI (76A) ou Engenharia Computacional (65B) em 3/2026 segundo as páginas oficiais de corpo docente dos cursos, mais membros do PPG em Modelagem Computacional; todos os docentes do MAC (10) incluídos por serem co-responsáveis pela Eng. Computacional.",
+      "disciplinasLecionadas: códigos SIGA das turmas do período 3/2026 (2º semestre letivo de 2026) extraídos do Plano Departamental do DCC (consulta de turma) e das páginas de corpo docente dos cursos (disciplinas por docente). Inclui códigos de pós-graduação (ex.: 2035xxx, 219xxx) e EAD (EADDCCxxx). Para docentes de fora do DCC, só aparecem disciplinas ofertadas aos cursos 65C/76A/65B.",
+      "areasAtuacao: termos (traduzidos do inglês no caso do GCG e FISIOCOMP, cujas páginas são em inglês) de páginas oficiais de laboratórios/grupos/programas (GCG, FISIOCOMP, PGMC, linhas de pesquisa da Física). Lista vazia = nenhuma página oficial com área individual encontrada.",
+      "nome: forma capitalizada do nome oficial (nomeOficial, como no SIGA, sem acentos). Acentos não foram adicionados para não inventar grafia.",
+      "Sem e-mails, telefones, SIAPE, Lattes ou fotos individuais."
+    ],
+    "departamentos": [
+      {
+        "sigla": "DCC",
+        "nome": "Departamento de Ciência da Computação",
+        "unidade": "Instituto de Ciências Exatas (ICE)",
+        "site": "https://www2.ufjf.br/deptocomputacao/",
+        "paginaDocentes": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "chefe": "Edmar Welington Oliveira",
+        "viceChefe": "Barbara De Melo Quintela",
+        "totalDocentesListados": 50,
+        "secretariaContatoInstitucional": {
+          "email": "secretaria.dcc@ufjf.br",
+          "emailChefia": "chefia.dcc@ufjf.br",
+          "telefone": "(32) 2102-3327 / (32) 2102-3311",
+          "atendimento": "Segunda a sexta, 09:00 às 21:00",
+          "endereco": "Rua José Lourenço Kelmer – São Pedro, Juiz de Fora – 36036-900"
+        },
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/administrativo/"
+      },
+      {
+        "sigla": "MAT",
+        "nome": "Departamento de Matemática",
+        "unidade": "Instituto de Ciências Exatas (ICE)",
+        "site": "https://www2.ufjf.br/mat/",
+        "paginaDocentes": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "chefe": "Reginaldo Braz Batista",
+        "viceChefe": "Sandro Rodrigues Mazorche",
+        "totalDocentesListados": 43,
+        "secretariaContatoInstitucional": {
+          "email": "depto.mat@ufjf.br",
+          "emailChefia": "chefia.dm@ufjf.br",
+          "telefone": "(32) 2102-3308"
+        },
+        "fonte": "https://www2.ufjf.br/mat/institucional/administrativo/"
+      },
+      {
+        "sigla": "EST",
+        "nome": "Departamento de Estatística",
+        "unidade": "Instituto de Ciências Exatas (ICE)",
+        "site": "https://www2.ufjf.br/estatistica/",
+        "paginaDocentes": "https://www2.ufjf.br/estatistica/cursos/docentes/",
+        "chefe": "Camila Borelli Zeller",
+        "viceChefe": "Lupercio Franca Bessegato",
+        "totalDocentesListados": 18,
+        "secretariaContatoInstitucional": {
+          "email": "secretaria.estatistica@ufjf.br",
+          "telefone": "(32) 2102-3306",
+          "endereco": "Prédio do DCC e DE – ICE"
+        },
+        "fonte": "https://www2.ufjf.br/estatistica/contato/"
+      },
+      {
+        "sigla": "FIS",
+        "nome": "Departamento de Física",
+        "unidade": "Instituto de Ciências Exatas (ICE)",
+        "site": "https://www2.ufjf.br/fisica/",
+        "paginaDocentes": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "chefe": "Virgilio De Carvalho Dos Anjos",
+        "viceChefe": "Wesley Augusto Dias Pires",
+        "totalDocentesListados": 41,
+        "secretariaContatoInstitucional": {
+          "email": null,
+          "telefone": "(32) 2102-3307"
+        },
+        "fonte": "https://www2.ufjf.br/fisica/contato/"
+      },
+      {
+        "sigla": "MAC",
+        "nome": "Departamento de Mecânica Aplicada e Computacional",
+        "unidade": "Faculdade de Engenharia (inferido: departamento da FE; não declarado na página coletada)",
+        "site": "https://www2.ufjf.br/mac/",
+        "paginaDocentes": "https://www2.ufjf.br/mac/docentes/",
+        "chefe": "Afonso Celso De Castro Lemonge",
+        "viceChefe": "Flavia De Souza Bastos",
+        "totalDocentesListados": 10,
+        "secretariaContatoInstitucional": {
+          "email": null,
+          "telefone": "(32) 2102-3401",
+          "endereco": "Rua José Lourenço Kelmer – São Pedro"
+        },
+        "fonte": "https://www2.ufjf.br/mac/contato/"
+      },
+      {
+        "sigla": "QUI",
+        "nome": "Departamento de Química",
+        "unidade": "Instituto de Ciências Exatas (ICE)",
+        "site": "https://www2.ufjf.br/quimica/",
+        "paginaDocentes": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "chefe": "Mara Rubia Costa Couri",
+        "viceChefe": "Bruno Henrique Vilsinski",
+        "totalDocentesListados": 42,
+        "secretariaContatoInstitucional": {
+          "email": null,
+          "telefone": "(32) 2102-3310",
+          "endereco": "Rua José Lourenço Kelmer – São Pedro"
+        },
+        "fonte": "https://www2.ufjf.br/quimica/contato/"
+      },
+      {
+        "sigla": "ENE",
+        "nome": "Departamento de Energia Elétrica",
+        "unidade": "Faculdade de Engenharia",
+        "site": "https://www2.ufjf.br/energia/",
+        "paginaDocentes": "https://www2.ufjf.br/energia/docentes/",
+        "chefe": "Abilio Manuel Variz",
+        "viceChefe": "Igor Delgado De Melo",
+        "totalDocentesListados": 35,
+        "secretariaContatoInstitucional": {
+          "email": null,
+          "telefone": "(32) 2102-3911",
+          "endereco": "Rua José Lourenço Kelmer – São Pedro"
+        },
+        "fonte": "https://www2.ufjf.br/energia/contato/"
+      },
+      {
+        "sigla": "CEL",
+        "nome": "Departamento de Circuitos Elétricos",
+        "unidade": "Faculdade de Engenharia",
+        "site": "https://www2.ufjf.br/circuitos/",
+        "paginaDocentes": "https://www2.ufjf.br/circuitos/docentes/",
+        "chefe": "Leandro Rodrigues Manso Silva",
+        "viceChefe": "Fernando Jose De Almeida Andrade",
+        "totalDocentesListados": 28,
+        "secretariaContatoInstitucional": {
+          "email": null,
+          "telefone": "(32) 2102-3962",
+          "endereco": "Rua José Lourenço Kelmer – São Pedro"
+        },
+        "fonte": "https://www2.ufjf.br/circuitos/contato/"
+      }
+    ],
+    "docentes": [
+      {
+        "nome": "Acir Moreno Soares Junior",
+        "nomeOficial": "ACIR MORENO SOARES JUNIOR",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "INDEFINIDO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "DC5199",
+          "DCC199"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Alessandreia Marta de Oliveira Julio",
+        "nomeOficial": "ALESSANDREIA MARTA DE OLIVEIRA JULIO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC110",
+          "EADDCC069",
+          "EADDCC569",
+          "EXT099"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Alex Borges Vieira",
+        "nomeOficial": "ALEX BORGES VIEIRA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional",
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035010",
+          "2035024",
+          "2035025",
+          "2035026",
+          "219037",
+          "DCC042"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Andre Luiz de Oliveira",
+        "nomeOficial": "ANDRE LUIZ DE OLIVEIRA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente colaborador do PPG em Modelagem Computacional",
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035008",
+          "2035024",
+          "DCC110",
+          "DCC168",
+          "DCC174",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Barbara de Melo Quintela",
+        "nomeOficial": "BARBARA DE MELO QUINTELA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Vice-chefe do departamento",
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Fisiologia Computacional",
+          "Computação de Alto Desempenho",
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Professor do FISIOCOMP – Computational Physiology and High-Performance Computing Laboratory",
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035034",
+          "DC5199",
+          "DCC012",
+          "DCC110",
+          "MAC033"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/fisiocomp/team/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Bernardo Martins Rocha",
+        "nomeOficial": "BERNARDO MARTINS ROCHA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [
+          "Fisiologia Computacional",
+          "Computação de Alto Desempenho",
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Professor do FISIOCOMP – Computational Physiology and High-Performance Computing Laboratory",
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [
+          "219008",
+          "DCC008"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/fisiocomp/team/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Carlos Cristiano Hasenclever Borges",
+        "nomeOficial": "CARLOS CRISTIANO HASENCLEVER BORGES",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional",
+          "Docente colaborador do PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035019",
+          "219023",
+          "DCC069"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Ciro de Barros Barbosa",
+        "nomeOficial": "CIRO DE BARROS BARBOSA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "219002",
+          "DCC063",
+          "DCC110",
+          "DCC199",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Edelberto Franco Silva",
+        "nomeOficial": "EDELBERTO FRANCO SILVA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035016",
+          "2035024",
+          "DCC075",
+          "DCC110",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Edmar Welington Oliveira",
+        "nomeOficial": "EDMAR WELINGTON OLIVEIRA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Chefe do departamento",
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2054001",
+          "2054021",
+          "EADDCC042",
+          "EADDCC044",
+          "EADDCC052"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Eduardo Barrere",
+        "nomeOficial": "EDUARDO BARRERE",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2054008",
+          "DC5199",
+          "DCC204",
+          "EADDCC070",
+          "EADDCC082",
+          "EADDCC570",
+          "EADDCC582"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Eduardo Pagani Julio",
+        "nomeOficial": "EDUARDO PAGANI JULIO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Coorientador do DCC no PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC064",
+          "DCC091",
+          "DCC110"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Elton Maximo Cardoso",
+        "nomeOficial": "ELTON MAXIMO CARDOSO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC001",
+          "DCC019",
+          "DCC055"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Fabricio Martins Mendonca",
+        "nomeOficial": "FABRICIO MARTINS MENDONCA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC061",
+          "DCC110",
+          "DCC117",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Gleiph Ghiotto Lima de Menezes",
+        "nomeOficial": "GLEIPH GHIOTTO LIMA DE MENEZES",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC025",
+          "DCC094",
+          "DCC110",
+          "DCC204",
+          "DCC205"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Heder Soares Bernardino",
+        "nomeOficial": "HEDER SOARES BERNARDINO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional",
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035024",
+          "DC5200",
+          "DCC008",
+          "DCC110",
+          "DCC204",
+          "MAC033"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Igor de Oliveira Knop",
+        "nomeOficial": "IGOR DE OLIVEIRA KNOP",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC202",
+          "DCC204",
+          "DCC207",
+          "EADDCC068",
+          "MAC038"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Itamar Leite de Oliveira",
+        "nomeOficial": "ITAMAR LEITE DE OLIVEIRA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Coorientador do DCC no PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DC5200",
+          "DCC200"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Iury Higor Aguiar da Igreja",
+        "nomeOficial": "IURY HIGOR AGUIAR DA IGREJA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC008",
+          "DCC089"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Jairo Francisco de Souza",
+        "nomeOficial": "JAIRO FRANCISCO DE SOUZA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente colaborador do PPG em Modelagem Computacional",
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035024",
+          "2035041",
+          "2054004",
+          "219037",
+          "DCC077",
+          "DCC110",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Jose Jeronimo Camata",
+        "nomeOficial": "JOSE JERONIMO CAMATA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "3012001",
+          "DCC013",
+          "DCC089"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Jose Maria Nazar David",
+        "nomeOficial": "JOSE MARIA NAZAR DAVID",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [
+          "2035024",
+          "2035042",
+          "2054021",
+          "EADDCC081"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Joventino de Oliveira Campos",
+        "nomeOficial": "JOVENTINO DE OLIVEIRA CAMPOS",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Fisiologia Computacional",
+          "Computação de Alto Desempenho",
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Professor do FISIOCOMP – Computational Physiology and High-Performance Computing Laboratory",
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "219008",
+          "DC5199",
+          "DCC008",
+          "MAC021",
+          "MAC038"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/fisiocomp/team/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Liamara Scortegagna",
+        "nomeOficial": "LIAMARA SCORTEGAGNA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [
+          "EXT106",
+          "EXT107"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/"
+        ]
+      },
+      {
+        "nome": "Lorenza Leao Oliveira Moreno",
+        "nomeOficial": "LORENZA LEAO OLIVEIRA MORENO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC059",
+          "DCC110",
+          "DCC163"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Luciana Brugiolo Goncalves",
+        "nomeOficial": "LUCIANA BRUGIOLO GONCALVES",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Coorientador do DCC no PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035034",
+          "DCC136",
+          "DCC199",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Luciana Conceicao Dias Campos",
+        "nomeOficial": "LUCIANA CONCEICAO DIAS CAMPOS",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC014",
+          "DCC110",
+          "DCC160",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Luciano Jerez Chaves",
+        "nomeOficial": "LUCIANO JEREZ CHAVES",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2054014",
+          "DC5200",
+          "DCC110",
+          "DCC122",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Luiz Felipe Carvalho Mendes",
+        "nomeOficial": "LUIZ FELIPE CARVALHO MENDES",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [],
+        "disciplinasPeriodo": null,
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/"
+        ]
+      },
+      {
+        "nome": "Luiz Maurilio da Silva Maciel",
+        "nomeOficial": "LUIZ MAURILIO DA SILVA MACIEL",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Computação Gráfica",
+          "Processamento de Imagens",
+          "Visão Computacional",
+          "Realidade Virtual e Aumentada"
+        ],
+        "vinculosPesquisa": [
+          "Pesquisador do GCG – Grupo de Computação Gráfica, Imagem e Visão",
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035024",
+          "2035039",
+          "DCC110",
+          "DCC175",
+          "DCC197",
+          "DCC204",
+          "DCC205"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "http://www.gcg.ufjf.br",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Marcelo Bernardes Vieira",
+        "nomeOficial": "MARCELO BERNARDES VIEIRA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Computação Gráfica",
+          "Processamento de Imagens",
+          "Visão Computacional",
+          "Realidade Virtual e Aumentada"
+        ],
+        "vinculosPesquisa": [
+          "Coordenador do GCG – Grupo de Computação Gráfica, Imagem e Visão",
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035024",
+          "2035033",
+          "DCC045"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "http://www.gcg.ufjf.br",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Marcelo Caniato Renhe",
+        "nomeOficial": "MARCELO CANIATO RENHE",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Computação Gráfica",
+          "Processamento de Imagens",
+          "Visão Computacional",
+          "Realidade Virtual e Aumentada"
+        ],
+        "vinculosPesquisa": [
+          "Pesquisador do GCG – Grupo de Computação Gráfica, Imagem e Visão"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC148",
+          "DCC200",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "http://www.gcg.ufjf.br"
+        ]
+      },
+      {
+        "nome": "Marcelo de Oliveira Costa Machado",
+        "nomeOficial": "MARCELO DE OLIVEIRA COSTA MACHADO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC025",
+          "DCC204",
+          "EADDCC078",
+          "EADDCC578"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Marcelo Ferreira Moreno",
+        "nomeOficial": "MARCELO FERREIRA MORENO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035024",
+          "2035029",
+          "DCC062",
+          "DCC101",
+          "DCC110",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Marcelo Lobosco",
+        "nomeOficial": "MARCELO LOBOSCO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Fisiologia Computacional",
+          "Computação de Alto Desempenho",
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Professor do FISIOCOMP – Computational Physiology and High-Performance Computing Laboratory",
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "219002",
+          "DCC070",
+          "DCC204",
+          "MAC021",
+          "MAC039"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/fisiocomp/team/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Marco Antonio Pereira Araujo",
+        "nomeOficial": "MARCO ANTONIO PEREIRA ARAUJO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Coorientador do DCC no PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035038",
+          "DCC078",
+          "DCC110"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Marcos de Mendonca Passini",
+        "nomeOficial": "MARCOS DE MENDONCA PASSINI",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [],
+        "disciplinasPeriodo": null,
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/"
+        ]
+      },
+      {
+        "nome": "Pedro Henrique Gasparetto Lugao",
+        "nomeOficial": "PEDRO HENRIQUE GASPARETTO LUGAO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "DC5199",
+          "DCC199"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Priscila Vanessa Zabala Capriles Goliatt",
+        "nomeOficial": "PRISCILA VANESSA ZABALA CAPRILES GOLIATT",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "219003",
+          "219047",
+          "DC5199",
+          "DCC110",
+          "DCC203",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Raul Fonseca Neto",
+        "nomeOficial": "RAUL FONSECA NETO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente honorário do PPG em Modelagem Computacional",
+          "Docente colaborador do PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035021",
+          "2035024",
+          "219023",
+          "DCC068"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Regina Maria Maciel Braga Villela",
+        "nomeOficial": "REGINA MARIA MACIEL BRAGA VILLELA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [
+          "2035017",
+          "2035024",
+          "EADDCC072"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Rodrigo Luis de Souza da Silva",
+        "nomeOficial": "RODRIGO LUIS DE SOUZA DA SILVA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Computação Gráfica",
+          "Processamento de Imagens",
+          "Visão Computacional",
+          "Realidade Virtual e Aumentada"
+        ],
+        "vinculosPesquisa": [
+          "Pesquisador do GCG – Grupo de Computação Gráfica, Imagem e Visão",
+          "Coorientador do DCC no PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DCC065",
+          "DCC110",
+          "DCC199",
+          "DCC204",
+          "EADDCC043"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "http://www.gcg.ufjf.br",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Rodrigo Weber dos Santos",
+        "nomeOficial": "RODRIGO WEBER DOS SANTOS",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Fisiologia Computacional",
+          "Computação de Alto Desempenho",
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Professor do FISIOCOMP – Computational Physiology and High-Performance Computing Laboratory",
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "219008",
+          "DCC101",
+          "DCC198",
+          "MAC035"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/fisiocomp/team/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Ronney Moreira de Castro",
+        "nomeOficial": "RONNEY MOREIRA DE CASTRO",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2054003",
+          "2054007",
+          "DC5212",
+          "DCC194",
+          "DCC203",
+          "DCC204",
+          "DCC205",
+          "DCC212",
+          "EXT106",
+          "EXT107",
+          "MAC033"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Ruy Freitas Reis",
+        "nomeOficial": "RUY FREITAS REIS",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Fisiologia Computacional",
+          "Computação de Alto Desempenho",
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Professor do FISIOCOMP – Computational Physiology and High-Performance Computing Laboratory",
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "219002",
+          "DCC008",
+          "DCC190",
+          "MAC011",
+          "MAC018"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/fisiocomp/team/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Saulo Moraes Villela",
+        "nomeOficial": "SAULO MORAES VILLELA",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente colaborador do PPG em Modelagem Computacional",
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "2035021",
+          "2035024",
+          "219023",
+          "219037",
+          "DC5200",
+          "DCC110",
+          "MAC033"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Stenio Sa Rosario Furtado Soares",
+        "nomeOficial": "STENIO SA ROSARIO FURTADO SOARES",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Docente colaborador do PPGCC"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [
+          "2035034"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Victor Stroele de Andrade Menezes",
+        "nomeOficial": "VICTOR STROELE DE ANDRADE MENEZES",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Ciência da Computação (PPGCC)"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035024",
+          "2035035",
+          "DCC060",
+          "DCC110",
+          "DCC204",
+          "EADDCC037",
+          "EADDCC055",
+          "EADDCC056",
+          "EADDCC057",
+          "EADDCC058",
+          "EADDCC074",
+          "EADDCC075",
+          "EADDCC086",
+          "EADDCC087",
+          "EADDCC574",
+          "EADDCC575",
+          "EADEDU016",
+          "EADEDU023",
+          "EADEDU024",
+          "EADEDU025",
+          "MAC022",
+          "MAC033",
+          "MAC039"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Wagner Antonio Arbex",
+        "nomeOficial": "WAGNER ANTONIO ARBEX",
+        "departamento": "DCC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [
+          "Coorientador do DCC no PPGCC"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "2035019",
+          "DC5199",
+          "DCC204"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgcc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Francisco Henrique Cerdeira Ferreira",
+        "nomeOficial": "FRANCISCO HENRIQUE CERDEIRA FERREIRA",
+        "departamento": "DCC",
+        "vinculo": "docente temporario",
+        "cargoDepartamento": null,
+        "titulacao": "MESTRADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "DC5199",
+          "DCC088",
+          "DCC199",
+          "EADDCC025"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/deptocomputacao/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/deptocomputacao/sou-aluno/plano-departamental/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Alexei Deriglazov",
+        "nomeOficial": "ALEXEI DERIGLAZOV",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT154",
+          "MAT155"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Andre Arbex Hallack",
+        "nomeOficial": "ANDRE ARBEX HALLACK",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT013"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Cristiane de Andrade Mendes",
+        "nomeOficial": "CRISTIANE DE ANDRADE MENDES",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT155",
+          "MAT155E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Evandro Riva",
+        "nomeOficial": "EVANDRO RIVA",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT158",
+          "MAT158E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Fabio Rodrigues Pereira",
+        "nomeOficial": "FABIO RODRIGUES PEREIRA",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT157"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Flaviana Andrea Ribeiro",
+        "nomeOficial": "FLAVIANA ANDREA RIBEIRO",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT158"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Grigori Chapiro",
+        "nomeOficial": "GRIGORI CHAPIRO",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT029E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Laercio Jose dos Santos",
+        "nomeOficial": "LAERCIO JOSE DOS SANTOS",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT029",
+          "MAT154"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Laura Senos Lacerda Fernandez",
+        "nomeOficial": "LAURA SENOS LACERDA FERNANDEZ",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT029",
+          "MAT156"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Lonardo Rabelo",
+        "nomeOficial": "LONARDO RABELO",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT157E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Luciana Prado Mouta Pena",
+        "nomeOficial": "LUCIANA PRADO MOUTA PENA",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT156E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Lucy Tiemi Takahashi",
+        "nomeOficial": "LUCY TIEMI TAKAHASHI",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT029"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Luis Fernando Crocco Afonso",
+        "nomeOficial": "LUIS FERNANDO CROCCO AFONSO",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT156"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Luiz Fernando de Oliveira Faria",
+        "nomeOficial": "LUIZ FERNANDO DE OLIVEIRA FARIA",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT154"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Orestes Piermatei Filho",
+        "nomeOficial": "ORESTES PIERMATEI FILHO",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT157"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Reginaldo Braz Batista",
+        "nomeOficial": "REGINALDO BRAZ BATISTA",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Chefe do departamento",
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT133",
+          "MAT154E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Regis Castijos Alves Soares Junior",
+        "nomeOficial": "REGIS CASTIJOS ALVES SOARES JUNIOR",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT030",
+          "MAT157"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Rogerio Casagrande",
+        "nomeOficial": "ROGERIO CASAGRANDE",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT143"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Sandro Rodrigues Mazorche",
+        "nomeOficial": "SANDRO RODRIGUES MAZORCHE",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Vice-chefe do departamento",
+        "titulacao": null,
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente colaborador do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [],
+        "disciplinasPeriodo": null,
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Sara Cristina Campos Borges",
+        "nomeOficial": "SARA CRISTINA CAMPOS BORGES",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT156"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Sergio Guilherme de Assis Vasconcelos",
+        "nomeOficial": "SERGIO GUILHERME DE ASSIS VASCONCELOS",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT154E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Tatiana Aparecida Gouveia",
+        "nomeOficial": "TATIANA APARECIDA GOUVEIA",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT154",
+          "MAT154E"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Wilhelm Passarella Freire",
+        "nomeOficial": "WILHELM PASSARELLA FREIRE",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente honorário do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT158"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Willian Versolati França",
+        "nomeOficial": "WILLIAN VERSOLATI FRANÇA",
+        "departamento": "MAT",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "MAT155",
+          "MAT156"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mat/institucional/corpo-docente/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Barbara da Costa Campos Dias",
+        "nomeOficial": "BARBARA DA COSTA CAMPOS DIAS",
+        "departamento": "EST",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "EST029"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/estatistica/cursos/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/estatistica/cursos/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Gustavo de Carvalho Lana",
+        "nomeOficial": "GUSTAVO DE CARVALHO LANA",
+        "departamento": "EST",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "EST028"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/estatistica/cursos/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/estatistica/cursos/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Lupercio Franca Bessegato",
+        "nomeOficial": "LUPERCIO FRANCA BESSEGATO",
+        "departamento": "EST",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Vice-chefe do departamento",
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "EST065"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/estatistica/cursos/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/estatistica/cursos/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Luiz Henrique Cantarino Adriano",
+        "nomeOficial": "LUIZ HENRIQUE CANTARINO ADRIANO",
+        "departamento": "EST",
+        "vinculo": "docente temporario",
+        "cargoDepartamento": null,
+        "titulacao": "GRADUACAO (NIVEL SUPERIOR COMPLETO)",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "EST028"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/estatistica/cursos/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/estatistica/cursos/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Victor Basilio Faria",
+        "nomeOficial": "VICTOR BASILIO FARIA",
+        "departamento": "EST",
+        "vinculo": "docente temporario",
+        "cargoDepartamento": null,
+        "titulacao": "GRADUACAO (NIVEL SUPERIOR COMPLETO)",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)",
+          "Sistemas de Informação (76A)"
+        ],
+        "disciplinasLecionadas": [
+          "EST028",
+          "EST029"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/estatistica/cursos/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/estatistica/cursos/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/si/curso/docentes/"
+        ]
+      },
+      {
+        "nome": "Albert Carlo Rodrigues Mendes",
+        "nomeOficial": "ALBERT CARLO RODRIGUES MENDES",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Teoria Quântica de Campos"
+        ],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS077"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/fisica/institucional/linhas-de-pesquisa/teoria-quantica-de-campos/"
+        ]
+      },
+      {
+        "nome": "Benjamin Fragneaud",
+        "nomeOficial": "BENJAMIN FRAGNEAUD",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS075"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Daniel Vasconcelos Pazzini Massote",
+        "nomeOficial": "DANIEL VASCONCELOS PAZZINI MASSOTE",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS075"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Eduardo Ferreira da Silva",
+        "nomeOficial": "EDUARDO FERREIRA DA SILVA",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS081"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Ilia Chapiro",
+        "nomeOficial": "ILIA CHAPIRO",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "CCE001"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Indhira Oliveira Maciel",
+        "nomeOficial": "INDHIRA OLIVEIRA MACIEL",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS074"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Ivan Ferreira dos Santos",
+        "nomeOficial": "IVAN FERREIRA DOS SANTOS",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS073"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Jorge Ananias Neto",
+        "nomeOficial": "JORGE ANANIAS NETO",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Teoria Quântica de Campos"
+        ],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS074"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/fisica/institucional/linhas-de-pesquisa/teoria-quantica-de-campos/"
+        ]
+      },
+      {
+        "nome": "Laiz Rodrigues Ventura",
+        "nomeOficial": "LAIZ RODRIGUES VENTURA",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS077",
+          "FIS123"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Pablo Zimmermann Coura",
+        "nomeOficial": "PABLO ZIMMERMANN COURA",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Física da Matéria Condensada"
+        ],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS077"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/fisica/institucional/linhas-de-pesquisa/fisica-da-materia-condensada/"
+        ]
+      },
+      {
+        "nome": "Tiberio de Paula Netto",
+        "nomeOficial": "TIBERIO DE PAULA NETTO",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS073"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Valdemir Eneias Ludwig",
+        "nomeOficial": "VALDEMIR ENEIAS LUDWIG",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS073"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Wesley Augusto Dias Pires",
+        "nomeOficial": "WESLEY AUGUSTO DIAS PIRES",
+        "departamento": "FIS",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Vice-chefe do departamento",
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS122",
+          "FIS124"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Isaac Andrade Santece",
+        "nomeOficial": "ISAAC ANDRADE SANTECE",
+        "departamento": "FIS",
+        "vinculo": "docente temporario",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS074",
+          "FIS077"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Simpliciano Castardelli dos Reis",
+        "nomeOficial": "SIMPLICIANO CASTARDELLI DOS REIS",
+        "departamento": "FIS",
+        "vinculo": "docente temporario",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "FIS122"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/fisica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/fisica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Afonso Celso de Castro Lemonge",
+        "nomeOficial": "AFONSO CELSO DE CASTRO LEMONGE",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Chefe do departamento",
+        "titulacao": null,
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente colaborador do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [],
+        "disciplinasPeriodo": null,
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Alexandre Abrahao Cury",
+        "nomeOficial": "ALEXANDRE ABRAHAO CURY",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAC011",
+          "MAC015"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Flavia de Souza Bastos",
+        "nomeOficial": "FLAVIA DE SOUZA BASTOS",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": "Vice-chefe do departamento",
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Fisiologia Computacional",
+          "Computação de Alto Desempenho",
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Professor do FISIOCOMP – Computational Physiology and High-Performance Computing Laboratory",
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "EXT070",
+          "MAC008",
+          "MAC021",
+          "MAC033",
+          "MAC035"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/fisiocomp/team/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Flavio de Souza Barbosa",
+        "nomeOficial": "FLAVIO DE SOUZA BARBOSA",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente colaborador do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [],
+        "disciplinasPeriodo": null,
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Gustavo Henrique Nalon",
+        "nomeOficial": "GUSTAVO HENRIQUE NALON",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAC015"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Lahis Souza de Assis",
+        "nomeOficial": "LAHIS SOUZA DE ASSIS",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAC005",
+          "MAC021",
+          "MAC034",
+          "MAC534"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Leonardo Goliatt da Fonseca",
+        "nomeOficial": "LEONARDO GOLIATT DA FONSECA",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAC021",
+          "MAC023",
+          "MAC034",
+          "MAC534"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Michele Cristina Resende Farage",
+        "nomeOficial": "MICHELE CRISTINA RESENDE FARAGE",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAC008"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Patricia Habib Hallak",
+        "nomeOficial": "PATRICIA HABIB HALLAK",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": null,
+        "areasAtuacao": [
+          "Modelagem Computacional"
+        ],
+        "vinculosPesquisa": [
+          "Docente permanente do PPG em Modelagem Computacional"
+        ],
+        "cursosAtendidos": [],
+        "disciplinasLecionadas": [],
+        "disciplinasPeriodo": null,
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/pgmc/pessoas/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Tatiana Danelon de Assis",
+        "nomeOficial": "TATIANA DANELON DE ASSIS",
+        "departamento": "MAC",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "MAC015",
+          "MAC019",
+          "MAC038"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/mac/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/mac/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Aloisio Antonio Alves Benicio",
+        "nomeOficial": "ALOISIO ANTONIO ALVES BENICIO",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "99",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI126"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Celly Mieko Shinohara Izumi",
+        "nomeOficial": "CELLY MIEKO SHINOHARA IZUMI",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI168"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Fabio Godoy Delolo",
+        "nomeOficial": "FABIO GODOY DELOLO",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI126",
+          "QUI168"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Jorge Luiz Sonego Milani",
+        "nomeOficial": "JORGE LUIZ SONEGO MILANI",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI168"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Jose Eugenio de Jesus Cardoso Graudo",
+        "nomeOficial": "JOSE EUGENIO DE JESUS CARDOSO GRAUDO",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI125"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Lilian Lucia Rocha e Silva",
+        "nomeOficial": "LILIAN LUCIA ROCHA E SILVA",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI168"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Maribel Coromoto Navarro Acosta",
+        "nomeOficial": "MARIBEL COROMOTO NAVARRO ACOSTA",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI168"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Mauricio Antonio Pereira da Silva",
+        "nomeOficial": "MAURICIO ANTONIO PEREIRA DA SILVA",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI125"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Mauro Vieira de Almeida",
+        "nomeOficial": "MAURO VIEIRA DE ALMEIDA",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)",
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI126"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Richard Michael Grazul",
+        "nomeOficial": "RICHARD MICHAEL GRAZUL",
+        "departamento": "QUI",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Ciência da Computação integral (65C)"
+        ],
+        "disciplinasLecionadas": [
+          "QUI126"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/quimica/institucional/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/quimica/institucional/docentes/",
+          "https://www2.ufjf.br/cursocomputacao/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Andre Luis Marques Marcato",
+        "nomeOficial": "ANDRE LUIS MARQUES MARCATO",
+        "departamento": "ENE",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "ENE122"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/energia/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/energia/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Leonardo Rocha Olivi",
+        "nomeOficial": "LEONARDO ROCHA OLIVI",
+        "departamento": "ENE",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "ENE124"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/energia/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/energia/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      },
+      {
+        "nome": "Marcelo Antonio Alves Lima",
+        "nomeOficial": "MARCELO ANTONIO ALVES LIMA",
+        "departamento": "CEL",
+        "vinculo": "docente efetivo",
+        "cargoDepartamento": null,
+        "titulacao": "DOUTORADO",
+        "areasAtuacao": [],
+        "vinculosPesquisa": [],
+        "cursosAtendidos": [
+          "Engenharia Computacional (65B)"
+        ],
+        "disciplinasLecionadas": [
+          "CEL112"
+        ],
+        "disciplinasPeriodo": "3/2026",
+        "fonte": "https://www2.ufjf.br/circuitos/docentes/",
+        "fontes": [
+          "https://www2.ufjf.br/circuitos/docentes/",
+          "https://www2.ufjf.br/engcomputacional/sobre-o-curso/corpo-docente/"
+        ]
+      }
+    ],
+    "catalogoDisciplinas": {
+      "2035008": "DESENVOLVIMENTO DIRIGIDO POR MODELOS",
+      "2035010": "ESTÁGIO DE DOCÊNCIA",
+      "2035016": "REDES SEM FIO E SISTEMAS MÓVEIS DE COMPUTAÇÃO",
+      "2035017": "SISTEMAS AUTÔNOMOS DE SOFTWARE",
+      "2035019": "SISTEMAS INTELIGENTES APLICADOS",
+      "2035021": "TÓPICOS ESPECIAIS EM APLICAÇÕES DA COMPUTAÇÃO",
+      "2035024": "DISSERTAÇÃO DE MESTRADO",
+      "2035025": "MÉTODOS QUANTITATIVOS EM CIÊNCIA DA COMPUTAÇÃO",
+      "2035026": "ESTUDOS DIRIGIDOS AO MSc.",
+      "2035029": "FUNDAMENTOS DE SISTEMAS MULTIMÍDIA",
+      "2035033": "SEMINÁRIOS EM COMPUTAÇÃO GRÁFICA",
+      "2035034": "SEMINÁRIOS EM APLICAÇÕES DA COMPUTAÇÃO",
+      "2035035": "SEMINÁRIOS EM ENGENHARIA DE SOFTWARE E BANCO DE DADOS",
+      "2035038": "TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE E BANCO DE DADOS",
+      "2035039": "VISÃO COMPUTACIONAL",
+      "2035041": "PROCESSAMENTO DE LINGUAGEM NATURAL",
+      "2035042": "DESENVOLVIMENTO GLOBAL DE SOFTWARE",
+      "2054001": "COMPUTAÇÃO E SOCIEDADE",
+      "2054003": "FERRAMENTAS DIGITAIS NA EDUCAÇÃO",
+      "2054004": "INTELIGÊNCIA ARTIFICIAL E EDUCAÇÃO",
+      "2054007": "LABORATÓRIO DE PRÁTICA DOCENTE: CULTURA DIGITAL",
+      "2054008": "LABORATÓRIO DE PRÁTICA DOCENTE: MUNDO DIGITAL",
+      "2054014": "SEGURANÇA E CRIPTOGRAFIA",
+      "2054021": "PROJETO DE SISTEMAS COMPUTACIONAIS",
+      "219002": "ALGORITMO E ESTRUTURA DE DADOS",
+      "219003": "BANCO DE DADOS",
+      "219008": "ELETROFISIOLOGIA COMPUTACIONAL",
+      "219023": "RECONHECIMENTO DE PADRÕES",
+      "219037": "TÓPICOS AVANÇADOS EM INTELIGÊNCIA COMPUTACIONAL",
+      "219047": "METODOLOGIA CIENTÍFICA E ÉTICA NA PESQUISA",
+      "3012001": "ÁLGEBRA LINEAR COMPUTACIONAL",
+      "CCE001": "TRABALHO DE CONCLUSÃO DO CURSO DE CIÊNCIAS EXATAS I",
+      "CEL112": "CONTROLE DE SISTEMAS DINÂMICOS I",
+      "DC5199": "ALGORITMOS - PRÁTICA",
+      "DC5200": "ALGORITMOS II - PRÁTICA",
+      "DC5212": "INTRODUÇÃO A SISTEMAS DE INFORMAÇÃO - PRÁTICA",
+      "DCC001": "ANALISE E PROJETO DE ALGORITMOS",
+      "DCC008": "CÁLCULO NUMÉRICO",
+      "DCC012": "ESTRUTURA DE DADOS II",
+      "DCC013": "ESTRUTURA DE DADOS",
+      "DCC014": "INTELIGENCIA ARTIFICIAL",
+      "DCC019": "LINGUAGEM DE PROGRAMACAO",
+      "DCC025": "ORIENTAÇÃO A OBJETOS",
+      "DCC042": "REDES DE COMPUTADORES",
+      "DCC045": "TEORIA DOS COMPILADORES",
+      "DCC055": "TEORIA DA COMPUTAÇÃO",
+      "DCC059": "TEORIA DOS GRAFOS",
+      "DCC060": "BANCO DE DADOS",
+      "DCC061": "ENGENHARIA DE SOFTWARE",
+      "DCC062": "SISTEMAS OPERACIONAIS",
+      "DCC063": "LINGUAGENS FORMAIS E AUTÔMATOS",
+      "DCC064": "SISTEMAS DISTRIBUÍDOS",
+      "DCC065": "COMPUTAÇÃO GRÁFICA",
+      "DCC068": "REDES NEURAIS ARTIFICIAIS",
+      "DCC069": "PROGRAMAÇÃO NÃO LINEAR",
+      "DCC070": "ORGANIZAÇÃO DE COMPUTADORES",
+      "DCC075": "SEGURANÇA EM SISTEMAS DE COMPUTAÇÃO",
+      "DCC077": "ASPECTOS AVANÇADOS EM BANCO DE DADOS",
+      "DCC078": "ASPECTOS AVANÇADOS EM ENGENHARIA DE SOFTWARE",
+      "DCC088": "GESTÃO DA TECNOLOGIA E INOVAÇÃO TECNOLÓGICA",
+      "DCC089": "TÓPICOS EM COMPUTAÇÃO CIENTÍFICA I",
+      "DCC091": "TOPICOS EM REDES E PROCESSAMENTO DISTRIBUIDO I",
+      "DCC094": "TOPICOS EM DESENVOLVIMENTO DE SOFTWARE II",
+      "DCC101": "SEMINARIO EM COMPUTACAO V",
+      "DCC110": "MONOGRAFIA FINAL EM COMPUTAÇÃO",
+      "DCC117": "MODELAGEM DE SISTEMAS",
+      "DCC122": "CIRCUITOS DIGITAIS",
+      "DCC136": "INTELIGÊNCIA COMPUTACIONAL",
+      "DCC148": "DESENVOLVIMENTO DE JOGOS",
+      "DCC160": "LÓGICA E FUNDAMENTOS PARA A COMPUTAÇÃO",
+      "DCC163": "PESQUISA OPERACIONAL",
+      "DCC168": "TESTE DE SOFTWARE",
+      "DCC174": "INTERAÇÃO HUMANO-COMPUTADOR",
+      "DCC175": "INTRODUÇÃO A CIÊNCIA DA COMPUTAÇÃO",
+      "DCC190": "SOLUÇÃO NUMÉRICA DE EQUAÇÕES DIFERENCIAIS",
+      "DCC194": "TRABALHO DE CONCLUSÃO DE CURSO EM SISTEMAS DE INFORMAÇÃO",
+      "DCC197": "VISÃO COMPUTACIONAL",
+      "DCC198": "TRABALHO MULTIDISCIPLINAR APLICADO",
+      "DCC199": "ALGORITMOS",
+      "DCC200": "ALGORITMOS II",
+      "DCC202": "DESENVOLVIMENTO WEB",
+      "DCC203": "METODOLOGIA CIENTÍFICA",
+      "DCC204": "TRABALHO DE CONCLUSÃO DE CURSO I",
+      "DCC205": "TRABALHO DE CONCLUSÃO DE CURSO II",
+      "DCC207": "DESENVOLVIMENTO WEB FRONT-END",
+      "DCC212": "INTRODUÇÃO A SISTEMAS DE INFORMAÇÃO",
+      "EADDCC025": "MODELAGEM DE SISTEMAS",
+      "EADDCC037": "PROJETO DE SOFTWARE EDUCACIONAL",
+      "EADDCC042": "TRABALHO DE CONCLUSÃO DE CURSO I",
+      "EADDCC043": "AVALIAÇÃO DE SOFTWARE EDUCACIONAL",
+      "EADDCC044": "INFORMÁTICA E SOCIEDADE",
+      "EADDCC052": "TRABALHO DE CONCLUSÃO DE CURSO II",
+      "EADDCC055": "ESTÁGIO SUPERVISIONADO EM LICENCIATURA DA COMPUTAÇÃO III",
+      "EADDCC056": "ESTÁGIO SUPERVISIONADO EM LICENCIATURA DA COMPUTAÇÃO IV",
+      "EADDCC057": "ESTÁGIO SUPERVISIONADO EM LICENCIATURA DA COMPUTAÇÃO I",
+      "EADDCC058": "ESTÁGIO SUPERVISIONADO EM LICENCIATURA DA COMPUTAÇÃO II",
+      "EADDCC068": "DESENVOLVIMENTO WEB",
+      "EADDCC069": "JOGOS E GAMIFICAÇÃO NA EDUCAÇÃO",
+      "EADDCC070": "PENSAMENTO COMPUTACIONAL",
+      "EADDCC072": "TÓPICOS ESPECIAIS EM LICENCIATURA EM COMPUTAÇÃO I",
+      "EADDCC074": "REFLEXÕES SOBRE ATUAÇÃO NO ESPAÇO ESCOLAR I",
+      "EADDCC075": "REFLEXÕES SOBRE ATUAÇÃO NO ESPAÇO ESCOLAR II",
+      "EADDCC078": "OBJETOS DE APRENDIZAGEM",
+      "EADDCC081": "INTERAÇÃO HUMANO-COMPUTADOR",
+      "EADDCC082": "SISTEMAS MULTIMÍDIA APLICADOS À EDUCAÇÃO",
+      "EADDCC086": "ESTÁGIO SUPERVISIONADO OBRIGATÓRIO I",
+      "EADDCC087": "ESTÁGIO SUPERVISIONADO OBRIGATÓRIO II",
+      "EADDCC569": "JOGOS E GAMIFICAÇÃO NA EDUCAÇÃO - PRÁTICA",
+      "EADDCC570": "PENSAMENTO EDUCACIONAL - PRÁTICA",
+      "EADDCC574": "REFLEXÕES SOBRE ATUAÇÃO NO ESPAÇO ESCOLAR I - PRÁTICA",
+      "EADDCC575": "REFLEXÕES SOBRE ATUAÇÃO NO ESPAÇO ESCOLAR II - PRÁTICA",
+      "EADDCC578": "OBJETOS DE APRENDIZAGEM - PRÁTICA",
+      "EADDCC582": "SISTEMAS MULTIMÍDIA APLICADOS À EDUCAÇÃO - PRÁTICA",
+      "EADEDU016": "REFLEXÕES SOBRE À ATUAÇÃO NO ESPAÇO ESCOLAR IV - ÁREA DE COMPUTAÇÃO",
+      "EADEDU023": "REFLEXÕES SOBRE ATUAÇÃO NO ESPAÇO ESCOLAR I - ÁREA DE COMPUTAÇÃO",
+      "EADEDU024": "REFLEXÕES SOBRE ATUAÇÃO NO ESPAÇO ESCOLAR II - ÁREA DE COMPUTAÇÃO",
+      "EADEDU025": "REFLEXÕES SOBRE ATUAÇÃO NO ESPAÇO ESCOLAR III - ÁREA DE COMPUTAÇÃO",
+      "ENE122": "ROBÓTICA MÓVEL",
+      "ENE124": "MANIPULADORES ROBÓTICOS",
+      "EST028": "INTRODUÇÃO À ESTATÍSTICA",
+      "EST029": "CÁLCULO DE PROBABILIDADES I",
+      "EST065": "ESTATÍSTICA COMPUTACIONAL I",
+      "EXT070": "EXTENSÃO EM MECÂNICA APLICADA E COMPUTACIONAL",
+      "EXT099": "INTRODUÇÃO À EXTENSÃO",
+      "EXT106": "PRÁTICA EXTENSIONISTA II",
+      "EXT107": "PRÁTICA EXTENSIONISTA III",
+      "FIS073": "FÍSICA I",
+      "FIS074": "FÍSICA II",
+      "FIS075": "FISICA III",
+      "FIS077": "LABORATÓRIO DE FÍSICA I",
+      "FIS081": "FENÔMENOS DE TRANSPORTE",
+      "FIS122": "LABORATÓRIO DE INTRODUÇÃO ÀS CIÊNCIAS FÍSICAS",
+      "FIS123": "FÍSICA IA",
+      "FIS124": "FÍSICA IB",
+      "MAC005": "MECÂNICA DOS SÓLIDOS I",
+      "MAC008": "INTRODUÇÃO AO MÉTODO DOS ELEMENTOS FINITOS",
+      "MAC011": "INTRODUÇÃO À ENGENHARIA COMPUTACIONAL",
+      "MAC015": "RESISTÊNCIA DOS MATERIAIS",
+      "MAC018": "ESTÁGIO EM ENGENHARIA COMPUTACIONAL",
+      "MAC019": "FUNDAMENTOS DE MECÂNICA DAS ESTRUTURAS",
+      "MAC021": "TRABALHO FINAL DE CURSO I",
+      "MAC022": "TRABALHO FINAL DE CURSO II",
+      "MAC023": "MECÂNICA DAS ESTRUTURAS",
+      "MAC033": "TRABALHO FINAL DE CURSO II",
+      "MAC034": "MÉTODOS COMPUTACIONAIS APLICADOS EM ENGENHARIA",
+      "MAC035": "TRABALHO MULTIDISCIPLINAR",
+      "MAC038": "TRABALHO FINAL DE CURSO I",
+      "MAC039": "TRABALHO FINAL DE CURSO II",
+      "MAC534": "MÉTODOS COMPUTACIONAIS APLICADOS EM ENGENHARIA - PRÁTICA",
+      "MAT013": "MATEMÁTICA FINANCEIRA",
+      "MAT029": "EQUAÇÕES DIFERENCIAIS I",
+      "MAT029E": "EQUAÇÕES DIFERENCIAIS I",
+      "MAT030": "EQUAÇÕES DIFERENCIAIS II",
+      "MAT133": "FUNDAMENTOS DE MATEMATICA ELEMENTAR",
+      "MAT143": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+      "MAT154": "CÁLCULO I",
+      "MAT154E": "CÁLCULO I",
+      "MAT155": "GEOMETRIA ANALÍTICA E SISTEMAS LINEARES",
+      "MAT155E": "GEOMETRIA ANALÍTICA E SISTEMAS LINEARES",
+      "MAT156": "CÁLCULO II",
+      "MAT156E": "CALCULO II",
+      "MAT157": "CÁLCULO III",
+      "MAT157E": "CÁLCULO III",
+      "MAT158": "ÁLGEBRA LINEAR",
+      "MAT158E": "ÁLGEBRA LINEAR",
+      "QUI125": "QUÍMICA FUNDAMENTAL",
+      "QUI126": "LABORATÓRIO DE QUÍMICA",
+      "QUI168": "LABORATÓRIO DE TRANSFORMAÇÕES QUÍMICAS"
+    }
+  },
+  "lacunas": [
+    "Áreas de atuação individuais não são publicadas na página de docentes do DCC; ~30 docentes do DCC ficaram com areasAtuacao vazia (só vínculo a PPGCC/PGMC quando houver). Sites de NetLab, LApIC, NEnC e LICOBiC indisponíveis (404/timeout).",
+    "Divergência: página \"Chefia e Secretaria\" do DCC informa Chefe Edmar Welington Oliveira e Subchefe Igor de Oliveira Knop (mandato 26/08/2024 a 26/08/2026, desatualizado); a lista SIGA de docentes informa Vice-Chefe Bárbara de Melo Quintela. Usado o SIGA.",
+    "Página Apresentação do DCC cita 47 professores efetivos (texto antigo); a lista SIGA atual tem 49 efetivos.",
+    "Luiz Felipe Carvalho Mendes (DCC) não tem turma no plano departamental 3/2026.",
+    "No plano departamental do DCC aparecem docentes de fora do DCC: Mario Antonio Ribeiro Dantas (2035034; listado como coorientador do DCC no PPGCC, mas não consta na lista de docentes do DCC) e Eduardo Pestana de Aguiar (219037; Departamento de Engenharia Mecânica segundo o PGMC). Não incluídos em docentes.",
+    "Docentes de departamentos fora do escopo que lecionam para os cursos (FIN, ECO, CAD, ESA, MEC, ETU, UNI) não incluídos.",
+    "Não foi coletada a página de corpo docente de Ciência da Computação noturno (35A); disciplinas para 35A podem faltar para docentes de fora do DCC.",
+    "Secretaria: e-mail institucional encontrado apenas para DCC, MAT e EST; para FIS, MAC, QUI, ENE e CEL só telefone geral.",
+    "Unidade do MAC inferida (Faculdade de Engenharia), não declarada na página coletada.",
+    "Possível homônimo: \"Ilya Lvovich Shapiro\" (linha Teoria Quântica de Campos) vs \"ILIA CHAPIRO\" (SIGA, FIS) não foi associado por falta de confirmação."
+  ],
+  "confianca": "alta para nomes/vínculos/departamentos e disciplinas 3/2026 (extraídos de páginas oficiais geradas pelo SIGA); media/baixa para areasAtuacao (cobertura parcial, só onde há página oficial de grupo)."
+}

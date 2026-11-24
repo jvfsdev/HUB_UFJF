@@ -1,0 +1,365 @@
+{
+  "agente": "campus",
+  "geradoEm": "2026-11-24",
+  "fontes": [
+    "https://www2.ufjf.br/ru/?page_id=3999",
+    "https://www2.ufjf.br/ru/acesso/",
+    "https://www2.ufjf.br/minhaufjf/restaurante-universitario/",
+    "https://www2.ufjf.br/noticias/2026/02/23/reabertura-do-ru-do-campus-e-adiada-devido-as-chuvas/",
+    "https://www2.ufjf.br/bach/infraestrutura/onibus/",
+    "https://www2.ufjf.br/fale/area-do-aluno/onibus-circulares-ufjf/",
+    "https://www2.ufjf.br/minhaufjf/?p=660",
+    "https://www2.ufjf.br/proae/",
+    "https://www2.ufjf.br/minhaufjf/assistencia-estudantil/",
+    "https://www2.ufjf.br/proae/editais/2024-fluxo-continuo/",
+    "https://www2.ufjf.br/proae/psicologiaepedagogia/atendimento-psicologico/",
+    "https://www2.ufjf.br/biblioteca/bibliotecas-setoriais/biblioteca-universitaria/",
+    "https://www2.ufjf.br/cartadeservicos2/ccentro-de-difusao-do-conhecimento-cdc-sistema-de-bibliotecas-jf/",
+    "https://www2.ufjf.br/cdara/",
+    "https://www2.ufjf.br/cartadeservicos2/coordenacao-de-registros-academicos-cdara/",
+    "https://www2.ufjf.br/catalogoti/rede-sem-fio/",
+    "https://www2.ufjf.br/catalogoti/email/",
+    "https://www2.ufjf.br/nti/atualizacao-de-seguranca-na-rede-sem-fio-eduroam/",
+    "https://www2.ufjf.br/cartadeservicos2/ouvidoria-da-ufjf-2/",
+    "https://www2.ufjf.br/prograd/calendariosacademicos/",
+    "https://www2.ufjf.br/prograd/wp-content/uploads/sites/21/2026/04/Resolu%C3%A7%C3%A3o-Congrad_UFJF-n%C2%BA-325-calend%C3%A1rio-2026-regular.pdf",
+    "https://www2.ufjf.br/prograd/calendariosacademicos/sei_23071-901339_2026_34-1/",
+    "https://www2.ufjf.br/ice/?p=3774",
+    "https://www2.ufjf.br/getcomp/2025/11/13/xxvii-semana-da-computacao-da-ufjf/",
+    "https://www2.ufjf.br/semic/seminario-2026/cronograma-2026/",
+    "https://www2.ufjf.br/noticias/2026/09/16/as-inscricoes-para-o-32o-seminario-de-iniciacao-cientifica-ja-estao-abertas/",
+    "https://www2.ufjf.br/propp/?p=10794",
+    "https://www2.ufjf.br/noticias/2026/07/22/festival-internacional-de-musica-colonial-brasileira-reune-concertos-gratuitos-de-24-de-julho-a-1o-de-agosto/",
+    "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/06/10_Edital_10_2026_PISM_2027_retificado-pelo-12-2026.pdf",
+    "https://www2.ufjf.br/ufjf/programa-de-ingresso-seletivo-pism/",
+    "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-exatas/",
+    "https://www2.ufjf.br/cdara/graduacao/vagas-ociosas-2/processo-seletivo-vagas-ociosas/",
+    "https://www2.ufjf.br/cdara/graduacao/vagas-ociosas-2/transferencia-para-ufjf/",
+    "https://www2.ufjf.br/cdara/graduacao/vagas-ociosas-2/mudanca-de-curso/"
+  ],
+  "dados": {
+    "restauranteUniversitario": {
+      "unidades": [
+        {
+          "nome": "RU Campus",
+          "local": "Campus sede (Cidade Universitária, bairro São Pedro), próximo à Faculdade de Engenharia e ao IAD",
+          "refeicoes": "Desjejum, almoço e jantar",
+          "observacao": "Em fev/2026 a reabertura foi adiada por obras emergenciais na cobertura danificada pelas chuvas; nesse período as refeições foram servidas no RU Centro, com trajeto especial dos circulares. Situação atual não confirmada.",
+          "fonte": "https://www2.ufjf.br/noticias/2026/02/23/reabertura-do-ru-do-campus-e-adiada-devido-as-chuvas/"
+        },
+        {
+          "nome": "RU Centro",
+          "local": "Rua Santo Antônio, centro de Juiz de Fora (ao lado do MAMM)",
+          "refeicoes": "Almoço (segunda a sexta)",
+          "fonte": "https://www2.ufjf.br/minhaufjf/restaurante-universitario/"
+        }
+      ],
+      "horarios": {
+        "desjejum": "Segunda a sábado, 6h30–8h (somente RU Campus)",
+        "almoco": "Segunda a sábado, 11h–14h (aos sábados somente RU Campus)",
+        "jantar": "Segunda a sexta, 17h–20h (somente RU Campus)",
+        "caixas": "11h–14h e 17h–20h",
+        "fonte": "https://www2.ufjf.br/ru/?page_id=3999"
+      },
+      "precos": [
+        {"categoria": "Estudantes (graduação e pós)", "almocoJantar": "R$ 1,40", "desjejum": "R$ 0,50"},
+        {"categoria": "Servidores, professores e terceirizados", "almocoJantar": "R$ 13,45", "desjejum": "R$ 2,63"},
+        {"categoria": "Bolsistas com Auxílio-Alimentação (PROAE)", "almocoJantar": "Acesso ao RU via auxílio (a página da PROAE fala em acesso gratuito, mas também cita os valores de R$ 1,40/R$ 0,50 — ambíguo)", "desjejum": null}
+      ],
+      "precosFonte": "https://www2.ufjf.br/ru/?page_id=3999",
+      "comoPagar": "Tickets vendidos nos caixas dos RUs (Campus e Centro) nos horários de almoço e jantar; o ticket do desjejum deve ser comprado antecipadamente. É obrigatório apresentar a carteirinha (identificação) da UFJF, solicitada em https://carteirinha.ufjf.br/. As fontes não mencionam recarga online/Pix.",
+      "cardapio": "https://www2.ufjf.br/ru/?page_id=4351",
+      "contato": "(32) 2102-3491",
+      "site": "https://www2.ufjf.br/ru/acesso/",
+      "acessadoEm": "2026-11-24"
+    },
+    "transporte": {
+      "circularInterno": {
+        "descricao": "Ônibus internos de cor cinza, com letreiro \"RU\" ou \"CIRCULAR\", circulando pelo anel viário do campus. Gratuitos (sem tarifa). Ônibus cinza com letreiro \"FUNCIONÁRIOS\" são exclusivos para servidores.",
+        "gratuito": true,
+        "tempoPercurso": "35 a 55 minutos para completar o circuito, conforme trânsito",
+        "horarios": [
+          {"faixa": "6h30–8h", "letreiro": "RU", "onibus": 1, "frequencia": "~30 min"},
+          {"faixa": "8h–11h", "letreiro": "CIRCULAR", "onibus": 1, "frequencia": "~30 min"},
+          {"faixa": "11h–14h", "letreiro": "RU", "onibus": 4, "frequencia": "~10 min", "obs": "apenas 2 passam pelo CAS/HU"},
+          {"faixa": "14h–17h", "letreiro": "CIRCULAR", "onibus": 1, "frequencia": "~30 min"},
+          {"faixa": "17h–19h", "letreiro": "RU", "onibus": 2, "frequencia": "~20 min", "obs": "nenhum passa pelo CAS/HU"},
+          {"faixa": "19h–22h", "letreiro": "CIRCULAR", "onibus": 1, "frequencia": "~30 min"}
+        ],
+        "observacao": "A página da Gerência de Transportes (Proinfra) dá faixas ligeiramente diferentes (Circular 6h30–11h; RU 11h–14h30 com reforço de 4 a 6 veículos; Circular 14h30–17h; RU 17h–20h; Circular 20h–21h30). Quadro é uma previsão e pode variar sem aviso.",
+        "contato": "Gerência de Transportes (Proinfra) — (32) 2102-3714",
+        "fontes": ["https://www2.ufjf.br/bach/infraestrutura/onibus/", "https://www2.ufjf.br/fale/area-do-aluno/onibus-circulares-ufjf/"]
+      },
+      "linhasUrbanas": {
+        "linhas": [
+          {"numero": "525", "regiao": "Zona Sul / Centro"},
+          {"numero": "535", "regiao": "Zona Sul"},
+          {"numero": "545", "regiao": "Zona Sul"},
+          {"numero": "555", "regiao": "Zona Sul"},
+          {"numero": "590", "regiao": "Zona Sul"},
+          {"numero": "190", "regiao": "Zona Sul"},
+          {"numero": "755", "regiao": "Zona Norte"}
+        ],
+        "observacao": "Linhas que atendem prioritariamente a UFJF segundo página institucional (sem data); outras linhas cruzam o campus parando em um ou dois pontos. Itinerários e horários oficiais: Prefeitura de Juiz de Fora.",
+        "consultaOficial": "https://www.pjf.mg.gov.br/onibus/itinerario/",
+        "fonte": "https://www2.ufjf.br/bach/infraestrutura/onibus/"
+      }
+    },
+    "assistenciaEstudantil": {
+      "orgao": "PROAE — Pró-Reitoria de Assistência Estudantil (Anexo do ICB, campus Juiz de Fora; tel. 2102-3777)",
+      "site": "https://www2.ufjf.br/proae/",
+      "requisitosGerais": [
+        "Estar regularmente matriculado (matrícula 'ativa' no SIGA) em curso de graduação presencial da UFJF",
+        "Não ter concluído outro curso superior",
+        "Renda bruta mensal familiar per capita de até 1,5 salário mínimo",
+        "Avaliação socioeconômica conforme Portaria PROAE nº 12/2024 (brasileiros/refugiados) ou nº 13/2024 (estrangeiros)"
+      ],
+      "comoSolicitar": "Fluxo contínuo: preencher o formulário socioeconômico no SIGA (ícone 'Assistência Estudantil'), reunir os documentos do Anexo II da Portaria e enviá-los pelo Formulário de Novas Solicitações (logado no e-mail institucional). Acompanhar na aba 'Resultado' do SIGA em até 5 dias úteis.",
+      "programas": [
+        {"nome": "Bolsa PNAES", "descricao": "Bolsa para graduandos com vulnerabilidade socioeconômica comprovada", "valor": "R$ 560/mês"},
+        {"nome": "Auxílio-Moradia", "descricao": "Vaga na Moradia Estudantil ou auxílio financeiro mensal para quem mora/passará a morar na cidade do campus e cuja família reside em outra cidade", "valor": "R$ 420/mês (modalidade em dinheiro)"},
+        {"nome": "Auxílio-Transporte", "descricao": "Para quem usa transporte coletivo municipal entre residência e campus no período letivo", "valor": "Mensal, varia conforme o número de ônibus necessários"},
+        {"nome": "Auxílio-Alimentação", "descricao": "Acesso às refeições do RU (desjejum, almoço e jantar)", "valor": null},
+        {"nome": "Auxílio-Creche", "descricao": "Custeio parcial de dependentes legais de até 5 anos, 11 meses e 29 dias", "valor": "R$ 360/mês"},
+        {"nome": "Bolsa Permanência/MEC", "descricao": "Para estudantes indígenas ou quilombolas de graduação presencial (programa federal gerido pela PROAE)", "valor": null},
+        {"nome": "Moradia Estudantil", "descricao": "Residência temporária com 113 vagas em Juiz de Fora (Rua José Lourenço Kelmer, 1119); ingresso por edital específico", "link": "https://www2.ufjf.br/proae/editais/moradia-estudantil/"},
+        {"nome": "Ações de apoio social e inclusão digital / empréstimo de notebook", "link": "https://www2.ufjf.br/proae/editais/acoes-de-apoio-social-e-inclusao-digital/"}
+      ],
+      "links": {
+        "bolsasEAuxilios": "https://www2.ufjf.br/proae/editais/2024-fluxo-continuo/",
+        "portaria12_2024": "https://www2.ufjf.br/proae/wp-content/uploads/sites/57/2024/01/PORTARIA-PROAE-12-2024.pdf",
+        "duvidasFrequentes": "https://www2.ufjf.br/proae/duvidas-frequentes/",
+        "servicoSocial": "https://www2.ufjf.br/proae/servicosocial/",
+        "contatoSecretaria": "secretaria.proae@ufjf.br"
+      },
+      "fontes": ["https://www2.ufjf.br/minhaufjf/assistencia-estudantil/", "https://www2.ufjf.br/proae/", "https://www2.ufjf.br/proae/editais/2024-fluxo-continuo/"],
+      "acessadoEm": "2026-11-24"
+    },
+    "servicos": [
+      {
+        "nome": "Biblioteca Central (Biblioteca Universitária)",
+        "descricao": "Principal biblioteca do Sistema de Bibliotecas, no 2º andar do prédio da Reitoria, campus JF.",
+        "horario": "Segunda a sexta, 7h–22h (horários especiais em férias/recessos)",
+        "contato": "biblioteca.central@ufjf.br — (32) 2102-3767",
+        "link": "https://www2.ufjf.br/biblioteca/",
+        "fonte": "https://www2.ufjf.br/biblioteca/bibliotecas-setoriais/biblioteca-universitaria/"
+      },
+      {
+        "nome": "CDARA — Coordenadoria de Assuntos e Registros Acadêmicos",
+        "descricao": "Registro e controle acadêmico: matrícula, histórico, declarações, trancamento/reativação, transferência, mudança de curso, vagas ociosas, diplomas e revalidação, análise de documentos de reserva de vagas (cotas).",
+        "horario": "Segunda a sexta, 7h–19h",
+        "contato": "cdara@ufjf.br — (32) 2102-3733",
+        "link": "https://www2.ufjf.br/cdara/",
+        "fonte": "https://www2.ufjf.br/cartadeservicos2/coordenacao-de-registros-academicos-cdara/"
+      },
+      {
+        "nome": "SIGA — Sistema Integrado de Gestão Acadêmica",
+        "descricao": "Sistema acadêmico do aluno: matrícula on-line (em etapas), trancamento de disciplina, notas, histórico, inscrição em colação de grau, formulário socioeconômico da PROAE e dados bancários.",
+        "link": "https://siga.ufjf.br/",
+        "fonte": "https://www2.ufjf.br/minhaufjf/siga/"
+      },
+      {
+        "nome": "E-mail institucional (@estudante.ufjf.br)",
+        "descricao": "Por padrão o e-mail do aluno é cpf@estudante.ufjf.br; o endereço pode ser modificado pelo SIGA e a senha é a mesma do SIGA. Necessário para formulários institucionais (ex.: PROAE).",
+        "link": "https://www2.ufjf.br/catalogoti/email/",
+        "fonte": "https://www2.ufjf.br/catalogoti/email/"
+      },
+      {
+        "nome": "Wi-Fi institucional (UFJF-WIFI e eduroam)",
+        "descricao": "Redes UFJF-WIFI e eduroam; alunos e servidores são cadastrados automaticamente, sem solicitação. NTI recomenda o app geteduroam para configurar. Mais de 3 dispositivos simultâneos pode causar bloqueio da conta. Suporte via Sistema de Atendimento Unificado (SAU) do NTI.",
+        "link": "https://www2.ufjf.br/catalogoti/rede-sem-fio/",
+        "fonte": "https://www2.ufjf.br/catalogoti/rede-sem-fio/"
+      },
+      {
+        "nome": "Atendimento psicológico (PROAE — Psicologia e Pedagogia)",
+        "descricao": "Acolhimento psicológico com finalidade terapêutica (não é psicoterapia de longa duração; há encaminhamento quando necessário) para problemas que afetam a vivência acadêmica. Agendamento direto na agenda on-line dos psicólogos. Local: PROAE, Anexo do ICB. Também há apoio pedagógico.",
+        "contato": "psicologia.proae@ufjf.br",
+        "link": "https://www2.ufjf.br/proae/psicologiaepedagogia/atendimento-psicologico/",
+        "fonte": "https://www2.ufjf.br/proae/psicologiaepedagogia/atendimento-psicologico/"
+      },
+      {
+        "nome": "Ouvidoria Geral",
+        "descricao": "Recebe, encaminha e acompanha reclamações, solicitações, sugestões e denúncias da comunidade interna e externa; fica no prédio da Reitoria. Manifestações por e-mail ou pela plataforma Fala.BR; resposta em até 30 dias (prorrogáveis por mais 30).",
+        "contato": "ouvidoria@ufjf.br",
+        "link": "https://www2.ufjf.br/ouvidoria/",
+        "fonte": "https://www2.ufjf.br/cartadeservicos2/ouvidoria-da-ufjf-2/"
+      }
+    ],
+    "calendario": {
+      "observacao": "Calendário REGULAR da graduação (campi JF e GV, EaD) — vale para Computação e demais cursos, exceto Enfermagem, Fisioterapia, Medicina e Odontologia de JF e Farmácia/Medicina/Nutrição de GV, que têm calendários próprios.",
+      "anoLetivo2026": {
+        "resolucao": "Resolução Congrad/UFJF nº 325",
+        "fonte": "https://www2.ufjf.br/prograd/wp-content/uploads/sites/21/2026/04/Resolu%C3%A7%C3%A3o-Congrad_UFJF-n%C2%BA-325-calend%C3%A1rio-2026-regular.pdf",
+        "eventos": [
+          {"data": "2026-02-20/2026-02-25", "descricao": "Matrícula pelos acadêmicos para o 1º/2026 no SIGA (1ª etapa)"},
+          {"data": "2026-03-02/2026-03-04", "descricao": "Matrícula 1º/2026 no SIGA (2ª etapa)"},
+          {"data": "2026-03-10/2026-03-11", "descricao": "Matrícula 1º/2026 no SIGA (3ª etapa)"},
+          {"data": "2026-03-13/2026-03-31", "descricao": "Ajuste de matrícula pelos coordenadores (1º/2026)"},
+          {"data": "2026-03-16", "descricao": "Primeiro dia letivo do 1º/2026"},
+          {"data": "2026-04-24", "descricao": "Último dia para trancamento de disciplina no SIGA (1º/2026)"},
+          {"data": "2026-07-22", "descricao": "Último dia letivo do 1º/2026"},
+          {"data": "2026-07-27/2026-07-30", "descricao": "Matrícula para o 2º/2026 no SIGA (1ª etapa)"},
+          {"data": "2026-08-04/2026-08-06", "descricao": "Matrícula 2º/2026 no SIGA (2ª etapa)"},
+          {"data": "2026-08-12/2026-08-13", "descricao": "Matrícula 2º/2026 no SIGA (3ª etapa)"},
+          {"data": "2026-08-17", "descricao": "Primeiro dia letivo do 2º/2026"},
+          {"data": "2026-09-25", "descricao": "Último dia para trancamento de disciplina no SIGA (2º/2026)"},
+          {"data": "2026-12-16", "descricao": "Último dia letivo do 2º/2026"},
+          {"data": "2026-12-19", "descricao": "Último dia para lançamento de notas do 2º/2026"},
+          {"data": "2026-12-24/2027-01-03", "descricao": "Recesso letivo"},
+          {"data": "2027-02-22/2027-02-26", "descricao": "Colação de grau 2º/2026"}
+        ]
+      },
+      "anoLetivo2027": {
+        "resolucao": "Resolução Congrad/UFJF nº 396, de 18/11/2026 (vigor a partir de 01/12/2026)",
+        "fonte": "https://www2.ufjf.br/prograd/calendariosacademicos/sei_23071-901339_2026_34-1/",
+        "eventos": [
+          {"data": "2027-02-11/2027-02-15", "descricao": "Matrícula de veteranos para o 1º/2027 no SIGA (1ª etapa; demais etapas 18–20/02 e 25/02)"},
+          {"data": "2027-03-15", "descricao": "Início do semestre letivo 1º/2027"},
+          {"data": "2027-04-24", "descricao": "Último dia para trancamento de disciplina no SIGA (1º/2027)"},
+          {"data": "2027-07-17", "descricao": "Último dia letivo do 1º/2027"},
+          {"data": "2027-08-16", "descricao": "Primeiro dia letivo do 2º/2027"},
+          {"data": "2027-09-27", "descricao": "Último dia para trancamento de disciplina no SIGA (2º/2027)"},
+          {"data": "2027-12-18", "descricao": "Último dia letivo do 2º/2027"}
+        ]
+      },
+      "acessadoEm": "2026-11-24"
+    },
+    "eventos": [
+      {
+        "nome": "XXVIII Semana da Computação do DCC/UFJF",
+        "data": "2026-10-19/2026-10-23",
+        "local": "UFJF, campus Juiz de Fora (dentro da Semana do ICE 2026)",
+        "organizador": "Departamento de Ciência da Computação (DCC/UFJF) com a Code Empresa Júnior",
+        "tema": "Computação em Nuvem",
+        "link": "https://www.even3.com.br/xxviii-semana-da-computacao-do-dccufjf-768430/",
+        "fonte": "https://www2.ufjf.br/ice/?p=3774"
+      },
+      {
+        "nome": "XXVII Semana da Computação da UFJF",
+        "data": "2025-10-20/2025-10-24",
+        "local": "UFJF, campus Juiz de Fora",
+        "organizador": "DCC/UFJF, com co-organização do GETComp (PET/GET da Computação)",
+        "descricao": "Minicursos (Figma, Git/GitHub, C/C++ com CMake), workshop, hackathon, maratona de programação e mostra de laboratórios para escolas.",
+        "link": "https://www2.ufjf.br/getcomp/2025/11/13/xxvii-semana-da-computacao-da-ufjf/",
+        "fonte": "https://www2.ufjf.br/getcomp/2025/11/13/xxvii-semana-da-computacao-da-ufjf/"
+      },
+      {
+        "nome": "Semana do ICE 2026",
+        "data": "2026-10-19/2026-10-23",
+        "local": "Instituto de Ciências Exatas, campus Juiz de Fora",
+        "organizador": "ICE/UFJF",
+        "descricao": "Reúne as semanas acadêmicas de Computação, Estatística, Física (com XXXVII Feira de Ciências em 21/10), Matemática (31ª Semana da Matemática) e Química, durante a Semana Nacional de Ciência e Tecnologia.",
+        "link": "https://www2.ufjf.br/ice/?p=3774",
+        "fonte": "https://www2.ufjf.br/ice/?p=3774"
+      },
+      {
+        "nome": "XXXII Seminário de Iniciação Científica (SEMIC 2026)",
+        "data": "2026-11-05/2026-11-07",
+        "local": "UFJF (etapa presencial)",
+        "organizador": "PROPP — Pró-Reitoria de Pós-Graduação e Pesquisa",
+        "descricao": "Inscrições pelo orientador de 02/09 a 02/10/2026; modalidades Graduação e Ensino Médio/Júnior; etapa presencial com abertura, oficinas e apresentações.",
+        "link": "https://www2.ufjf.br/semic/",
+        "fonte": "https://www2.ufjf.br/semic/seminario-2026/cronograma-2026/"
+      },
+      {
+        "nome": "XXXI Seminário de Iniciação Científica (SEMIC 2025)",
+        "data": "2025-11-12/2025-11-13",
+        "local": "Praça Cívica, campus Juiz de Fora (sessões de pôsteres); GV em 05/11/2025",
+        "organizador": "PROPP/UFJF",
+        "link": "https://www2.ufjf.br/semic/",
+        "fonte": "https://www2.ufjf.br/propp/?p=10794"
+      },
+      {
+        "nome": "37º Festival Internacional de Música Colonial Brasileira e Música Antiga",
+        "data": "2026-07-24/2026-08-01",
+        "local": "Espaços culturais de Juiz de Fora (ex.: Teatro Paschoal Carlos Magno, Cine-Theatro Central)",
+        "organizador": "Pró-Reitoria de Cultura (Procult/UFJF)",
+        "descricao": "Programação gratuita; edição em homenagem aos 200 anos da morte de Joaquina Lapinha.",
+        "link": "https://www2.ufjf.br/procult/",
+        "fonte": "https://www2.ufjf.br/noticias/2026/07/22/festival-internacional-de-musica-colonial-brasileira-reune-concertos-gratuitos-de-24-de-julho-a-1o-de-agosto/"
+      },
+      {
+        "nome": "Provas do PISM 2027 (Módulos I, II e III)",
+        "data": "2026-12-05/2026-12-06",
+        "local": "Juiz de Fora e demais cidades de prova definidas em edital",
+        "organizador": "COPESE / PROGRAD-UFJF",
+        "link": "https://www2.ufjf.br/copese/",
+        "fonte": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/06/10_Edital_10_2026_PISM_2027_retificado-pelo-12-2026.pdf"
+      }
+    ],
+    "orientacoesIngresso": [
+      {
+        "pergunta": "Quais são as formas de entrar na graduação da UFJF?",
+        "resposta": "As vagas de ingresso são divididas entre o PISM (vestibular seriado próprio, 50% das vagas) e o SISU/ENEM (50%). Vagas remanescentes são oferecidas no Processo Seletivo de Vagas Ociosas (transferência, ingresso de graduados, mudança de curso).",
+        "fonte": "https://www2.ufjf.br/ufjf/programa-de-ingresso-seletivo-pism/"
+      },
+      {
+        "pergunta": "Como funciona o PISM?",
+        "resposta": "É uma avaliação seriada em três módulos, um ao final de cada série do ensino médio. É preciso se inscrever em cada módulo e fazer as provas nos três anos seguidos; o curso só é escolhido na inscrição do Módulo III.",
+        "fonte": "https://www2.ufjf.br/ufjf/programa-de-ingresso-seletivo-pism/"
+      },
+      {
+        "pergunta": "Como é calculada a nota final do PISM?",
+        "resposta": "Módulo I (120 pontos × peso 2) + Módulo II (120 × 3) + Módulo III (140 × 5), totalizando 1.300 pontos. O Módulo III responde por cerca de 54% da nota.",
+        "fonte": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/06/10_Edital_10_2026_PISM_2027_retificado-pelo-12-2026.pdf"
+      },
+      {
+        "pergunta": "Quanto custa a inscrição no PISM e quem tem isenção?",
+        "resposta": "No PISM 2027 a taxa é de R$ 150,00. Têm direito a pedir isenção: inscritos no CadÚnico com renda per capita até meio salário mínimo, ou quem cursou todo o ensino médio em escola pública (ou como bolsista integral em escola privada) com renda per capita até 1,5 salário mínimo.",
+        "fonte": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/06/10_Edital_10_2026_PISM_2027_retificado-pelo-12-2026.pdf"
+      },
+      {
+        "pergunta": "Posso fazer o PISM e o SISU ao mesmo tempo?",
+        "resposta": "Sim. A inscrição no Módulo III do PISM não exclui a participação no SISU do MEC.",
+        "fonte": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/06/10_Edital_10_2026_PISM_2027_retificado-pelo-12-2026.pdf"
+      },
+      {
+        "pergunta": "Como funcionam as cotas na UFJF?",
+        "resposta": "No mínimo 50% das vagas de cada curso são reservadas a egressos de escola pública (Lei 12.711/2012, alterada pela Lei 14.723/2023, e Resolução Consu/UFJF nº 120/2024), em 10 grupos que combinam renda (até 1 salário mínimo per capita), pretos/pardos/indígenas, quilombolas e pessoas com deficiência; o Grupo C é a ampla concorrência e há grupo próprio para candidatos surdos em Letras-Libras. A condição é comprovada após a convocação.",
+        "fonte": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/06/10_Edital_10_2026_PISM_2027_retificado-pelo-12-2026.pdf"
+      },
+      {
+        "pergunta": "Quando são as provas do PISM 2027?",
+        "resposta": "Em 05 e 06/12/2026, para os três módulos. O resultado final do Módulo III está previsto para 04/02/2027.",
+        "fonte": "https://www2.ufjf.br/copese/wp-content/uploads/sites/42/2026/06/10_Edital_10_2026_PISM_2027_retificado-pelo-12-2026.pdf"
+      },
+      {
+        "pergunta": "O que é ABI (Área Básica de Ingresso) e como funciona em Ciências Exatas?",
+        "resposta": "Alguns cursos têm ingresso por uma área básica comum. Em Ciências Exatas, o aluno entra no Bacharelado em Ciências Exatas (1º ciclo, 3 anos) e, após o 3º semestre, com carga horária mínima cumprida, escolhe a formação de 2º ciclo (ex.: Computação, Estatística, Física, Matemática, Química, Engenharias). Como as vagas por área são limitadas, o critério é a carga horária cumprida em obrigatórias até o 3º período. Quem já concluiu um curso pode pedir nova modalidade/habilitação na mesma ABI em período definido no calendário.",
+        "fonte": "https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-exatas/"
+      },
+      {
+        "pergunta": "Como pedir transferência de outra instituição para a UFJF?",
+        "resposta": "Pelo Processo Seletivo de Vagas Ociosas, gerido pela CDARA/PROGRAD, com edital por semestre (ex.: Edital Complementar 04 do Edital 05/26 para 1/2027) listando cursos com vagas e requisitos. Há cobrança de taxa de inscrição definida no edital.",
+        "fonte": "https://www2.ufjf.br/cdara/graduacao/vagas-ociosas-2/transferencia-para-ufjf/"
+      },
+      {
+        "pergunta": "Já sou graduado. Posso fazer outro curso na UFJF sem vestibular?",
+        "resposta": "Sim, pela modalidade Ingresso de Graduados (obtenção de novo título), também no Processo Seletivo de Vagas Ociosas, conforme edital semestral da CDARA.",
+        "fonte": "https://www2.ufjf.br/cdara/graduacao/vagas-ociosas-2/processo-seletivo-vagas-ociosas/"
+      },
+      {
+        "pergunta": "Posso mudar de curso dentro da UFJF?",
+        "resposta": "Sim, pela mudança de curso no Processo de Vagas Ociosas. Quem ingressou por vagas ociosas (graduados, transferência, mudança de curso, reinscrição) não pode pleitear nova mudança de curso por esse processo.",
+        "fonte": "https://www2.ufjf.br/cdara/graduacao/vagas-ociosas-2/mudanca-de-curso/"
+      },
+      {
+        "pergunta": "Entrei na UFJF e tenho baixa renda. Que apoio posso pedir?",
+        "resposta": "Graduandos presenciais com renda familiar per capita até 1,5 salário mínimo podem solicitar, a qualquer momento (fluxo contínuo), bolsa PNAES e auxílios moradia, alimentação (RU), transporte e creche na PROAE, preenchendo o formulário socioeconômico no SIGA após a matrícula estar ativa.",
+        "fonte": "https://www2.ufjf.br/minhaufjf/assistencia-estudantil/"
+      }
+    ]
+  },
+  "lacunas": [
+    "RU: não confirmado se o RU Campus já reabriu após as obras de 2026; fontes não citam recarga online/Pix; data de vigência dos preços (R$ 1,40/R$ 0,50 e R$ 13,45/R$ 2,63) não informada na página; status exato de gratuidade para bolsistas do Auxílio-Alimentação é ambíguo",
+    "Transporte: lista de linhas urbanas vem de página institucional sem data; horários do circular divergem entre páginas (bach x Proinfra)",
+    "Valores de bolsas PROAE (R$ 560/420/360) vêm da página Minha UFJF sem data explícita; valor do auxílio-transporte não divulgado",
+    "Calendário 2027: datas extraídas de PDF com layout em colunas; datas de matrícula do 2º/2027 não foram registradas por ambiguidade de leitura",
+    "Maratona de Programação SBC: não encontrei confirmação de sede da 1ª fase na UFJF em 2025/2026",
+    "Tema oficial da XXVII Semana da Computação (2025) não confirmado em fonte primária",
+    "SEMIC 2027 e Semana da Computação 2027 ainda sem datas divulgadas",
+    "Atendimento de saúde física (ex.: serviço médico ao estudante) não localizado; só atendimento psicológico/pedagógico da PROAE",
+    "Taxa de inscrição de vagas ociosas: notícia cita R$ 183,29 sem indicar a edição; não incluído"
+  ],
+  "confianca": "media — quase tudo vem de páginas e PDFs oficiais ufjf.br (calendários 2026/2027 e edital PISM 2027 lidos na íntegra), mas várias páginas de serviços (RU, ônibus, PROAE) não têm data de atualização"
+}

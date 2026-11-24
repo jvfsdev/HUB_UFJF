@@ -1,0 +1,824 @@
+{
+  "agente": "projetos",
+  "geradoEm": "2026-11-24",
+  "fontes": [
+    "http://www.gcg.ufjf.br/",
+    "https://codejr.com.br/",
+    "https://core.ac.uk/download/490646546.pdf",
+    "https://sbgames.org/sbgames2024/wp-content/uploads/2024/09/241244_2.pdf",
+    "https://sites.google.com/view/lapicufjf/join-the-team",
+    "https://tribunademinas.com.br/noticias/cidade/29-08-2025/estudantes-ufjf-competicao-shell.html",
+    "https://www2.ufjf.br/arquitetura/2020/10/03/processo-seletivo-do-ramo-estudantil-ieee-ufjf/",
+    "https://www2.ufjf.br/coordprograd/3939-2/",
+    "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get-2/",
+    "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get/grupos-de-get/",
+    "https://www2.ufjf.br/coordprograd/wp-content/uploads/sites/32/2026/09/Edital_Sele_Recond_Tutor-Eng.Computacional.pdf",
+    "https://www2.ufjf.br/crdh/2020/05/28/crdh-cursinho-comunitario-campones-e-popular/",
+    "https://www2.ufjf.br/critt/2023/03/24/microraptor-e-destaque-em-competicao-internacional-sae-aerodesign-east-2023/",
+    "https://www2.ufjf.br/critt/2023/05/31/enactus-ufjf-celebra-5-anos-de-atuacao-no-territorio-juizforano/",
+    "https://www2.ufjf.br/critt/2026/07/21/rinobot-team-representa-ufjf-na-robocup-2026-coreia-do-sul/",
+    "https://www2.ufjf.br/critt/2026/08/06/escuderia-participa-da-22a-competicao-formula-sae-brasil/",
+    "https://www2.ufjf.br/critt/apresentacao/proinova/empresas-juniores/",
+    "https://www2.ufjf.br/critt/apresentacao/proinova/equipes-de-competicao/",
+    "https://www2.ufjf.br/dinova/2023/05/05/voando-alto-com-a-microraptor/",
+    "https://www2.ufjf.br/dinova/equipes-de-competicao/",
+    "https://www2.ufjf.br/economia/2023/12/21/vem-para-a-enactus-ufjf/",
+    "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/",
+    "https://www2.ufjf.br/fale/2025/12/02/equipe-do-programa-de-extensao-conecta-libras-classificada-para-a-final-nacional-do-desafio-liga-jovem-sebrae/",
+    "https://www2.ufjf.br/getcomp/",
+    "https://www2.ufjf.br/getengcomp/",
+    "https://www2.ufjf.br/getengcomp/?p=5488",
+    "https://www2.ufjf.br/getsi/",
+    "https://www2.ufjf.br/ice/pessoas/alunos/atletica-ice/",
+    "https://www2.ufjf.br/ice/semana-do-ice/semana-do-ice/",
+    "https://www2.ufjf.br/labmaker/apresentacao/",
+    "https://www2.ufjf.br/meninasdigitaisufjf/?p=480",
+    "https://www2.ufjf.br/meninasdigitaisufjf/apresentacao/",
+    "https://www2.ufjf.br/midiadigital/2024/10/18/lugar-de-menina-e-onde-ela-quiser/",
+    "https://www2.ufjf.br/noticias/2023/06/05/projeto-de-extensao-oferece-curso-introdutorio-de-impressao-3d-para-professores/",
+    "https://www2.ufjf.br/noticias/2024/01/23/cursinho-garra-abre-processo-seletivo-para-diretores-coordenadores-e-docentes/",
+    "https://www2.ufjf.br/noticias/2024/10/11/abertas-inscricoes-para-a-maratona-de-ideias-tecnologias-para-recomecar/",
+    "https://www2.ufjf.br/noticias/2025/02/17/cursinho-garra-abre-70-vagas-gratuitas-em-preparatorio-para-o-enem/",
+    "https://www2.ufjf.br/noticias/2026/03/03/estudantes-promovem-acao-para-reparar-equipamentos-danificados-pelas-chuvas/",
+    "https://www2.ufjf.br/noticias/?p=96532",
+    "https://www2.ufjf.br/pgcc/laboratorios-de-pesquisa/",
+    "https://www2.ufjf.br/proex/?p=26287",
+    "https://www2.ufjf.br/projetoextensaotutoriaenem/?p=5"
+  ],
+  "dados": {
+    "projetos": [
+      {
+        "id": "getcomp",
+        "nome": "Grupo de Educação Tutorial da Ciência da Computação",
+        "sigla": "GETComp",
+        "categoria": "ensino",
+        "unidade": "ICE / Departamento de Ciência da Computação (curso de Ciência da Computação)",
+        "coordenacao": null,
+        "descricao": "Grupo de Educação Tutorial do curso de Ciência da Computação, criado em 2010, que desenvolve atividades de ensino, pesquisa e extensão. Promove aulões, minicursos, o GETStart, o Manual para Calouros, o GETTalk e eventos como GETMeeting e GETHiperfoco.",
+        "comoParticipar": "Processo seletivo próprio (página 'Como participar do GETComp' no site); detalhes não extraídos.",
+        "site": "https://www2.ufjf.br/getcomp/",
+        "instagram": "https://www.instagram.com/getcomp/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-09-20"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/getcomp/",
+          "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get/grupos-de-get/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "get-engcomp",
+        "nome": "Grupo de Educação Tutorial da Engenharia Computacional",
+        "sigla": "GET EngComp",
+        "categoria": "ensino",
+        "unidade": "Faculdade de Engenharia / ICE (curso de Engenharia Computacional)",
+        "coordenacao": "Tutor: Prof. Joventino de Oliveira Campos (conforme site do grupo; edital de seleção/recondução de tutor aberto em set/2026)",
+        "descricao": "Grupo de Educação Tutorial do curso de Engenharia Computacional, ativo desde novembro de 2010. Seus bolsistas (GETianos) realizam atividades integradas de ensino, pesquisa e extensão com docentes principalmente do MAC e do DCC, incluindo aulões, minicursos na Semana da Computação, GETnários e oficinas com App Inventor.",
+        "comoParticipar": "Seção 'Oportunidades para alunos' no site; processo seletivo não detalhado.",
+        "site": "https://www2.ufjf.br/getengcomp/",
+        "instagram": "https://www.instagram.com/get.engcomp/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-11-07"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/getengcomp/",
+          "https://www2.ufjf.br/coordprograd/wp-content/uploads/sites/32/2026/09/Edital_Sele_Recond_Tutor-Eng.Computacional.pdf",
+          "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get/grupos-de-get/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "getsi",
+        "nome": "Grupo de Educação Tutorial de Sistemas de Informação",
+        "sigla": "GET-SI",
+        "categoria": "ensino",
+        "unidade": "ICE / DCC (curso de Sistemas de Informação)",
+        "coordenacao": null,
+        "descricao": "Grupo de Educação Tutorial do curso de Sistemas de Informação, criado em 2018 para reunir atividades de pesquisa, ensino e extensão do curso. Mantém projetos, eventos e publicações listados em seu site.",
+        "comoParticipar": "Processo seletivo periódico (Processo Seletivo GET-SI 2026 anunciado em ago/2026).",
+        "site": "https://www2.ufjf.br/getsi/",
+        "instagram": "https://www.instagram.com/getsistemas/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-08-27"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/getsi/",
+          "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get/grupos-de-get/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "get-mecanica",
+        "nome": "Grupo de Educação Tutorial da Engenharia Mecânica",
+        "sigla": "GET Mecânica",
+        "categoria": "ensino",
+        "unidade": "Faculdade de Engenharia (Engenharia Mecânica)",
+        "coordenacao": null,
+        "descricao": "Um dos 12 grupos GET da UFJF, vinculado ao curso de Engenharia Mecânica, com atividades de ensino, pesquisa e extensão no modelo de educação tutorial.",
+        "comoParticipar": null,
+        "site": "https://www2.ufjf.br/getmec/",
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026 (listado como grupo ativo pela PROGRAD)"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get/grupos-de-get/",
+          "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get-2/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "get-producao",
+        "nome": "Grupo de Educação Tutorial da Engenharia de Produção",
+        "sigla": "GET Produção",
+        "categoria": "ensino",
+        "unidade": "Faculdade de Engenharia (Engenharia de Produção)",
+        "coordenacao": null,
+        "descricao": "Grupo GET vinculado ao curso de Engenharia de Produção, listado pela PROGRAD e pela Faculdade de Engenharia entre suas atividades extracurriculares.",
+        "comoParticipar": null,
+        "site": "https://www2.ufjf.br/getproducao/",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listado na página oficial da PROGRAD"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/coordprograd/grupo-de-educacao-tutorial-get/grupos-de-get/",
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "pet-eletrica",
+        "nome": "Programa de Educação Tutorial da Engenharia Elétrica",
+        "sigla": "PET Elétrica",
+        "categoria": "ensino",
+        "unidade": "Faculdade de Engenharia (Engenharia Elétrica)",
+        "coordenacao": "Tutor: Prof. Dr. Danilo Pereira Pinto",
+        "descricao": "Um dos seis grupos PET da UFJF, vinculado ao curso de Engenharia Elétrica, com atividades de ensino, pesquisa e extensão. Participa de ações como o 'Engenharia de Portas Abertas' com outros grupos PET/GET das engenharias.",
+        "comoParticipar": null,
+        "site": "https://www.ufjf.br/peteletrica/",
+        "instagram": "https://www.instagram.com/peteletricaufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "listado como grupo PET vigente pela PROGRAD"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/coordprograd/3939-2/",
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "pet-civil",
+        "nome": "Programa de Educação Tutorial da Engenharia Civil",
+        "sigla": "PET Civil",
+        "categoria": "ensino",
+        "unidade": "Faculdade de Engenharia (Engenharia Civil)",
+        "coordenacao": "Tutora: Profª. Drª. Julia Righi de Almeida",
+        "descricao": "Grupo PET do curso de Engenharia Civil da UFJF, que desenvolve atividades de ensino, pesquisa e extensão no modelo de educação tutorial.",
+        "comoParticipar": null,
+        "site": "https://www.ufjf.br/petcivil/",
+        "instagram": "https://www.instagram.com/petcivilufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "listado como grupo PET vigente pela PROGRAD"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/coordprograd/3939-2/",
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "code-jr",
+        "nome": "CODE Empresa Júnior de Computação",
+        "sigla": "Code Jr",
+        "categoria": "empresa_junior",
+        "unidade": "ICE (Ciência da Computação, Sistemas de Informação, Engenharia Computacional e Ciências Exatas, segundo o CRITT)",
+        "coordenacao": null,
+        "descricao": "Empresa júnior de computação vinculada à UFJF, fundada em 2014, em que estudantes aplicam conhecimento acadêmico em projetos reais. Desenvolve sites institucionais, aplicativos web e mobile, sistemas de gestão, e-commerce, automações e APIs; também co-organiza a Semana da Computação com o DCC.",
+        "comoParticipar": "Processo seletivo próprio (página de processo seletivo no site).",
+        "site": "https://codejr.com.br/",
+        "instagram": "https://www.instagram.com/codejr/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/empresas-juniores/",
+          "https://codejr.com.br/",
+          "https://www2.ufjf.br/getengcomp/?p=5488"
+        ],
+        "acessadoEm": "2026-11-24",
+        "obs": "Site da empresa cita membros de CC e SI; CRITT inclui também Eng. Computacional e Ciências Exatas."
+      },
+      {
+        "id": "impacto-jr",
+        "nome": "Impacto Jr",
+        "sigla": "Impacto Jr",
+        "categoria": "empresa_junior",
+        "unidade": "Faculdade de Engenharia (Engenharia Mecânica)",
+        "coordenacao": null,
+        "descricao": "Empresa júnior do curso de Engenharia Mecânica da UFJF, listada pelo CRITT e pela Faculdade de Engenharia.",
+        "comoParticipar": null,
+        "site": "https://impactojr.com/",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listada nas páginas oficiais do CRITT e da Engenharia"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/empresas-juniores/",
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "mais-consultoria-jr",
+        "nome": "Mais Consultoria Jr",
+        "sigla": "MAIS",
+        "categoria": "empresa_junior",
+        "unidade": "Faculdade de Engenharia (Engenharia de Produção)",
+        "coordenacao": null,
+        "descricao": "Empresa júnior do curso de Engenharia de Produção da UFJF, listada pelo CRITT e pela Faculdade de Engenharia.",
+        "comoParticipar": null,
+        "site": "https://maisconsultoria.com.br/",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listada nas páginas oficiais do CRITT e da Engenharia"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/empresas-juniores/",
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "porte-jr",
+        "nome": "Porte Empresa Júnior",
+        "sigla": "Porte Jr",
+        "categoria": "empresa_junior",
+        "unidade": "Faculdade de Engenharia e Faculdade de Arquitetura e Urbanismo (Eng. Sanitária e Ambiental, Civil, Elétrica e Arquitetura)",
+        "coordenacao": null,
+        "descricao": "Empresa júnior que atende os cursos de Arquitetura e Urbanismo e de engenharias (Civil, Elétrica, Sanitária e Ambiental), oferecendo soluções em arquitetura e engenharia.",
+        "comoParticipar": null,
+        "site": "https://portejr.com.br/",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listada nas páginas oficiais do CRITT e da Engenharia"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/empresas-juniores/",
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24",
+        "obs": "Contato institucional publicado pela Faculdade de Engenharia: portejr@portejr.com"
+      },
+      {
+        "id": "rinobot",
+        "nome": "Rinobot Team",
+        "sigla": "Rinobot",
+        "categoria": "competicao",
+        "unidade": "Faculdade de Engenharia (equipe multidisciplinar: Eng. Elétrica, Eng. Computacional, Ciência da Computação, Ciências Exatas, comunicação e outros)",
+        "coordenacao": null,
+        "descricao": "Equipe de competição de robótica e inteligência artificial da UFJF, sem fins lucrativos, iniciada em maio de 2016, que disputa competições nacionais e internacionais em categorias autônomas (Seguidor de Linha, Sumô, VSSS, Soccer Simulation 2D). Em 2026 ficou em 3º lugar na IronCup e em 10º na RoboCup 2026 (Coreia do Sul).",
+        "comoParticipar": null,
+        "site": null,
+        "instagram": "https://www.instagram.com/rinobotbrasil/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-07-21"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/equipes-de-competicao/",
+          "https://www2.ufjf.br/critt/2026/07/21/rinobot-team-representa-ufjf-na-robocup-2026-coreia-do-sul/",
+          "https://www2.ufjf.br/noticias/?p=96532"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "microraptor",
+        "nome": "Equipe Microraptor de Aerodesign",
+        "sigla": "Microraptor",
+        "categoria": "competicao",
+        "unidade": "Faculdade de Engenharia (origem na Engenharia Mecânica)",
+        "coordenacao": null,
+        "descricao": "Equipe de aerodesign que projeta e constrói aeronaves radiocontroladas de perfil cargueiro para a competição SAE Brasil AeroDesign. Criada em 2011, foi campeã nacional na Classe Micro em 2022 e disputou a SAE Aerodesign East 2023 nos EUA.",
+        "comoParticipar": null,
+        "site": null,
+        "instagram": "https://www.instagram.com/microraptorufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2023"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/equipes-de-competicao/",
+          "https://www2.ufjf.br/dinova/2023/05/05/voando-alto-com-a-microraptor/",
+          "https://www2.ufjf.br/critt/2023/03/24/microraptor-e-destaque-em-competicao-internacional-sae-aerodesign-east-2023/"
+        ],
+        "acessadoEm": "2026-11-24",
+        "obs": "Notícias oficiais citam criação em 2011 pelo prof. Marcos Borges; não há evidência oficial encontrada de 2025-2026."
+      },
+      {
+        "id": "rampage-baja",
+        "nome": "Rampage Baja UFJF",
+        "sigla": "Rampage",
+        "categoria": "competicao",
+        "unidade": "Faculdade de Engenharia",
+        "coordenacao": null,
+        "descricao": "Equipe vinculada ao Projeto Baja SAE Brasil que projeta e constrói um veículo off-road para a competição Baja SAE. Iniciou atividades em 2015 segundo o CRITT.",
+        "comoParticipar": null,
+        "site": "https://www.facebook.com/rampagebajaufjf/",
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2025 (premiação na etapa Sudeste do Baja SAE, segundo notícia; não verificada diretamente)"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/equipes-de-competicao/",
+          "https://www2.ufjf.br/dinova/equipes-de-competicao/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "escuderia-ufjf",
+        "nome": "Escuderia UFJF (Fórmula SAE)",
+        "sigla": "Escuderia",
+        "categoria": "competicao",
+        "unidade": "Faculdade de Engenharia",
+        "coordenacao": null,
+        "descricao": "Equipe de Fórmula SAE que desenvolve e constrói um carro de corrida monoposto do tipo open-wheel. Participou da 22ª Competição Fórmula SAE Brasil em Tatuí (SP).",
+        "comoParticipar": null,
+        "site": "https://www.facebook.com/formulasaeufjf/",
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-08-06"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/equipes-de-competicao/",
+          "https://www2.ufjf.br/critt/2026/08/06/escuderia-participa-da-22a-competicao-formula-sae-brasil/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "capivara",
+        "nome": "Equipe Capivara de Eficiência Energética",
+        "sigla": "Capivara",
+        "categoria": "competicao",
+        "unidade": "Faculdade de Engenharia",
+        "coordenacao": null,
+        "descricao": "Equipe que constrói protótipos veiculares com máxima eficiência no consumo de energia para a Shell Eco-Marathon. Em 2025 competiu no Rio de Janeiro com um protótipo de três rodas feito com materiais recicláveis.",
+        "comoParticipar": null,
+        "site": "https://www.facebook.com/EquipeCapivara/",
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2025-08-29 (Tribuna de Minas)"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/equipes-de-competicao/",
+          "https://tribunademinas.com.br/noticias/cidade/29-08-2025/estudantes-ufjf-competicao-shell.html"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "supernova-rocketry",
+        "nome": "Supernova Rocketry UFJF",
+        "sigla": "Supernova",
+        "categoria": "competicao",
+        "unidade": "UFJF (listada pelo CRITT/DINOVA)",
+        "coordenacao": null,
+        "descricao": "Equipe de foguetemodelismo que representa a UFJF em competições nacionais de foguetes.",
+        "comoParticipar": null,
+        "site": "https://www.facebook.com/supernovarocketry/",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listada nas páginas do CRITT/DINOVA; sem notícia recente encontrada"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/apresentacao/proinova/equipes-de-competicao/",
+          "https://www2.ufjf.br/dinova/equipes-de-competicao/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "lapic",
+        "nome": "Laboratório de Aplicações Inovadoras em Computação",
+        "sigla": "LApIC",
+        "categoria": "pesquisa",
+        "unidade": "ICE / DCC (PPGCC)",
+        "coordenacao": "Docentes responsáveis pelas linhas: Jairo Francisco de Souza, Eduardo Barrère, Marcelo Ferreira Moreno e Marcelo Machado (coordenação formal não explicitada)",
+        "descricao": "Laboratório de pesquisa e desenvolvimento em Ciência da Computação, com atuação em Inteligência Artificial, Processamento da Informação, Sistemas Computacionais e Tecnologias Multimídia, com foco em educação. Projetos incluem geração automática de itens educacionais com o CAEd, fluência em leitura com transcrição automática de fala e o Projeto Prisma.",
+        "comoParticipar": "Oportunidades de TCC, iniciação científica e eventos; contatar os docentes responsáveis pelas linhas de pesquisa (página 'Join the team').",
+        "site": "https://sites.google.com/view/lapicufjf",
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "site em atividade (2026)"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/pgcc/laboratorios-de-pesquisa/",
+          "https://sites.google.com/view/lapicufjf/join-the-team"
+        ],
+        "acessadoEm": "2026-11-24",
+        "obs": "Nome na lista do PPGCC: 'Laboratório de Aplicações e Inovação em Computação'. URL www.ufjf.br/lapic retorna 404."
+      },
+      {
+        "id": "gcg",
+        "nome": "Grupo de Computação Gráfica, Imagem e Visão",
+        "sigla": "GCG",
+        "categoria": "pesquisa",
+        "unidade": "ICE / DCC (PPGCC)",
+        "coordenacao": "Coordenador: Prof. Marcelo Bernardes Vieira",
+        "descricao": "Grupo de pesquisa criado em 2007 que atua em processamento de imagens, visão computacional e computação gráfica. Linhas incluem visualização de campos tensoriais, reconstrução 3D a partir de vídeo, reconhecimento de ações humanas, robôs em futebol e realidade virtual e aumentada.",
+        "comoParticipar": null,
+        "site": "http://www.gcg.ufjf.br/",
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "site no ar em 2026"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/pgcc/laboratorios-de-pesquisa/",
+          "http://www.gcg.ufjf.br/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "netlab",
+        "nome": "Laboratório de Redes de Computadores e Sistemas Distribuídos",
+        "sigla": "NetLab",
+        "categoria": "pesquisa",
+        "unidade": "ICE / DCC (PPGCC)",
+        "coordenacao": null,
+        "descricao": "Laboratório de pesquisa do DCC/PPGCC em redes de computadores e sistemas distribuídos, listado entre os laboratórios de pesquisa do programa.",
+        "comoParticipar": null,
+        "site": "http://netlab.ice.ufjf.br/",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listado pelo PPGCC; site não respondeu em 2026-11-24"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/pgcc/laboratorios-de-pesquisa/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "nenc",
+        "nome": "Núcleo de Engenharia do Conhecimento",
+        "sigla": "NEnC",
+        "categoria": "pesquisa",
+        "unidade": "ICE / DCC (PPGCC)",
+        "coordenacao": null,
+        "descricao": "Núcleo de pesquisa listado entre os laboratórios do Programa de Pós-Graduação em Ciência da Computação, voltado à engenharia do conhecimento.",
+        "comoParticipar": null,
+        "site": null,
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listado pelo PPGCC; página www.ufjf.br/nenc retorna 404"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/pgcc/laboratorios-de-pesquisa/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "licobic",
+        "nome": "Laboratório de Inteligência Computacional, Otimização e Biologia Molecular Computacional",
+        "sigla": "LICOBiC",
+        "categoria": "pesquisa",
+        "unidade": "ICE / DCC (PPGCC)",
+        "coordenacao": null,
+        "descricao": "Laboratório listado pelo PPGCC com atuação em inteligência computacional, otimização e biologia molecular computacional.",
+        "comoParticipar": null,
+        "site": null,
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listado pelo PPGCC"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/pgcc/laboratorios-de-pesquisa/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "lets",
+        "nome": "Laboratório de Educação em Computação e Tecnologias Sociais",
+        "sigla": "LETs",
+        "categoria": "pesquisa",
+        "unidade": "ICE / DCC",
+        "coordenacao": null,
+        "descricao": "Laboratório vinculado ao DCC voltado à educação em computação e tecnologias sociais, que abriga o grupo GameLETs (jogos digitais para educação em computação, desde 2023). Co-organizou com o Time Enactus a Maratona de Ideias 'Tecnologias para Recomeçar' (2024), sobre soluções para pessoas refugiadas.",
+        "comoParticipar": null,
+        "site": null,
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2024"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/noticias/2024/10/11/abertas-inscricoes-para-a-maratona-de-ideias-tecnologias-para-recomecar/",
+          "https://sbgames.org/sbgames2024/wp-content/uploads/2024/09/241244_2.pdf"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "meninas-digitais-ufjf",
+        "nome": "Meninas Digitais UFJF",
+        "sigla": "MD UFJF",
+        "categoria": "extensao",
+        "unidade": "ICE / DCC",
+        "coordenacao": "Idealizado pelas professoras Bárbara Quintela e Liamara Scortegagna e pelo professor Igor Knop (DCC)",
+        "descricao": "Projeto de extensão parceiro do Programa Meninas Digitais da SBC, iniciado em 2022. Realiza oficinas de pensamento computacional com computação desplugada (como o jogo Turing Tumble) para meninas do ensino fundamental de Juiz de Fora, para despertar interesse por STEM.",
+        "comoParticipar": "Contato pela página do projeto ou telefone institucional (32) 2102-3911.",
+        "site": "https://www2.ufjf.br/meninasdigitaisufjf/",
+        "instagram": "https://www.instagram.com/meninasdigitaisufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2025-11 (8ª Mostra de Extensão)"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/meninasdigitaisufjf/apresentacao/",
+          "https://www2.ufjf.br/meninasdigitaisufjf/?p=480"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "meninas-programadoras-jf",
+        "nome": "Meninas Programadoras JF",
+        "sigla": "MPJF",
+        "categoria": "extensao",
+        "unidade": "ICE / DCC (Ciência da Computação)",
+        "coordenacao": "Profª Alessandreia de Oliveira (DCC)",
+        "descricao": "Iniciativa, surgida em set/2023 como parceira do Meninas Digitais/SBC e baseada em projeto da USP, que oferece introdução à programação em Python com aulas teóricas e práticas. Busca aumentar a presença de mulheres na computação.",
+        "comoParticipar": "Público: estudantes do 3º ano do EM ou recém-concluintes que se identifiquem com o gênero feminino ou não binário; informações em linktr.ee/meninasprogramadorasjf.",
+        "site": null,
+        "instagram": "https://www.instagram.com/meninasprogramadorasjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2024-10"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/midiadigital/2024/10/18/lugar-de-menina-e-onde-ela-quiser/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "labmaker",
+        "nome": "LabMaker – Impressão 3D nas escolas",
+        "sigla": "LabMaker",
+        "categoria": "extensao",
+        "unidade": "ICE (contato no Departamento de Engenharia Computacional / DCC)",
+        "coordenacao": "Profª Flávia Bastos (coordenadora, segundo notícia UFJF)",
+        "descricao": "Projeto de extensão aprovado pela PROEX em 2022 para democratizar o conhecimento sobre modelagem digital e impressão 3D. Apoia escolas de Juiz de Fora e região na montagem e manutenção de impressoras 3D e oferece cursos para professores.",
+        "comoParticipar": "Ver seção 'Editais e Formulários' do site.",
+        "site": "https://www2.ufjf.br/labmaker/",
+        "instagram": "https://www.instagram.com/labmakerufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/labmaker/apresentacao/",
+          "https://www2.ufjf.br/noticias/2023/06/05/projeto-de-extensao-oferece-curso-introdutorio-de-impressao-3d-para-professores/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "enactus-ufjf",
+        "nome": "Time Enactus UFJF",
+        "sigla": "Enactus",
+        "categoria": "iniciativa_social",
+        "unidade": "Interdisciplinar (vinculado ao DCC, segundo notícia de 2024; apoio do CRITT)",
+        "coordenacao": null,
+        "descricao": "Time de empreendedorismo social fundado em outubro de 2018 que desenvolve projetos de impacto em Juiz de Fora, como Feirinha, ImigraSomos e Cidades Inteligentes. Edital recente distribuiu vagas entre os projetos Ciclo C, Tecendo Laços e Passus.",
+        "comoParticipar": "Processo seletivo aberto a estudantes de quaisquer cursos de graduação e pós-graduação da UFJF.",
+        "site": null,
+        "instagram": "https://www.instagram.com/enactusufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2024"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/critt/2023/05/31/enactus-ufjf-celebra-5-anos-de-atuacao-no-territorio-juizforano/",
+          "https://www2.ufjf.br/economia/2023/12/21/vem-para-a-enactus-ufjf/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "cursinho-garra",
+        "nome": "Cursinho Popular Garra",
+        "sigla": "Garra",
+        "categoria": "iniciativa_social",
+        "unidade": "PROEX (projeto de extensão conduzido por estudantes)",
+        "coordenacao": null,
+        "descricao": "Cursinho popular gratuito preparatório para o ENEM, criado em 2017 por estudantes da UFJF, voltado à democratização do acesso ao ensino superior. As aulas são presenciais no campus, à noite, ministradas por estudantes voluntários.",
+        "comoParticipar": "Estudantes da UFJF podem atuar como professores, monitores e coordenadores voluntários (seleções anuais); vagas para alunos de baixa renda de escola pública.",
+        "site": null,
+        "instagram": "https://www.instagram.com/garra.cursinho/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-02"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/noticias/2025/02/17/cursinho-garra-abre-70-vagas-gratuitas-em-preparatorio-para-o-enem/",
+          "https://www2.ufjf.br/noticias/2024/01/23/cursinho-garra-abre-processo-seletivo-para-diretores-coordenadores-e-docentes/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "tutoria-enem",
+        "nome": "Projeto Tutoria ENEM",
+        "sigla": "TutoENEM",
+        "categoria": "extensao",
+        "unidade": "PROEX",
+        "coordenacao": null,
+        "descricao": "Projeto de extensão que oferece, desde 2020, aulas online, ao vivo e gratuitas para estudantes que se preparam para ENEM e ENCCEJA, com foco em pessoas em vulnerabilidade socioeconômica. Tem como objetivos formação cidadã, inclusão digital e ampliação do acesso ao ensino superior.",
+        "comoParticipar": "Tutores voluntários (graduandos, pós-graduandos e egressos) se inscrevem pela página 'Novos Tutores'.",
+        "site": "https://www2.ufjf.br/projetoextensaotutoriaenem/",
+        "instagram": "https://www.instagram.com/tutoenem/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/projetoextensaotutoriaenem/?p=5"
+        ],
+        "acessadoEm": "2026-11-24",
+        "obs": "Contato institucional: tutoria.enem@ufjf.br"
+      },
+      {
+        "id": "cccp-gv",
+        "nome": "Cursinho Comunitário Camponês e Popular",
+        "sigla": "CCCP",
+        "categoria": "iniciativa_social",
+        "unidade": "Campus Governador Valadares / PROEX",
+        "coordenacao": null,
+        "descricao": "Projeto de extensão do campus de Governador Valadares que oferece preparação gratuita a pré-vestibulandos. Recebeu visita da PROEX em maio de 2025.",
+        "comoParticipar": "Edital da PROEX para seleção de estudantes do projeto.",
+        "site": null,
+        "instagram": "https://www.instagram.com/cccp.ufjfgv/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2025-05"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/proex/?p=26287",
+          "https://www2.ufjf.br/crdh/2020/05/28/crdh-cursinho-comunitario-campones-e-popular/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "conecta-libras",
+        "nome": "Programa de Extensão Conecta Libras",
+        "sigla": "Conecta Libras",
+        "categoria": "extensao",
+        "unidade": "Faculdade de Letras (FALE)",
+        "coordenacao": "Profª Drª Hadassa Rodrigues",
+        "descricao": "Programa de extensão que reúne ações de acessibilidade, tecnologias assistivas, comunicação inclusiva e aplicação da Libras em diferentes contextos. Em 2025 teve equipe classificada para a final nacional do Desafio Liga Jovem Sebrae.",
+        "comoParticipar": null,
+        "site": null,
+        "instagram": null,
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2025-12-02"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/fale/2025/12/02/equipe-do-programa-de-extensao-conecta-libras-classificada-para-a-final-nacional-do-desafio-liga-jovem-sebrae/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "ieee-ufjf",
+        "nome": "Ramo Estudantil IEEE UFJF",
+        "sigla": "IEEE UFJF",
+        "categoria": "grupo_interesse",
+        "unidade": "Faculdade de Engenharia",
+        "coordenacao": null,
+        "descricao": "Ramo estudantil do IEEE criado em 1991 por iniciativa de professores da Faculdade de Engenharia, com capítulos técnicos (ex.: Robótica e Automação, Aplicações Industriais) e o grupo de afinidade IEEE WIE. Em 2026 promoveu ação de reparo gratuito de eletrônicos danificados pelas chuvas.",
+        "comoParticipar": "Processos seletivos periódicos divulgados nas redes @ieeeufjf.",
+        "site": "https://edu.ieee.org/br-ufjf/",
+        "instagram": "https://www.instagram.com/ieeeufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-03-03"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/",
+          "https://www2.ufjf.br/noticias/2026/03/03/estudantes-promovem-acao-para-reparar-equipamentos-danificados-pelas-chuvas/",
+          "https://www2.ufjf.br/arquitetura/2020/10/03/processo-seletivo-do-ramo-estudantil-ieee-ufjf/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "esf-jf",
+        "nome": "Engenheiros Sem Fronteiras – Núcleo Juiz de Fora",
+        "sigla": "ESF JF",
+        "categoria": "iniciativa_social",
+        "unidade": "Faculdade de Engenharia (listado como atividade extracurricular)",
+        "coordenacao": null,
+        "descricao": "Núcleo de Juiz de Fora da organização Engenheiros Sem Fronteiras, listado pela Faculdade de Engenharia da UFJF entre as atividades extracurriculares dos estudantes.",
+        "comoParticipar": null,
+        "site": "https://esf.org.br/nucleo-juiz-de-fora/",
+        "instagram": "https://www.instagram.com/esfjuizdefora/",
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listado na página oficial da Faculdade de Engenharia"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24",
+        "obs": "Contato institucional: juizdefora@esf-brasil.org"
+      },
+      {
+        "id": "atletica-ice",
+        "nome": "Associação Atlética Acadêmica ICE – UFJF",
+        "sigla": "Atlética ICE",
+        "categoria": "grupo_interesse",
+        "unidade": "Instituto de Ciências Exatas (ICE)",
+        "coordenacao": null,
+        "descricao": "Associação atlética fundada em 16 de abril de 2013 para promover o esporte entre os estudantes do Instituto de Ciências Exatas da UFJF (inclui cursos de Computação).",
+        "comoParticipar": "Contato pelo e-mail atleticaiceufjf@gmail.com ou Facebook.",
+        "site": "https://www.facebook.com/AtleticaIceUfjf",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "página no site do ICE"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/ice/pessoas/alunos/atletica-ice/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "atletica-arq-eng",
+        "nome": "Associação Atlética da Arquitetura e Engenharia (Comando Laranja)",
+        "sigla": "Atlética Arq/Eng",
+        "categoria": "grupo_interesse",
+        "unidade": "Faculdade de Engenharia e Faculdade de Arquitetura e Urbanismo",
+        "coordenacao": null,
+        "descricao": "Associação atlética dos cursos de Arquitetura e Engenharias da UFJF, listada pela Faculdade de Engenharia entre as atividades extracurriculares.",
+        "comoParticipar": null,
+        "site": "https://www.facebook.com/comandolaranja/",
+        "instagram": null,
+        "ativo": {
+          "ativo": null,
+          "ultimaEvidencia": "listada na página oficial da Faculdade de Engenharia"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/engenharia/ensino/atividades-extracurriculares/"
+        ],
+        "acessadoEm": "2026-11-24"
+      },
+      {
+        "id": "semana-computacao",
+        "nome": "Semana da Computação da UFJF",
+        "sigla": "SECOMP UFJF",
+        "categoria": "extensao",
+        "unidade": "ICE / DCC (com Code Jr e grupos GET)",
+        "coordenacao": null,
+        "descricao": "Evento anual de extensão do DCC, realizado há mais de 20 anos, com palestras e minicursos para estudantes de computação, integrado à Semana do ICE. A XXVIII edição ocorreu de 19 a 23 de outubro de 2026 com o tema computação em nuvem.",
+        "comoParticipar": "Inscrições pela plataforma Even3 a cada edição.",
+        "site": "https://www.even3.com.br/xxviii-semana-da-computacao-do-dccufjf-768430",
+        "instagram": "https://www.instagram.com/semanadacomputacaoufjf/",
+        "ativo": {
+          "ativo": true,
+          "ultimaEvidencia": "2026-10"
+        },
+        "fonte": [
+          "https://www2.ufjf.br/ice/semana-do-ice/semana-do-ice/",
+          "https://www2.ufjf.br/getengcomp/?p=5488",
+          "https://core.ac.uk/download/490646546.pdf"
+        ],
+        "acessadoEm": "2026-11-24"
+      }
+    ]
+  },
+  "lacunas": [
+    "Não existe 'PET Computação' na UFJF: os grupos tutoriais de computação são GETs (GETComp, GET EngComp, GET-SI); os 6 PETs são Comunicação, Ed. Física, Eng. Civil, Eng. Elétrica, Odontologia e Psicologia.",
+    "Não foi encontrado grupo/equipe oficial de Maratona de Programação (ICPC/SBC) da UFJF com página ativa; apenas menção histórica (2016).",
+    "Nenhuma liga acadêmica de IA/dados/computação da UFJF foi encontrada em fonte oficial.",
+    "Tutores do GETComp, GET-SI, GET Mecânica e GET Produção não constam nas páginas oficiais consultadas.",
+    "NEnC, NetLab e LICOBiC: apenas listados pelo PPGCC; sites fora do ar/404, sem descrição ou coordenação confirmada.",
+    "Coordenação das equipes de competição não consta nas páginas do CRITT/DINOVA.",
+    "Atividade recente (2025-2026) não confirmada para Microraptor, Supernova Rocketry, Impacto Jr, Mais, Porte, ESF e atléticas.",
+    "Instagram da Atlética ICE não consta na página oficial.",
+    "Rampage Baja: ano de início diverge (2015 no CRITT; 2016 em notícia).",
+    "Coordenação do LabMaker: nome vem de notícia (busca), página de apresentação não cita."
+  ],
+  "confianca": "media — itens e descrições vêm de páginas oficiais UFJF (PROGRAD, CRITT/DINOVA, Engenharia, PPGCC, sites de grupos), mas várias páginas são listas sem data e a atividade atual de alguns itens não foi confirmada; leituras feitas via resumo automático de páginas."
+}

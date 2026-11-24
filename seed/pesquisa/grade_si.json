@@ -1,0 +1,2656 @@
+{
+ "agente": "grade_si",
+ "geradoEm": "2026-11-24",
+ "acessadoEm": "2026-11-24",
+ "fontes": [
+  "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/",
+  "https://www2.ufjf.br/si/curso/apresentacao/",
+  "https://www2.ufjf.br/si/gestao/coordenacao/",
+  "https://www2.ufjf.br/si/?p=2040",
+  "https://www2.ufjf.br/si/curso/ppc/",
+  "https://www2.ufjf.br/si/bfd_download/ppc-2023",
+  "https://www2.ufjf.br/si/curso/curriculos/",
+  "https://www2.ufjf.br/si/aluno/extensao/",
+  "https://www2.ufjf.br/si/aluno/tcc/",
+  "https://www2.ufjf.br/si/aluno/estagio/",
+  "https://www2.ufjf.br/si/aluno/flexibilizacao/"
+ ],
+ "dados": {
+  "cursos": [
+   {
+    "codigoSiga": "76A",
+    "nome": "Sistemas de Informação",
+    "grau": "Bacharelado",
+    "modalidade": "Presencial",
+    "turno": "Noturno",
+    "unidade": "Instituto de Ciências Exatas (ICE)",
+    "totalPeriodos": 8,
+    "tempoMaximoPeriodos": 14,
+    "cargaHorariaTotal": 3000,
+    "vagasAnuais": 40,
+    "semestreIngresso": "Segundo",
+    "codigoEmec": "1128364",
+    "inicioFuncionamento": "2011-03-14",
+    "coordenacao": {
+     "coordenador": "Prof. Ronney Moreira de Castro",
+     "viceCoordenador": "Prof. José Maria Nazar David",
+     "emailCoordenacao": "coord.si@ufjf.br",
+     "emailSecretaria": "coordenacoes.ice@ufjf.br",
+     "fonte": "https://www2.ufjf.br/si/gestao/coordenacao/"
+    },
+    "site": "https://www2.ufjf.br/si/",
+    "descricao": "O Curso de Sistemas de Informação da UFJF forma profissionais com consciência do potencial da tecnologia da informação e do impacto que ela pode ter na sociedade, capazes de desenvolver sistemas integrados e criar soluções para problemas e questões da sociedade e, em particular, das organizações.",
+    "fonte": "https://www2.ufjf.br/si/curso/apresentacao/; código 76A em https://www2.ufjf.br/si/?p=2040"
+   }
+  ],
+  "disciplinas": [
+   {
+    "codigo": "DCC133",
+    "nome": "Introdução a Sistemas de Informação",
+    "nomeOficialSiga": "INTRODUÇÃO A SISTEMAS DE INFORMAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 1
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Conceitos. Histórico. Importância dos sistemas de informação nas empresas. Casos de sucesso em Sistemas de Informação. Desafios e tecnologias.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC133"
+   },
+   {
+    "codigo": "DCC160",
+    "nome": "Lógica e Fundamentos para a Computação",
+    "nomeOficialSiga": "LÓGICA E FUNDAMENTOS PARA A COMPUTAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 1
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Proposições.; Operações Lógicas sobre Proposições.; Construção de Tabelas-Verdade.; Tautologia, Contradições e Contingências.; Implicação e equivalência Lógica.; Álgebra das Proposições.; Método Dedutivo.; Argumentos.; Regras de Inferência.; Validade mediante Regras de Inferência.; Cálculo de...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC160"
+   },
+   {
+    "codigo": "DCC199",
+    "nome": "Algoritmos",
+    "nomeOficialSiga": "ALGORITMOS",
+    "cargaHoraria": 90,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 1
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Introdução; Noções de uma linguagem de programação; Funções; Estruturas básicas para construção de algoritmos; Estruturas de dados homogêneas; Estruturas de dados heterogêneas",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC199"
+   },
+   {
+    "codigo": "DCC202",
+    "nome": "Desenvolvimento Web",
+    "nomeOficialSiga": "DESENVOLVIMENTO WEB",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 1
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Conceitos básicos de Internet e WEB. Projeto de aplicações WEB. Criação de páginas HTML. Utilização de linguagens de Scripts. Folhas de Estilo. Troca de documentos na WEB.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC202"
+   },
+   {
+    "codigo": "DC5199",
+    "nome": "Algoritmos - Prática",
+    "nomeOficialSiga": "ALGORITMOS - PRÁTICA",
+    "cargaHoraria": 0,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 1
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Introdução; Noções de uma linguagem de programação; Funções; Estruturas básicas para construção de algoritmos; Estruturas de dados homogêneas; Estruturas de dados heterogêneas",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DC5199"
+   },
+   {
+    "codigo": "MAT155",
+    "nome": "Geometria Analítica e Sistemas Lineares",
+    "nomeOficialSiga": "GEOMETRIA ANALÍTICA E SISTEMAS LINEARES",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "76A": 1
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Matrizes e Sistemas Lineares; 2. Inversão de Matrizes e Determinantes; 3. Vetores no Plano e no Espaço; 4. Retas e Planos; 5. Seções Cônicas; 6. Mudança de Coordenadas no Plano.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=MAT155"
+   },
+   {
+    "codigo": "DCC145",
+    "nome": "Aspectos Organizacionais de Sistemas de Informação",
+    "nomeOficialSiga": "ASPECTOS ORGANIZACIONAIS DE SISTEMAS DE INFORMAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 2
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "DCC133"
+    ],
+    "coRequisitos": [],
+    "ementa": "Comportamento organizacional. Aprendizagem organizacional. Modelagem da organização e de seus processos. Alinhamento de SIs aos objetivos da organização. Gestão da informação e do conhecimento organizacionais.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC145"
+   },
+   {
+    "codigo": "DCC200",
+    "nome": "Algoritmos Ii",
+    "nomeOficialSiga": "ALGORITMOS II",
+    "cargaHoraria": 90,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 2
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "DCC199"
+    ],
+    "coRequisitos": [],
+    "ementa": "Arquivos; Ponteiros; Recursividade; Introdução à complexidade assintótica; Ordenação; Tipos abstratos de dados; Matrizes",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC200"
+   },
+   {
+    "codigo": "DCC206",
+    "nome": "Desenvolvimento Web Ii",
+    "nomeOficialSiga": "DESENVOLVIMENTO WEB II",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 2
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "DCC202"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC206"
+   },
+   {
+    "codigo": "DC5200",
+    "nome": "Algoritmos Ii - Prática",
+    "nomeOficialSiga": "ALGORITMOS II - PRÁTICA",
+    "cargaHoraria": 0,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 2
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DC5200"
+   },
+   {
+    "codigo": "MAT154",
+    "nome": "Cálculo I",
+    "nomeOficialSiga": "CÁLCULO I",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "76A": 2
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Números Reais; 2. Funções; 3. Limite de uma Função e Continuidade; 4. Derivada; 5. Aplicações da Derivada.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=MAT154"
+   },
+   {
+    "codigo": "CAD014",
+    "nome": "Administração e Organização de Empresas",
+    "nomeOficialSiga": "ADMINISTRAÇÃO E ORGANIZAÇÃO DE EMPRESAS",
+    "cargaHoraria": 60,
+    "departamento": "CAD",
+    "departamentoNome": "DEPTO DE CIENCIAS ADMINISTRATIVAS",
+    "periodo": {
+     "76A": 2
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.3 - FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Administração: Introdução, Teorias e Departamentalização; Inovação; Empreendedorismo; Administração Pública; Estratégia; Finanças; Gestão de Pessoas; Marketing e Metodologias ágeis; Tópicos Especiais",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=CAD014"
+   },
+   {
+    "codigo": "EXT099",
+    "nome": "Introdução à Extensão",
+    "nomeOficialSiga": "INTRODUÇÃO À EXTENSÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 2
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.4 - FORMAÇÃO HUMANÍSTICA E SUPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT099"
+   },
+   {
+    "codigo": "DCC013",
+    "nome": "Estrutura de Dados",
+    "nomeOficialSiga": "ESTRUTURA DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 3
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "DCC200"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução: Introdução ao C++; Recursividade; Introdução à Análise de complexidade.; Ponteiros e Alocação Dinâmica de Memória;; Tipos Abstratos de Dados; Matrizes;; Listas;; Pilhas e Filas;; Árvores;; Heap (fila de prioridades);; Grafos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC013"
+   },
+   {
+    "codigo": "DCC025",
+    "nome": "Orientação a Objetos",
+    "nomeOficialSiga": "ORIENTAÇÃO A OBJETOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 3
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "DCC200"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conceitos Fundamentais de Orientação a Objetos; Componentes de Classes; Entendimento e aplicação dos conceitos e componentes de classes em linguagens de programação que apoiem o paradigma de Orientação a Objetos; Desenvolvimento de sistemas através do uso de programação orientada a objetos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC025"
+   },
+   {
+    "codigo": "MAT156",
+    "nome": "Cálculo Ii",
+    "nomeOficialSiga": "CÁLCULO II",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {
+     "76A": 3
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "MAT154",
+     "MAT155"
+    ],
+    "coRequisitos": [],
+    "ementa": "Integração de Funções de uma Variável; 2. Aplicações da Integral Definida; 3. Superfícies no Espaço; 4. Funções de Várias Variáveis.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=MAT156"
+   },
+   {
+    "codigo": "DCC207",
+    "nome": "Desenvolvimento Web Front-End",
+    "nomeOficialSiga": "DESENVOLVIMENTO WEB FRONT-END",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 3
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC206"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC207"
+   },
+   {
+    "codigo": "DCC203",
+    "nome": "Metodologia Científica",
+    "nomeOficialSiga": "METODOLOGIA CIENTÍFICA",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 3
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.4 - FORMAÇÃO HUMANÍSTICA E SUPLEMENTAR",
+    "preRequisitos": [
+     "DCC200"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC203"
+   },
+   {
+    "codigo": "DCC012",
+    "nome": "Estrutura de Dados Ii",
+    "nomeOficialSiga": "ESTRUTURA DE DADOS II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 4
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução;; Ordenação;; Filas de prioridade;; Estruturas de Dicionário: Acesso Direto; Estruturas balanceadas e Estruturas auto-organizáveis;; Estruturas multidimensionais e espaciais;; Estruturas de dados para a web;; Processamento de Cadeias de Caracteres",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC012"
+   },
+   {
+    "codigo": "EST028",
+    "nome": "Introdução à Estatística",
+    "nomeOficialSiga": "INTRODUÇÃO À ESTATÍSTICA",
+    "cargaHoraria": 60,
+    "departamento": "EST",
+    "departamentoNome": "DEPTO DE ESTATISTICA /ICE",
+    "periodo": {
+     "76A": 4
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.1 - FORMAÇÃO BÁSICA",
+    "preRequisitos": [
+     "MAT154"
+    ],
+    "coRequisitos": [],
+    "ementa": "Definições de Estatística. Origens, desenvolvimento e situação atual da Estatística. Papel da Estatística na pesquisa científica. Estatística descritiva: níveis de mensuração, gráficos básicos, medidas descritivas, tabelas de distribuição de frequências. Conceitos básicos de probabilidades....",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EST028"
+   },
+   {
+    "codigo": "DCC070",
+    "nome": "Organização de Computadores",
+    "nomeOficialSiga": "ORGANIZAÇÃO DE COMPUTADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 4
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Abstrações e Tecnologias Computacionais;; Instruções: a Linguagem de Máquina;; Aritmética Computacional;; Avaliando e Compreendendo o Desempenho;; O Processador: Caminho de Dados e Controle;; Linha de montagem (Pipelining);; Hierarquia de Memória.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC070"
+   },
+   {
+    "codigo": "DCC117",
+    "nome": "Modelagem de Sistemas",
+    "nomeOficialSiga": "MODELAGEM DE SISTEMAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 4
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC025"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução e conceitos.; Processo de modelagem.; Modelos para construção de sistemas orientados a objetos.; Projeto arquitetural.; Estudo de casos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC117"
+   },
+   {
+    "codigo": "DCC209",
+    "nome": "Desenvolvimento para Dispositivos Móveis",
+    "nomeOficialSiga": "DESENVOLVIMENTO PARA DISPOSITIVOS MÓVEIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 4
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC207"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC209"
+   },
+   {
+    "codigo": "EADDCC049",
+    "nome": "Aspectos Legais da Informática",
+    "nomeOficialSiga": "ASPECTOS LEGAIS DA INFORMÁTICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 4
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.3 - FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Proporciona uma visão global dos princípios básicos do Direito aplicáveis à Informática, analisa a ética aplicada aos produtos e serviços na Informática, direitos autorais e de propriedade, registros, marcas e patentes, pirataria digital, O crime de  invasão de sistemas e sites, O Direito e o...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EADDCC049"
+   },
+   {
+    "codigo": "DCC059",
+    "nome": "Teoria dos Grafos",
+    "nomeOficialSiga": "TEORIA DOS GRAFOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 5
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "Iniciação a Teoria dos Grafos; Grafos sem circuitos, árvores e arborescências; Busca em Grafos",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC059"
+   },
+   {
+    "codigo": "DCC060",
+    "nome": "Banco de Dados",
+    "nomeOficialSiga": "BANCO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 5
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC012",
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução. Modelo de Entidades e Relacionamentos. Modelo Relacional. Linguagens Relacionais. Projeto de Banco de Dados. Modelos de dados semi-estruturados. Arquitetura de Banco de Dados. Armazenamento e Indexação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC060"
+   },
+   {
+    "codigo": "DCC061",
+    "nome": "Engenharia de Software",
+    "nomeOficialSiga": "ENGENHARIA DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 5
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução e Conceitos; Processos de Software; Ferramentas CASE; Gerenciamento de Projetos de Software; Requisitos de Software; Projeto de Arquitetura de Software; Projeto de Interface com o usuário; Verificação e validação; Teste de software; Qualidade de software; Gerência de Configuração e...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC061"
+   },
+   {
+    "codigo": "DCC062",
+    "nome": "Sistemas Operacionais",
+    "nomeOficialSiga": "SISTEMAS OPERACIONAIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 5
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC070"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução;; Processos e Linhas de Execução (Threads);; Impasses (Deadlocks);; Gerenciamento de Memória;; Entrada/Saída;; Sistemas de Arquivos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC062"
+   },
+   {
+    "codigo": "FIN001",
+    "nome": "Contabilidade Geral e Introdutoria",
+    "nomeOficialSiga": "CONTABILIDADE GERAL E INTRODUTORIA",
+    "cargaHoraria": 60,
+    "departamento": "FIN",
+    "departamentoNome": "DEPTO DE FINANCAS E CONTROLADORIA",
+    "periodo": {
+     "76A": 5
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.3 - FORMAÇÃO COMPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Introdução ao Estudo da Contabilidade e Contabilidade como Sistema de Informações; As Demonstrações Contábeis; Balanço Patrimonial (ATIVO, PASSIVO e PATRIMÔNIO LÍQUIDO); Demonstração do Resultado do Exercício (DRE); Demonstração dos Fluxos de Caixa (DFC); Demonstração do Valor Adicionado (DVA)",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=FIN001"
+   },
+   {
+    "codigo": "EADDCC044",
+    "nome": "Informática e Sociedade",
+    "nomeOficialSiga": "INFORMÁTICA E SOCIEDADE",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 5
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.4 - FORMAÇÃO HUMANÍSTICA E SUPLEMENTAR",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "A informatização da sociedade e o desafio da inclusão social; Informática e a conjuntura econômica mundial. Responsabilidade social; Informática e o indivíduo; Informática, cultura, economia e política. Políticas públicas de Informática. Questões legais e crimes sibernéticos; Alterações no...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EADDCC044"
+   },
+   {
+    "codigo": "DCC042",
+    "nome": "Redes de Computadores",
+    "nomeOficialSiga": "REDES DE COMPUTADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 6
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC070"
+    ],
+    "coRequisitos": [],
+    "ementa": "Redes de Computadores e a Internet; Camada de Aplicação; Camada de Transporte; Camada de Rede; Camada de Enlace e Redes Locais; Redes sem Fio",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC042"
+   },
+   {
+    "codigo": "DCC146",
+    "nome": "Aspectos Teóricos da Computação",
+    "nomeOficialSiga": "ASPECTOS TEÓRICOS DA COMPUTAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 6
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC013",
+     "DCC160"
+    ],
+    "coRequisitos": [],
+    "ementa": "Noções de análise de algoritmos e crescimento de funções. Análise de algoritmos de ordenação. Noções de linguagens formais e autômatos. Linguagens livres de contexto. Noções de decidibilidade. Problemas intratáveis.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC146"
+   },
+   {
+    "codigo": "DCC174",
+    "nome": "Interação Humano-Computador",
+    "nomeOficialSiga": "INTERAÇÃO HUMANO-COMPUTADOR",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 6
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Princípios de Interação Homem-computador. Fatores Humanos na Comunicação. Estilos Interativos. Modelagem do Usuário. Modelagem da Interação. Design de Diálogos. Usabilidade.  Padronização de Interfaces. Metodologia para Projeto de Interfaces. Técnicas de Avaliação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC174"
+   },
+   {
+    "codigo": "DCC208",
+    "nome": "Desenvolvimento Web Back-End",
+    "nomeOficialSiga": "DESENVOLVIMENTO WEB BACK-END",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 6
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC117",
+     "DCC206"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC208"
+   },
+   {
+    "codigo": "DCC210",
+    "nome": "Empreendedorismo Tecnológico",
+    "nomeOficialSiga": "EMPREENDEDORISMO TECNOLÓGICO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 6
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.4 - FORMAÇÃO HUMANÍSTICA E SUPLEMENTAR",
+    "preRequisitos": [
+     "CAD014",
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC210"
+   },
+   {
+    "codigo": "DCC014",
+    "nome": "Inteligencia Artificial",
+    "nomeOficialSiga": "INTELIGENCIA ARTIFICIAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 7
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC059",
+     "DCC160"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conceitos Básicos; Métodos não informados de busca; Métodos informados de busca; Grafos de jogos e hipergrafos; Prova Automática de Teoremas; Introdução ao PROLOG",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC014"
+   },
+   {
+    "codigo": "DCC077",
+    "nome": "Aspectos Avançados em Banco de Dados",
+    "nomeOficialSiga": "ASPECTOS AVANÇADOS EM BANCO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 7
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC060"
+    ],
+    "coRequisitos": [],
+    "ementa": "Restrições de integridade avançadas; Processamento de consultas; Gerenciamento de Transações; Segurança; Controle de Concorrência; Banco de Dados não convencionais; Banco de Dados Distribuídos; Novas aplicações",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC077"
+   },
+   {
+    "codigo": "DCC078",
+    "nome": "Aspectos Avançados em Engenharia de Software",
+    "nomeOficialSiga": "ASPECTOS AVANÇADOS EM ENGENHARIA DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 7
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Engenharia da Web; Padrões de Desenvolvimento; Qualidade e Segurança de software; Tecnologias emergentes para o desenvolvimento de software; Tópicos Especiais de Engenharia de Software-",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC078"
+   },
+   {
+    "codigo": "DCC168",
+    "nome": "Teste de Software",
+    "nomeOficialSiga": "TESTE DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 7
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução ao Teste de Software. Técnicas de Teste de Software. Teste de Aplicações Web. Teste Manual x Teste Automatizado. Elaboração de Testes.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC168"
+   },
+   {
+    "codigo": "DCC204",
+    "nome": "Trabalho de Conclusão de Curso I",
+    "nomeOficialSiga": "TRABALHO DE CONCLUSÃO DE CURSO I",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 7
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.4 - FORMAÇÃO HUMANÍSTICA E SUPLEMENTAR",
+    "preRequisitos": [
+     "DCC203"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC204"
+   },
+   {
+    "codigo": "DCC154",
+    "nome": "Gerência de Projetos",
+    "nomeOficialSiga": "GERÊNCIA DE PROJETOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 8
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução ao Gerenciamento de Projetos. Gerenciamento do escopo. Gerenciamento do tempo. Gerenciamento de custo. Gerenciamento dos recursos humanos. Gerenciamento da comunicação. Gerenciamento do risco. Gerenciamento da qualidade. Gerenciamento de aquisições. Gerenciamento de integração....",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC154"
+   },
+   {
+    "codigo": "DCC165",
+    "nome": "Segurança e Auditoria de Sistemas",
+    "nomeOficialSiga": "SEGURANÇA E AUDITORIA DE SISTEMAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 8
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução e Conceitos Básicos de Segurança da Informação. Segurança Empresarial e Política de Segurança. Riscos Envolvendo Informações. Segurança em Redes de Computadores. Segurança Lógica e Classificação das Informações. Segurança Física e Ambiental em Informática. Introdução e Conceitos...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC165"
+   },
+   {
+    "codigo": "DCC166",
+    "nome": "Sistemas de Apoio à Decisão",
+    "nomeOficialSiga": "SISTEMAS DE APOIO À DECISÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 8
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.2 - FORMAÇÃO TECNOLÓGICA",
+    "preRequisitos": [
+     "DCC014"
+    ],
+    "coRequisitos": [],
+    "ementa": "Tomada de decisão e sistemas de informação. Sistemas de apoio à decisão. Data Warehouse. Sistemas inteligentes de apoio à decisão.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC166"
+   },
+   {
+    "codigo": "DCC205",
+    "nome": "Trabalho de Conclusão de Curso Ii",
+    "nomeOficialSiga": "TRABALHO DE CONCLUSÃO DE CURSO II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {
+     "76A": 8
+    },
+    "obrigatoria": true,
+    "tipo": "obrigatoria",
+    "areaMatriz": "1.4 - FORMAÇÃO HUMANÍSTICA E SUPLEMENTAR",
+    "preRequisitos": [
+     "DCC204"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC205"
+   },
+   {
+    "codigo": "DCC001",
+    "nome": "Analise e Projeto de Algoritmos",
+    "nomeOficialSiga": "ANALISE E PROJETO DE ALGORITMOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC059",
+     "MAT143"
+    ],
+    "coRequisitos": [],
+    "ementa": "Fundamentos Matemáticos para Análise de Algoritmos; Análise Assintótica de Algoritmos; Paradigmas de Projeto de Algoritmos; Algoritmos Eficientes para Ordenação, Comparação de Sequências, Problemas em Grafos; Fundamentos de Complexidade Computacional, Redução entre Problemas, Classes P e NP,...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC001"
+   },
+   {
+    "codigo": "DCC019",
+    "nome": "Linguagem de Programacao",
+    "nomeOficialSiga": "LINGUAGEM DE PROGRAMACAO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC012",
+     "DCC025"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Controle de Dados; Tipos de Dados; Expressões e I nstruções de Atribuição; Controle de Fluxo; Paradigmas de Programação e LPs",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC019"
+   },
+   {
+    "codigo": "DCC037",
+    "nome": "Laboratorio de Organizacao de Computadores",
+    "nomeOficialSiga": "LABORATORIO DE ORGANIZACAO DE COMPUTADORES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC070",
+     "DCC122"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à abstração e linguagens de descrição de hardware.; Desenvolvimento de Projetos",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC037"
+   },
+   {
+    "codigo": "DCC045",
+    "nome": "Teoria dos Compiladores",
+    "nomeOficialSiga": "TEORIA DOS COMPILADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC063"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Análise léxica; Análise sintática; Análise semântica; Ambientes de execução; Geração de representação intermediária; Geração de código de máquina para MIPS ou PENTIUM",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC045"
+   },
+   {
+    "codigo": "DCC055",
+    "nome": "Teoria da Computação",
+    "nomeOficialSiga": "TEORIA DA COMPUTAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC063"
+    ],
+    "coRequisitos": [],
+    "ementa": "Linguagens e Máquinas de Turing; A hierarquia de Chomsky; Decidabilidade e computabilidade; Computação com máquinas de Turing; Equivalência de programas",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC055"
+   },
+   {
+    "codigo": "DCC057",
+    "nome": "Arquitetura de Computadores",
+    "nomeOficialSiga": "ARQUITETURA DE COMPUTADORES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC070"
+    ],
+    "coRequisitos": [],
+    "ementa": "Organização de Processadores: Caminho de Dados e Controle;; Métodos para Aumento de Desempenho: Linha de montagem (Pipelining);; Projeto de Hierarquias de Memória;; Multiprocessadores e Paralelismo em Nível de Múltiplas Linhas de Execução (Threads);; Armazenamento, Redes e Outros Periféricos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC057"
+   },
+   {
+    "codigo": "DCC063",
+    "nome": "Linguagens Formais e Autômatos",
+    "nomeOficialSiga": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC013",
+     "DCC160",
+     "MAT143"
+    ],
+    "coRequisitos": [],
+    "ementa": "Noções preliminares; Linguagens regulares; Gramáticas e linguagens livres de contexto; Formas normais; Autômatos e linguagens; Autômatos com pilha e linguagens livres de contexto; Hierarquia de Chomsky: classes de linguagens",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC063"
+   },
+   {
+    "codigo": "DCC064",
+    "nome": "Sistemas Distribuídos",
+    "nomeOficialSiga": "SISTEMAS DISTRIBUÍDOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC062"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução aos Sistemas Distribuídos; Arquiteturas de Sistemas Distribuídos; Processos em Sistemas Distribuídos; Comunicação em Sistemas Distribuídos; Nomeação em Sistemas Distribuídos; Sincronização em Sistemas Distribuídos; Consistência e Replicação em Sistemas Distribuídos; Tolerância a...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC064"
+   },
+   {
+    "codigo": "DCC071",
+    "nome": "Laboratório de Sistemas Operacionais",
+    "nomeOficialSiga": "LABORATÓRIO DE SISTEMAS OPERACIONAIS",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC062"
+    ],
+    "coRequisitos": [],
+    "ementa": "Estudo do código fonte de um sistema operacional; Desenvolvimento de Projetos de Sistemas Operacionais.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC071"
+   },
+   {
+    "codigo": "DCC072",
+    "nome": "Laboratorio de Redes de Computadores",
+    "nomeOficialSiga": "LABORATORIO DE REDES DE COMPUTADORES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Aplicação prática dos conceitos vistos na disciplina de Redes de Computadores, mostrando o; funcionamento de protocolos de rede através da utilização de softwares e simuladores de redes.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC072"
+   },
+   {
+    "codigo": "DCC073",
+    "nome": "Teoria de Filas",
+    "nomeOficialSiga": "TEORIA DE FILAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "EST028"
+    ],
+    "coRequisitos": [],
+    "ementa": "Modelos de Filas. Teorema de Little. Cadeias de Markov. Aplicações a Modelagem de Linhas de Comunicação Multiplexadas.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC073"
+   },
+   {
+    "codigo": "DCC074",
+    "nome": "Avaliação de Desempenho de Sistemas",
+    "nomeOficialSiga": "AVALIAÇÃO DE DESEMPENHO DE SISTEMAS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC199",
+     "EST028"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à avaliação de desempenho de sistemas computacionais; Métodos de avaliação: vantagens e desvantagens, aplicações; Métodos analíticos: abordagem estocástica e operacional; Modelos baseados em redes de filas e em redes de Petri; Simulação discreta: conceitos, algoritmos de simulação;...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC074"
+   },
+   {
+    "codigo": "DCC075",
+    "nome": "Segurança em Sistemas de Computação",
+    "nomeOficialSiga": "SEGURANÇA EM SISTEMAS DE COMPUTAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução;; Cifras simétricas, DES, AES;; Cifras assimétricas, RSA;; Algoritmos de integridade de dados criptográfcos;; Assinaturas Digitais;; Confança mútua, Distribuição de Chaves, Autentcação;; Segurança de rede e Internet, controle de acesso, segurança em camadas da arquitetura TCP/IP;;...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC075"
+   },
+   {
+    "codigo": "DCC082",
+    "nome": "Sistemas Multimidia",
+    "nomeOficialSiga": "SISTEMAS MULTIMIDIA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042",
+     "DCC062"
+    ],
+    "coRequisitos": [],
+    "ementa": "Fundamentos de tecnologia multimídia, hardware e software.; Representação e Processamento de Áudio - Música e Voz, Imagem e Vídeo.; Ambientes multimídia.; Dados e objetos multimídia.; Sistemas operacionais multimídia.; Aplicações de multimídia avançadas.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC082"
+   },
+   {
+    "codigo": "DCC091",
+    "nome": "Topicos em Redes e Processamento Distribuido I",
+    "nomeOficialSiga": "TOPICOS EM REDES E PROCESSAMENTO DISTRIBUIDO I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC091"
+   },
+   {
+    "codigo": "DCC092",
+    "nome": "Topicos em Redes e Processamento Distribuido Ii",
+    "nomeOficialSiga": "TOPICOS EM REDES E PROCESSAMENTO DISTRIBUIDO II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC092"
+   },
+   {
+    "codigo": "DCC101",
+    "nome": "Seminario em Computacao V",
+    "nomeOficialSiga": "SEMINARIO EM COMPUTACAO V",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação.; Revisão de Sistemas Operacionais; Virtualização, hypervisors, máquinas virtuais (VMs), recursos virtuais;  Conteinerização, imagens, implantação,...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC101"
+   },
+   {
+    "codigo": "DCC102",
+    "nome": "Seminario em Computacao Vi",
+    "nomeOficialSiga": "SEMINARIO EM COMPUTACAO VI",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Apresentação dos conceitos básicos (multimídia, hipermídia, computação ubíqua e pervasiva);2 – Conceitos sobre construção colaborativa, contextualização, facilitadores, participatory sensing e crowdworking; 3 -  Análise e apresentação de trabalhos relacionados (principais tópicos de interesse:...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC102"
+   },
+   {
+    "codigo": "DCC122",
+    "nome": "Circuitos Digitais",
+    "nomeOficialSiga": "CIRCUITOS DIGITAIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Bases Numéricas; Álgebra de Boole; Circuitos combinacionais; Minimização de funções; Circuitos sequenciais síncronos e assíncronos; Flip-flops, registradores, contadores, memória; Linguagem de descrição de hardware",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC122"
+   },
+   {
+    "codigo": "DCC125",
+    "nome": "Programação Paralela",
+    "nomeOficialSiga": "PROGRAMAÇÃO PARALELA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC062"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à computação paralela; Modelos de processamento paralelo; Programando com Troca de Mensagens; Programando com Memória Compartilhada",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC125"
+   },
+   {
+    "codigo": "DCC126",
+    "nome": "Tv Digital",
+    "nomeOficialSiga": "TV DIGITAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Televisão Analógica e Televisão Digital.; Padrões e Sistemas de Televisão Digital.; Representação da Informação Audiovisual.; Video e Audio Digital.; Sistema Brasileiro de Televisão Digital Terrestre.; TV Digital no Brasil.; Interatividade.; Aplicações.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC126"
+   },
+   {
+    "codigo": "DCC128",
+    "nome": "Gerência de Redes",
+    "nomeOficialSiga": "GERÊNCIA DE REDES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à gerência de redes de computadores; Tecnologias e suporte à gerência de redes;; Arquitetura NMS. Modelo de especificação e implementação de um sistema de gerência de redes.; Tendências em gerência de redes",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC128"
+   },
+   {
+    "codigo": "DCC130",
+    "nome": "Computação Móvel, Úbiqua e Pervasiva",
+    "nomeOficialSiga": "COMPUTAÇÃO MÓVEL, ÚBIQUA E PERVASIVA",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução e caracterização dos ambientes de computação móvel e ubíqua.; Dispositivos; Redes de comunicação sem fios; Modelos e software de suporte ao desenvolvimento de sistemas móveis; Aspectos específicos; Gestão de dados; Segurança; Introdução às redes de sensores",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC130"
+   },
+   {
+    "codigo": "DCC131",
+    "nome": "Projeto de Redes de Computadores",
+    "nomeOficialSiga": "PROJETO DE REDES DE COMPUTADORES",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conhecer uma metodologia de Projeto de Redes de Computadores, permitindo que o aluno planeje; e projete redes de computadores. Desenvolver Projetos Lógicos e Físicos de Redes. Saber; documentar corretamente um projeto de redes. Elaborar Projetos de Redes de Computadores com; base em estudos de...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC131"
+   },
+   {
+    "codigo": "DCC142",
+    "nome": "Análise e Projeto de Algoritmos Ii",
+    "nomeOficialSiga": "ANÁLISE E PROJETO DE ALGORITMOS II",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC001"
+    ],
+    "coRequisitos": [],
+    "ementa": "Revisão; Algoritmos para tratar problemas com alta complexidade de tempo; Análise de algoritmos paralelos",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC142"
+   },
+   {
+    "codigo": "DCC144",
+    "nome": "Administração de Redes",
+    "nomeOficialSiga": "ADMINISTRAÇÃO DE REDES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC042"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à Administração de Redes. Tecnologias e Suporte à Administração de Redes. Dispositivos de Rede. Administração de Serviços de Redes. Virtualização de Redes",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC144"
+   },
+   {
+    "codigo": "DCC172",
+    "nome": "Programação Competitiva",
+    "nomeOficialSiga": "PROGRAMAÇÃO COMPETITIVA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": "Estudo de técnicas de projeto de algoritmos e programação visando problemas típicos de competições de programação: Programação Dinâmica, Algoritmos em Grafos, Backtracking e Heurísticas, Algoritmos Geométricos, Tópicos variáveis e atuais em competições de programação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC172"
+   },
+   {
+    "codigo": "EST029",
+    "nome": "Cálculo de Probabilidades I",
+    "nomeOficialSiga": "CÁLCULO DE PROBABILIDADES I",
+    "cargaHoraria": 60,
+    "departamento": "EST",
+    "departamentoNome": "DEPTO DE ESTATISTICA /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [
+     "EST028",
+     "MAT156"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à teoria dos conjuntos. Técnicas de contagem. Introdução à probabilidade. Variáveis aleatórias. Distribuições discretas unidimensionais. Distribuições contínuas unidimensionais. Valor esperado e variância de variáveis aleatórias. Momentos de variáveis aleatórias. Funções de variáveis...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EST029"
+   },
+   {
+    "codigo": "MAT143",
+    "nome": "Introdução à Teoria dos Números",
+    "nomeOficialSiga": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.1 - SISTEMAS DE COMPUTAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Os Princípios de Indução Matemática e da Boa Ordenação; Divisibilidade; Números Primos e o Teorema Fundamental da Aritmética; Equações Diofantinas Lineares; Congruências; Sistema de Congruências Lineares; Criptografia Básica",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=MAT143"
+   },
+   {
+    "codigo": "DCC080",
+    "nome": "Lab.Integrado de Desenvolvimento de Software",
+    "nomeOficialSiga": "LAB.INTEGRADO DE DESENVOLVIMENTO DE SOFTWARE",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [
+     "DCC060",
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Desenvolvimento de uma aplicação envolvendo conceitos vistos nas disciplinas de Engenharia de Software e Banco de Dados",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC080"
+   },
+   {
+    "codigo": "DCC083",
+    "nome": "Qualidade de Software",
+    "nomeOficialSiga": "QUALIDADE DE SOFTWARE",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Qualidade de software: produto e processo.; Métricas e indicadores de qualidade.; Normas de qualidade para produtos de software.; Normas e modelos de maturidade de processos de software.; Garantia e plano da qualidade.; Avaliação de processos: modelos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC083"
+   },
+   {
+    "codigo": "DCC093",
+    "nome": "Topicos em Desenvolvimento de Software I",
+    "nomeOficialSiga": "TOPICOS EM DESENVOLVIMENTO DE SOFTWARE I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplina de ementa variável dentro de tópicos da atualidade em Desenvolvimento de Software.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC093"
+   },
+   {
+    "codigo": "DCC094",
+    "nome": "Topicos em Desenvolvimento de Software Ii",
+    "nomeOficialSiga": "TOPICOS EM DESENVOLVIMENTO DE SOFTWARE II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplina de ementa variável dentro de tópicos da atualidade em Desenvolvimento de Software.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC094"
+   },
+   {
+    "codigo": "DCC099",
+    "nome": "Seminario em Computacao Iii",
+    "nomeOficialSiga": "SEMINARIO EM COMPUTACAO III",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Tópicos em Computação Evolucionista; Descrição: Constara de apresentação dos principais algoritmos baseados em população, aplicações em problemas de otimização escalar e multiobjetivo. Pretende-se ter um enfoque bastante grande na pratica dos alunos no uso destas técnicas.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC099"
+   },
+   {
+    "codigo": "DCC104",
+    "nome": "Seminário em Computação Viii",
+    "nomeOficialSiga": "SEMINÁRIO EM COMPUTAÇÃO VIII",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Redes Cognitivas; Descrição: A dinâmica da disciplina é formada, entre outras atividades, por leitura e escrita de artigos/resumos, apresentação de seminários de temas relacionados ao assunto (Redes Cognitivas, Rádios cognitivos, problemas relacionados à implementação de rádios cognitivos,...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC104"
+   },
+   {
+    "codigo": "DCC132",
+    "nome": "Engenharia de Software Experimental",
+    "nomeOficialSiga": "ENGENHARIA DE SOFTWARE EXPERIMENTAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Estratégias de experimentação; Medição; O processo de experimentação; Métodos estatísticos em ESE; Revisões sistemáticas",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC132"
+   },
+   {
+    "codigo": "DCC138",
+    "nome": "Tópicos de Linguagem Programação I",
+    "nomeOficialSiga": "TÓPICOS DE LINGUAGEM PROGRAMAÇÃO I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em programacao ou no limite do estado da arte na area de linguagens de programacao.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC138"
+   },
+   {
+    "codigo": "DCC139",
+    "nome": "Tópicos de Linguagem Programação Ii",
+    "nomeOficialSiga": "TÓPICOS DE LINGUAGEM PROGRAMAÇÃO II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em programacao ou no limite do estado da arte na area de linguagens de programacao.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC139"
+   },
+   {
+    "codigo": "DCC149",
+    "nome": "Engenharia de Requisitos",
+    "nomeOficialSiga": "ENGENHARIA DE REQUISITOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conceitos gerais sobre Requisitos; Engenharia de Requisitos; Processo para especificação de Requisitos; Requisitos de software; Análise e elicitação de requisitos; Tipos de Requisitos; Especificação e verificação de Requisitos; Modelos; Técnicas para gerência de requisitos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC149"
+   },
+   {
+    "codigo": "DCC153",
+    "nome": "Gerência de Configuração de Software",
+    "nomeOficialSiga": "GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução a Gerência de Configuração de Software; Normas; Terminologia; Ramificação e Integração; Funções da GCS; Perspectivas",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC153"
+   },
+   {
+    "codigo": "DCC176",
+    "nome": "Sistemas Colaborativos",
+    "nomeOficialSiga": "SISTEMAS COLABORATIVOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.2 -  DESENVOLVIMENTO DE SOFTWARE",
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Sistemas Colaborativos. Teorias e modelos de colaboração. Redes Sociais. Sistemas de Comunicação. Ambientes Virtuais de Colaborativos. Desenvolvimento Colaborativo de Software. Aprendizagem Colaborativa com Suporte Computacional. Colaboração em processos de negócio. Gestão do conhecimento e...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC176"
+   },
+   {
+    "codigo": "DCC033",
+    "nome": "Fluxo em Redes",
+    "nomeOficialSiga": "FLUXO EM REDES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "Problemas do Caminho Mínimo; Problema de Fluxo Máximo; Problema de fluxo compatível a custo mínimo; Problemas de Atribuição e Problema de Transporte",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC033"
+   },
+   {
+    "codigo": "DCC067",
+    "nome": "Computação Evolucionista",
+    "nomeOficialSiga": "COMPUTAÇÃO EVOLUCIONISTA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "Evolução Natural e Artificial; Algoritmos Genéticos; Algumas Aplicações; Implementação Computacional; Introdução à Programação Genética; Outros Algoritmos Evolutivos",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC067"
+   },
+   {
+    "codigo": "DCC068",
+    "nome": "Redes Neurais Artificiais",
+    "nomeOficialSiga": "REDES NEURAIS ARTIFICIAIS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à Computação de Redes Neurais. Fundamentos da Computação de Redes Neurais. Rede Perceptrons. Algoritmo Back-Propagation. Redes Recorrentes. Redes de Organização Própria. Outros Modelos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC068"
+   },
+   {
+    "codigo": "DCC076",
+    "nome": "Programação em Lógica",
+    "nomeOficialSiga": "PROGRAMAÇÃO EM LÓGICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC013",
+     "DCC160"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Fundamentos; Programação em Lógica com Prolog; Ambientes Prolog e Integração com Outras LPs",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC076"
+   },
+   {
+    "codigo": "DCC100",
+    "nome": "Seminário em Computação Iv",
+    "nomeOficialSiga": "SEMINÁRIO EM COMPUTAÇÃO IV",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC100"
+   },
+   {
+    "codigo": "DCC103",
+    "nome": "Seminario em Computacao Vii",
+    "nomeOficialSiga": "SEMINARIO EM COMPUTACAO VII",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação. O foco nesse caso será Mineração de Dados",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC103"
+   },
+   {
+    "codigo": "DCC127",
+    "nome": "Mineração de Dados",
+    "nomeOficialSiga": "MINERAÇÃO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC013",
+     "EST028"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Preparação dos Dados para Mineração; Classificação e Predição; Análise de Agrupamentos; Regras de Associação",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC127"
+   },
+   {
+    "codigo": "DCC136",
+    "nome": "Inteligência Computacional",
+    "nomeOficialSiga": "INTELIGÊNCIA COMPUTACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC059"
+    ],
+    "coRequisitos": [],
+    "ementa": "Conceitos básicos em Inteligência Computacional; Heurísticas construtivas para problemas específicos; Heurísticas clássicas de refinamento; Metaheurísticas",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC136"
+   },
+   {
+    "codigo": "DCC137",
+    "nome": "Sistemas Nebulosos",
+    "nomeOficialSiga": "SISTEMAS NEBULOSOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC199"
+    ],
+    "coRequisitos": [],
+    "ementa": "Fundamentos de Lógica Nebulosa: Conjuntos: Conjuntos Clássicos; Conjuntos Nebulosos: Operações min-max com Conjuntos Nebulosos. Operações; Compensatórias.; Sistemas Nebulosos: Regras Nebulosas; Inferência Nebulosa. Aplicações.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC137"
+   },
+   {
+    "codigo": "DCC140",
+    "nome": "Tópicos em Inteligência Computacional I",
+    "nomeOficialSiga": "TÓPICOS EM INTELIGÊNCIA COMPUTACIONAL I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em Inteligência Computacional.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC140"
+   },
+   {
+    "codigo": "DCC141",
+    "nome": "Tópicos em Inteligência Computacional Ii",
+    "nomeOficialSiga": "TÓPICOS EM INTELIGÊNCIA COMPUTACIONAL II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Topicos avancados em Inteligência Computacional.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC141"
+   },
+   {
+    "codigo": "DCC163",
+    "nome": "Pesquisa Operacional",
+    "nomeOficialSiga": "PESQUISA OPERACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "Formulação de problemas de programação linear; solução gráfica de problemas de programação linear; algoritmo Simplex; álgebra e geometria do algoritmo Simplex; algoritmo Simplex revisado; análise de sensibilidade e paramétrica; dualidade.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC163"
+   },
+   {
+    "codigo": "DCC167",
+    "nome": "Sistemas Inteligentes",
+    "nomeOficialSiga": "SISTEMAS INTELIGENTES",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC014"
+    ],
+    "coRequisitos": [],
+    "ementa": "Aquisição e representação do conhecimento.; Raciocínio artificial.; Processamento de Linguagem Natural.; Aplicações: sistemas especialistas, reconhecimento de padrões, banco de dados inteligente, processamento de linguagens, jogos etc.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC167"
+   },
+   {
+    "codigo": "DCC177",
+    "nome": "Pesquisa Operacional Ii",
+    "nomeOficialSiga": "PESQUISA OPERACIONAL II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC163"
+    ],
+    "coRequisitos": [],
+    "ementa": "Visão geral de problemas de programação linear e não linear; Modelos de Programação Linear Inteira - PLI; Métodos de planos de corte; método de enumeração implícita; Métodos de separação e avaliação progressiva (branch and bound); Problemas e algoritmos clássicos de otimização combinatória;...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC177"
+   },
+   {
+    "codigo": "DCC178",
+    "nome": "Pesquisa Operacional Iii",
+    "nomeOficialSiga": "PESQUISA OPERACIONAL III",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.3 - SISTEMAS INTELIGENTES",
+    "preRequisitos": [
+     "DCC177"
+    ],
+    "coRequisitos": [],
+    "ementa": "Revisão de modelagem matemática de problemas de Programação Linear Inteira - PLI; Problemas clássicos de PLI; Métodos exatos e heurísticos para solução de problemas de PLI.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC178"
+   },
+   {
+    "codigo": "DCC086",
+    "nome": "Informática Na Educação",
+    "nomeOficialSiga": "INFORMÁTICA NA EDUCAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.4 - INFORMÁTICA NA EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Histórico e Evolução da Informática na Educação; Ambientes e Paradigmas de Ensino e Aprendizagem; Aprendizagem Cooperativa; Educação à Distância; Software Educacional; Tecnologias de Informação e Comunicação; Uso da Informática na Escola",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC086"
+   },
+   {
+    "codigo": "DCC095",
+    "nome": "Topicos em Ciencia, Tecnologia e Sociedade I",
+    "nomeOficialSiga": "TOPICOS EM CIENCIA, TECNOLOGIA E SOCIEDADE I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.4 - INFORMÁTICA NA EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade em Computação Científica.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC095"
+   },
+   {
+    "codigo": "DCC096",
+    "nome": "Topicos em Ciencia, Tecnologia e Sociedade Ii",
+    "nomeOficialSiga": "TOPICOS EM CIENCIA, TECNOLOGIA E SOCIEDADE II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.4 - INFORMÁTICA NA EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Disciplinas de ementa variável dentro de tópicos da atualidade em Computação Científica.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC096"
+   },
+   {
+    "codigo": "DCC124",
+    "nome": "Ambientes Virtuais de Aprendizagem",
+    "nomeOficialSiga": "AMBIENTES VIRTUAIS DE APRENDIZAGEM",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.4 - INFORMÁTICA NA EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Educação on-line; Comunidades virtuais de aprendizagem; Evolução dos ambientes virtuais e colaborativos.; Modalidades de educação mediada pela tecnologia.; Colaboração e cooperação; Interação e interatividade; Características das plataformas de EAD; Universidade Federal de Juiz de Fora;...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC124"
+   },
+   {
+    "codigo": "EADDCC037",
+    "nome": "Projeto de Software Educacional",
+    "nomeOficialSiga": "PROJETO DE SOFTWARE EDUCACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.4 - INFORMÁTICA NA EDUCAÇÃO",
+    "preRequisitos": [
+     "DCC061"
+    ],
+    "coRequisitos": [],
+    "ementa": "Concepções pedagógicas no desenvolvimento de aplicações educacionais. Ambientes e paradigmas de ensino/aprendizagem. Características dos ambientes tradicionais e participativos. Design instrucional. Software Educacional. Modelos de desenvolvimento de software educacional. Ambientes cooperativos...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EADDCC037"
+   },
+   {
+    "codigo": "EADDCC043",
+    "nome": "Avaliação de Software Educacional",
+    "nomeOficialSiga": "AVALIAÇÃO DE SOFTWARE EDUCACIONAL",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.4 - INFORMÁTICA NA EDUCAÇÃO",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Introdução. Qualidade de software: produto e processo. Métricas e indicadores de qualidade. Normas de qualidade para produtos de software. Normas e modelos de maturidade de processos de software. Avaliação de software educacional: modelos.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EADDCC043"
+   },
+   {
+    "codigo": "EADDCC048",
+    "nome": "Objetos de Aprendizagem",
+    "nomeOficialSiga": "OBJETOS DE APRENDIZAGEM",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.4 - INFORMÁTICA NA EDUCAÇÃO",
+    "preRequisitos": [
+     "EADDCC037"
+    ],
+    "coRequisitos": [],
+    "ementa": "Classificação dos softwares educacionais. Software livre. Objetos de aprendizagem e suas aplicações. Equipes multidisciplinares e o papel do professor.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EADDCC048"
+   },
+   {
+    "codigo": "DCC088",
+    "nome": "Gestão da Tecnologia e Inovação Tecnológica",
+    "nomeOficialSiga": "GESTÃO DA TECNOLOGIA E INOVAÇÃO TECNOLÓGICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [
+     "DCC210"
+    ],
+    "coRequisitos": [],
+    "ementa": "Gestão da Tecnologia; Inovação Tecnológica",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC088"
+   },
+   {
+    "codigo": "DCC098",
+    "nome": "Seminario em Computacao Ii",
+    "nomeOficialSiga": "SEMINARIO EM COMPUTACAO II",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividades de etudos e coneúdos teóricos ou práticos, desenvolvidos pelos alunos de ementa variável, enfocando um dos temas da ciencia da computação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC098"
+   },
+   {
+    "codigo": "DCC155",
+    "nome": "Gestão do Conhecimento",
+    "nomeOficialSiga": "GESTÃO DO CONHECIMENTO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [
+     "CAD014",
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução. Organização do Conhecimento. Ferramentas  e Ambientes para a Gestão do Conhecimento. Auditoria (mapeamento) de Conhecimento. Memória Organizacional.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC155"
+   },
+   {
+    "codigo": "DCC161",
+    "nome": "Modelagem de Negócio",
+    "nomeOficialSiga": "MODELAGEM DE NEGÓCIO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [
+     "DCC117"
+    ],
+    "coRequisitos": [],
+    "ementa": "Modelagem de Processos de Negócio. Modelagem para Execução. Workflow. Modelagem da Organização. Modelagem da Motivação. Prática de Modelagem de Negócio.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC161"
+   },
+   {
+    "codigo": "ECO034",
+    "nome": "Economia",
+    "nomeOficialSiga": "ECONOMIA",
+    "cargaHoraria": 60,
+    "departamento": "ECO",
+    "departamentoNome": "DEPTO DE ECONOMIA /ECO",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Ementa de curso estruturada em 15 semanas, combinando os fundamentos da micro e da; macroeconomia a partir de referências clássicas e debates contemporâneos sobre inovação,; desenvolvimento, desigualdade e o papel do Estado.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=ECO034"
+   },
+   {
+    "codigo": "FIN028",
+    "nome": "Gestão Financeira I",
+    "nomeOficialSiga": "GESTÃO FINANCEIRA I",
+    "cargaHoraria": 60,
+    "departamento": "FIN",
+    "departamentoNome": "DEPTO DE FINANCAS E CONTROLADORIA",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [
+     "FIN001"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução às Finanças Corporativas. Administração do Capital de Giro. Análise do Capital de Giro.; Administração do Caixa. Fluxo de Caixa. Administração de Crédito. Administração de Estoques. Valor do; dinheiro no tempo e financiamento do Capital de Giro.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=FIN028"
+   },
+   {
+    "codigo": "MAT013",
+    "nome": "Matemática Financeira",
+    "nomeOficialSiga": "MATEMÁTICA FINANCEIRA",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Juros Simples; Juros Compostos; Taxas de Juros; Série Uniforme; Equivalência e Desconto de Fluxos de Caixa; Correção Monetária; Utilização de Calculadoras Financeiras",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=MAT013"
+   },
+   {
+    "codigo": "PSI015",
+    "nome": "Psicologia Aplicada à Administração",
+    "nomeOficialSiga": "PSICOLOGIA APLICADA À ADMINISTRAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "PSI",
+    "departamentoNome": "DEPTO DE PSICOLOGIA /ICH",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Conhecimento dos aspectos teóricos e práticos da Psicologia aplicada à Administração. Contribuição da; Psicologia Organizacional e do Trabalho sua utilização junto às organizações de trabalho, e subsistemas de; gestão de pessoas. Conhecimento das principais abordagens psicológicas que se aplicam...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=PSI015"
+   },
+   {
+    "codigo": "PSI270",
+    "nome": "Psicologia das Organizações e do Trabalho",
+    "nomeOficialSiga": "PSICOLOGIA DAS ORGANIZAÇÕES E DO TRABALHO",
+    "cargaHoraria": 60,
+    "departamento": "PSI",
+    "departamentoNome": "DEPTO DE PSICOLOGIA /ICH",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.5 - GESTÃO  TI",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Breve história do trabalho. Principais movimentos visando produtividade e a organização do trabalho. A socialização no trabalho, os grupos e equipes de trabalho. Compreensão, análise e gestão do contexto do trabalho. O diagnóstico organizacional com foco psicossocial. Gestão de Pessoas, seus...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=PSI270"
+   },
+   {
+    "codigo": "DCC065",
+    "nome": "Computação Gráfica",
+    "nomeOficialSiga": "COMPUTAÇÃO GRÁFICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.6 - COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC199",
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "Definição de objetos gráficos planares; Modelos de Geometria; Estudo da Cor; Modelagem de objetos e construção de cenas 3D; Visualização da cena; Cenário Virtual; Câmera Virtual; Recorte, rasterização, cálculo das superfícies visíveis; Iluminação; Técnicas de Mapeamento de Texturas; Animação",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC065"
+   },
+   {
+    "codigo": "DCC066",
+    "nome": "Processamento de Imagens",
+    "nomeOficialSiga": "PROCESSAMENTO DE IMAGENS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.6 - COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC199",
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Fundamentos; Filtragem no Domínio Espacial; Filtragem no domínio da frequência; Restauração e reconstrução de imagens; Processamento morfológico de imagens; Segmentação de Imagens; Compressão de Imagens; Avaliação de softwares/bibliotecas comerciais de processamento de imagens;...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC066"
+   },
+   {
+    "codigo": "DCC129",
+    "nome": "Realidade Virtual e Aumentada",
+    "nomeOficialSiga": "REALIDADE VIRTUAL E AUMENTADA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.6 - COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC199",
+     "MAT158"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução à Realidade Virtual; Dispositivos de Realidade Virtual; Softwares de Realidade Virtual; Aplicações de Realidade Virtual; Modelagem Geométrica, Avatares e Animação em Realidade Virtual; Sistemas distribuídos de Realidade Virtual; Sistemas de Realidade Virtual na internet; Ambientes...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC129"
+   },
+   {
+    "codigo": "DCC148",
+    "nome": "Desenvolvimento de Jogos",
+    "nomeOficialSiga": "DESENVOLVIMENTO DE JOGOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.6 - COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC025",
+     "MAT155"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução; Fundamentos; Gráficos; Inteligência Artificial Aplicada a Jogos; Animação Física; Ferramentas; Observação: Está disciplina deve fazer uso de laboratório para prática.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC148"
+   },
+   {
+    "codigo": "DCC191",
+    "nome": "Visualizacao Cientifica",
+    "nomeOficialSiga": "VISUALIZACAO CIENTIFICA",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.6 - COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC199",
+     "MAT156"
+    ],
+    "coRequisitos": [],
+    "ementa": "Introdução: visualização científica, visualização de informações e visualização de software.; A visualização como ferramenta no contexto do método científico.; Classificação das técnicas de visualização e seus dados.; Organização e tipos de dados.; Introdução a uma ferramenta computacional de...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC191"
+   },
+   {
+    "codigo": "DCC197",
+    "nome": "Visão Computacional",
+    "nomeOficialSiga": "VISÃO COMPUTACIONAL",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.6 - COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "DCC013"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC197"
+   },
+   {
+    "codigo": "MAT158",
+    "nome": "Álgebra Linear",
+    "nomeOficialSiga": "ÁLGEBRA LINEAR",
+    "cargaHoraria": 60,
+    "departamento": "MAT",
+    "departamentoNome": "DEPTO DE MATEMATICA /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.6 - COMPUTAÇÃO GRÁFICA",
+    "preRequisitos": [
+     "MAT155"
+    ],
+    "coRequisitos": [],
+    "ementa": "Espaços Vetoriais; Espaços com Produto Interno; Transformações Lineares; Diagonalização",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=MAT158"
+   },
+   {
+    "codigo": "DCC097",
+    "nome": "Seminario em Computacao I",
+    "nomeOficialSiga": "SEMINARIO EM COMPUTACAO I",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.7 - BANCO DE DADOS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividade de estudos e conteúdos teóricos ou práticos, predominantemente desenvolvido pelos alunos, de ementa variável, enfocando um dos temas da Ciência da Computação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC097"
+   },
+   {
+    "codigo": "DCC105",
+    "nome": "Seminario em Computacao Ix",
+    "nomeOficialSiga": "SEMINARIO EM COMPUTACAO IX",
+    "cargaHoraria": 30,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.7 - BANCO DE DADOS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Atividade de estudos e conteúdos teóricos ou práticos, predominantemente desenvolvido pelos alunos, de ementa variável, enfocando um dos temas da Ciência da Computação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC105"
+   },
+   {
+    "codigo": "DCC143",
+    "nome": "Administração de Dados",
+    "nomeOficialSiga": "ADMINISTRAÇÃO DE DADOS",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.7 - BANCO DE DADOS",
+    "preRequisitos": [
+     "DCC060"
+    ],
+    "coRequisitos": [],
+    "ementa": "Planejamento Central, Documentação e Gerenciamento dos Dados. Gerenciamento dos Dados como Recursos de Uso Comum da Empresa. Relacionamento com Administração de Banco de Dados. Integração dos Recursos de Informação Corporativos. Processos Associados à Informação.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC143"
+   },
+   {
+    "codigo": "DCC147",
+    "nome": "Data Warehouse",
+    "nomeOficialSiga": "DATA WAREHOUSE",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.7 - BANCO DE DADOS",
+    "preRequisitos": [
+     "DCC060"
+    ],
+    "coRequisitos": [],
+    "ementa": "Os Sistemas de Data Warehouse. Componentes do Data Warehouse. O Modelo Dimensional. As Tabelas de Fatos. As Tabelas de Dimensão. O Esquema em Estrela. A Arquitetura do Data Warehouse. Os Agregados no Data Warehouse.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC147"
+   },
+   {
+    "codigo": "DCC164",
+    "nome": "Recuperação da Informação",
+    "nomeOficialSiga": "RECUPERAÇÃO DA INFORMAÇÃO",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "eletiva",
+    "areaMatriz": "2.7 - BANCO DE DADOS",
+    "preRequisitos": [
+     "DCC012"
+    ],
+    "coRequisitos": [],
+    "ementa": "Recuperação Inteligente da Informação (RII). Modelos de Recuperação da Informação. Operações com Texto. Indexação e Recuperação. Recuperação Inteligente de Informação na Web e Bibliotecas Digitais.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=DCC164"
+   },
+   {
+    "codigo": "EXT105",
+    "nome": "Prática Extensionista I",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA I",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT105"
+   },
+   {
+    "codigo": "EXT106",
+    "nome": "Prática Extensionista Ii",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA II",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT106"
+   },
+   {
+    "codigo": "EXT107",
+    "nome": "Prática Extensionista Iii",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA III",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT107"
+   },
+   {
+    "codigo": "EXT108",
+    "nome": "Prática Extensionista Iv",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA IV",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT108"
+   },
+   {
+    "codigo": "EXT109",
+    "nome": "Prática Extensionista V",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA V",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT109"
+   },
+   {
+    "codigo": "EXT110",
+    "nome": "Prática Extensionista Vi",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA VI",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT110"
+   },
+   {
+    "codigo": "EXT111",
+    "nome": "Prática Extensionista Vii",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA VII",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT111"
+   },
+   {
+    "codigo": "EXT112",
+    "nome": "Prática Extensionista Viii",
+    "nomeOficialSiga": "PRÁTICA EXTENSIONISTA VIII",
+    "cargaHoraria": 60,
+    "departamento": "DCC",
+    "departamentoNome": "DEPTO DE CIENCIA DA COMPUTACAO /ICE",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "EXT099"
+    ],
+    "coRequisitos": [],
+    "ementa": null,
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=EXT112"
+   },
+   {
+    "codigo": "LEC090",
+    "nome": "Práticas de Gêneros Acadêmicos",
+    "nomeOficialSiga": "PRÁTICAS DE GÊNEROS ACADÊMICOS",
+    "cargaHoraria": 60,
+    "departamento": "LEC",
+    "departamentoNome": "DEPTO DE LETRAS",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Gêneros acadêmicos escritos e orais. Autoria, paráfrase e plágio no texto acadêmico.",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=LEC090"
+   },
+   {
+    "codigo": "UNI001",
+    "nome": "Lingua Inglesa Instrumental I",
+    "nomeOficialSiga": "LINGUA INGLESA INSTRUMENTAL I",
+    "cargaHoraria": 60,
+    "departamento": "UNI",
+    "departamentoNome": "DEPTO UNIVERSALIZACAO",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Primeiros contatos com a língua inglesa escrita. Apresentação das estratégias de leitura; skimming e scanning; tipos de textos; organização textual; formatação de cada tipo de texto; palavras cognatas, opacas e transparentes; dedução de palavras e assuntos do texto por meio de...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=UNI001"
+   },
+   {
+    "codigo": "UNI002",
+    "nome": "Lingua Inglesa Instrumental Ii",
+    "nomeOficialSiga": "LINGUA INGLESA INSTRUMENTAL II",
+    "cargaHoraria": 60,
+    "departamento": "UNI",
+    "departamentoNome": "DEPTO UNIVERSALIZACAO",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "UNI001"
+    ],
+    "coRequisitos": [],
+    "ementa": "Desenvolvimento das estratégias; skimming e scanning; tipos de textos; organização textual; formatação de cada tipo de texto; palavras cognatas, opacas e transparentes; dedução de palavras e assuntos do texto por meio de descontextualização; inferência em nível semântico; dispositivos de coesão...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=UNI002"
+   },
+   {
+    "codigo": "UNI003",
+    "nome": "Lingua Inglesa Instrumental Iii",
+    "nomeOficialSiga": "LINGUA INGLESA INSTRUMENTAL III",
+    "cargaHoraria": 60,
+    "departamento": "UNI",
+    "departamentoNome": "DEPTO UNIVERSALIZACAO",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "UNI001",
+     "UNI002"
+    ],
+    "coRequisitos": [],
+    "ementa": "Objetivos Gerais:; Fornecer aos alunos estratégias das quais se tornarão aptos para a compreensão da língua inglesa, visando ao desenvolvimento progressivo sobretudo da habilidade de leitura e aquisição das estruturas básicas da língua com aplicação de conhecimento gramaticais e lexicais,...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=UNI003"
+   },
+   {
+    "codigo": "UNI015",
+    "nome": "Libras Instrumental I",
+    "nomeOficialSiga": "LIBRAS INSTRUMENTAL I",
+    "cargaHoraria": 60,
+    "departamento": "UNI",
+    "departamentoNome": "DEPTO UNIVERSALIZACAO",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [],
+    "coRequisitos": [],
+    "ementa": "Objetivos Gerais:; Desenvolvimento, em nível básico, das habilidades de compreensão e expressão necessárias à comunicação com surdos sinalizantes da Língua de Sinais Brasileira (Libras). Introdução ao estudo das visões sobre a surdez e sobre a Educação de Surdos. Conhecimentos básicos sobre os...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=UNI015"
+   },
+   {
+    "codigo": "UNI016",
+    "nome": "Libras Instrumental Ii",
+    "nomeOficialSiga": "LIBRAS INSTRUMENTAL II",
+    "cargaHoraria": 60,
+    "departamento": "UNI",
+    "departamentoNome": "DEPTO UNIVERSALIZACAO",
+    "periodo": {},
+    "obrigatoria": false,
+    "tipo": "optativa",
+    "areaMatriz": "3 - DISCIPLINAS OPCIONAIS",
+    "preRequisitos": [
+     "UNI015"
+    ],
+    "coRequisitos": [],
+    "ementa": "Desenvolvimento, em nível intermediário, das habilidades de compreensão e expressão necessárias à comunicação com surdos sinalizantes da Língua de Sinais Brasileira (Libras). Introdução ao estudo da fonologia, morfologia e sintaxe da Libras. Introdução ao estudo de gêneros textuais/discursivos...",
+    "fonte": "https://www2.ufjf.br/si/curso/curriculos/curriculo-2023/?page=plano-de-ensino&codDisciplina=UNI016"
+   }
+  ],
+  "observacoes": {
+   "versaoMatriz": "Currículo 2023 (PPC - Reforma Curricular de junho/2023), para ingressantes a partir de 2023. O Currículo 2016 segue ativo para ingressantes até 2022 (não coletado aqui).",
+   "integralizacao": {
+    "total": 3000,
+    "obrigatorias": 2430,
+    "eletivasMin": 240,
+    "atividadesOptativasMin": 330,
+    "distribuicaoEletivasSugerida": "30h no 3º período, 30h no 6º, 60h no 7º e 120h no 8º",
+    "obs": "Atividades acadêmicas optativas incluem disciplinas optativas (qualquer disciplina da UFJF ou de outra IES), flexibilização curricular e atividades curriculares de extensão; carga excedente de eletivas conta como optativa. Disciplinas de pós-graduação stricto sensu correlatas podem contar como eletivas (automático se de PPG do DCC)."
+   },
+   "extensao": "Mínimo obrigatório de 300h (10% da CH) em Atividades Curriculares de Extensão (Resolução CONGRAD/UFJF nº 75/2022), acompanhadas pela CAEX. Inclui EXT099 - Introdução à Extensão (obrigatória, 60h, 2º período) e oito disciplinas optativas 'Prática Extensionista' (EXT105–EXT112, 60h cada, pré-req. EXT099).",
+   "tcc": "Obrigatório: DCC204 - TCC I (30h, 7º período) e DCC205 - TCC II (60h, 8º período). Matrícula em DCC204 exige aprovação em DCC203 - Metodologia Científica e integralização mínima de 1560h em disciplinas obrigatórias. Modalidades: pesquisa científica (monografia), desenvolvimento tecnológico (manual técnico) ou empreendedorismo (plano de negócios estendido).",
+   "estagio": "Não obrigatório; regulamentado pelas normas de estágio supervisionado não obrigatório do curso e acompanhado pela Comissão Orientadora de Estágio (COE).",
+   "praticasAssociadas": "DC5199 (Algoritmos - Prática) e DC5200 (Algoritmos II - Prática) aparecem na grade com 0h: são o componente prático das disciplinas instrumentadas DCC199 e DCC200 (90h cada, teoria + prática associada, conforme PPC 2023). coRequisitos não estão explicitados na fonte, por isso ficaram vazios.",
+   "matricula": "Na 1ª fase da matrícula, alunos de SI pedem turmas com vagas reservadas ao curso 76A ou vagas de Disciplinas Opcionais (código 99A).",
+   "contagem": {
+    "obrigatorias": 44,
+    "eletivas": 84,
+    "optativasSugeridas": 14
+   }
+  }
+ },
+ "lacunas": [
+  "coRequisitos não publicados explicitamente na grade oficial (lista vazia); relação DCC199/DC5199 e DCC200/DC5200 descrita apenas como 'prática associada' no PPC",
+  "Ementas 'Não informado' no plano de ensino oficial para algumas disciplinas (ementa=null)",
+  "Pré-requisitos obtidos da página oficial do curso (espelho do SIGA); não foi possível consultar o SIGA diretamente (requer login)",
+  "Currículo 2016 (ainda ativo para ingressantes até 2022) não foi coletado",
+  "Disciplinas eletivas/optativas não têm período sugerido (periodo={})"
+ ],
+ "confianca": "alta - grade, CH, pré-requisitos, departamento e ementas extraídos diretamente das páginas oficiais www2.ufjf.br/si (currículo 2023 + planos de ensino); código 76A e turno noturno confirmados em páginas oficiais do curso"
+}
